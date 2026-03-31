@@ -1,0 +1,2803 @@
+city,place_name,category,lat,lon
+CHENNAI,HP,fuel,13.0368733,80.2555597
+CHENNAI,IOC,fuel,13.037841,80.2562967
+CHENNAI,BP,fuel,13.0378885,80.2569506
+CHENNAI,Bharat Petroleum,fuel,12.9943244,80.1870765
+CHENNAI,HP,fuel,13.0391669,80.2573351
+CHENNAI,HP,fuel,13.0402403,80.2468562
+CHENNAI,HP,fuel,12.9796614,80.218483
+CHENNAI,HP,fuel,13.0311284,80.2394414
+CHENNAI,Shanthi Petrol Station,fuel,12.9935494,80.1850866
+CHENNAI,HP,fuel,13.0534169,80.252032
+CHENNAI,HP,fuel,13.0427775,80.2677547
+CHENNAI,HP,fuel,13.0184727,80.2614032
+CHENNAI,Indian Oil,fuel,13.0421221,80.2684202
+CHENNAI,Indian Oil,fuel,12.9097046,80.2503011
+CHENNAI,Shell,fuel,13.0247047,80.2065279
+CHENNAI,HP,fuel,13.0200917,80.1853891
+CHENNAI,BP,fuel,13.0116259,80.2185178
+CHENNAI,HP,fuel,13.0158863,80.2048651
+CHENNAI,Indian Oil,fuel,13.0347707,80.2109563
+CHENNAI,Indian Oil,fuel,13.0231114,80.2063585
+CHENNAI,BP,fuel,13.0127799,80.2222772
+CHENNAI,BP,fuel,13.0112743,80.2229232
+CHENNAI,Indian Oil,fuel,13.0402991,80.1304112
+CHENNAI,Bharat Petroleum,fuel,13.0386047,80.1330017
+CHENNAI,HP,fuel,13.0265542,80.2324615
+CHENNAI,Indian Oil,fuel,13.044528,80.2634018
+CHENNAI,HP Petrol Bunk,fuel,13.0277462,80.2512876
+CHENNAI,HP,fuel,13.0949946,80.2927844
+CHENNAI,Shell,fuel,13.0484551,80.2066281
+CHENNAI,IBP Petrol Station,fuel,12.9655809,80.2003887
+CHENNAI,Bharat Petroleum,fuel,12.9640355,80.214439
+CHENNAI,Bharat Petroleum,fuel,13.0073497,80.2002828
+CHENNAI,Indian Oil,fuel,12.9686473,80.2571319
+CHENNAI,Bharat Petroleum,fuel,12.9672226,80.2573585
+CHENNAI,Indian Oil,fuel,12.967692,80.2574844
+CHENNAI,BP Petrol Pump,fuel,13.0466076,80.1910336
+CHENNAI,BP,fuel,13.0421141,80.259281
+CHENNAI,Indian Oil,fuel,12.8761596,80.2273012
+CHENNAI,HP,fuel,12.9949579,80.1879445
+CHENNAI,Bharat Petroleum,fuel,12.9225671,80.197052
+CHENNAI,Chinthamani Cooperative Petrol Bunk,fuel,13.0409717,80.2373739
+CHENNAI,HP,fuel,13.0401531,80.2400751
+CHENNAI,Bharat Petroleum,fuel,12.9083732,80.2287564
+CHENNAI,Bharat Petroleum,fuel,12.9247788,80.2303371
+CHENNAI,Bharat Petroleum,fuel,12.9823866,80.2180571
+CHENNAI,Bharat Petroleum Bunk,fuel,13.072324,80.2602653
+CHENNAI,Bharat Petroleum,fuel,13.0649955,80.2432915
+CHENNAI,Indian Oil Propel,fuel,13.0263102,80.2316753
+CHENNAI,Bharat Petroleum,fuel,13.0378648,80.1918972
+CHENNAI,Indian Oil,fuel,13.0378858,80.1921778
+CHENNAI,Bharat Petroleum,fuel,13.0154656,80.1840501
+CHENNAI,HP,fuel,13.07198,80.2598553
+CHENNAI,Bharat Petroleum,fuel,12.9695901,80.1499164
+CHENNAI,HP,fuel,12.9684621,80.1499328
+CHENNAI,Indian Oil,fuel,13.0722894,80.2517008
+CHENNAI,Bharat Petroleum Petrol Station,fuel,13.0504559,80.2564197
+CHENNAI,IndianOil,fuel,13.0558552,80.2487664
+CHENNAI,Bharat Petroleum Petrol Pump,fuel,13.0202778,80.1300076
+CHENNAI,Indian Oil,fuel,13.0472469,80.1995671
+CHENNAI,Indian Oil Petrol Bunk,fuel,13.0370179,80.201671
+CHENNAI,Bharat Petroleum,fuel,12.8815247,80.2451006
+CHENNAI,Supergas,fuel,12.9006734,80.2277083
+CHENNAI,Indian Oil,fuel,13.1244214,80.2778562
+CHENNAI,Indian Oil,fuel,13.1236244,80.2016478
+CHENNAI,Indian Oil,fuel,13.0689227,80.2624415
+CHENNAI,Indian Oil,fuel,13.0759096,80.2640838
+CHENNAI,Bharat Petroleum,fuel,13.010343,80.2588836
+CHENNAI,Bharat Petroleum,fuel,13.0543034,80.2496574
+CHENNAI,Bharat Petroleum,fuel,13.069942,80.2725116
+CHENNAI,Kousalya Fuels Velachery,fuel,12.9971505,80.2163258
+CHENNAI,HP,fuel,13.1036664,80.2734324
+CHENNAI,Indian Oil,fuel,13.0646905,80.1977719
+CHENNAI,Bharat Petroleum,fuel,13.0687954,80.2558494
+CHENNAI,Indian Oil,fuel,12.9424731,80.2530279
+CHENNAI,Bharat Petroleum,fuel,12.9469904,80.2538044
+CHENNAI,Bharat Petroleum,fuel,13.0790936,80.2499082
+CHENNAI,Indian Oil,fuel,13.0566431,80.2644059
+CHENNAI,Bharat Petroleum,fuel,12.9746968,80.1920646
+CHENNAI,Shell,fuel,12.9085119,80.2501864
+CHENNAI,HP,fuel,13.1276031,80.2175373
+CHENNAI,HP,fuel,13.0540708,80.2344005
+CHENNAI,Total,fuel,13.0773865,80.2107125
+CHENNAI,Bharat Petroleum,fuel,13.0773833,80.208043
+CHENNAI,Bharat Petroleum,fuel,13.0936528,80.2412948
+CHENNAI,Shell,fuel,12.867248,80.226778
+CHENNAI,Bharat Petroleum,fuel,12.8873817,80.1840488
+CHENNAI,Indian Oil,fuel,13.0210393,80.2251942
+CHENNAI,HP,fuel,12.9270116,80.2515525
+CHENNAI,Bharat Petroleum,fuel,12.8889527,80.1987376
+CHENNAI,Go Gas,fuel,13.0458131,80.2398536
+CHENNAI,Nayara,fuel,12.917494,80.1893385
+CHENNAI,Bharat Petroleum,fuel,13.0805405,80.2665835
+CHENNAI,Hindustan Petroleum,fuel,12.8670551,80.2429093
+CHENNAI,Indian Oil,fuel,13.1250522,80.2045223
+CHENNAI,Kalaignar Karunanidhi Nagar,hospital,13.0386493,80.2052158
+CHENNAI,Kasimedu,hospital,13.122775,80.2960584
+CHENNAI,Amrit Hospital,hospital,13.0922007,80.2792912
+CHENNAI,Vikram Hospital,hospital,13.0985007,80.2796178
+CHENNAI,City Tower Hospitals,hospital,13.08438,80.2160862
+CHENNAI,"Apollo Hospitals, Tondiarpet",hospital,13.1289367,80.2905623
+CHENNAI,K.H.M.Hospital,hospital,13.0844424,80.2130723
+CHENNAI,Sundaram Medical Foundation,hospital,13.08217,80.2069819
+CHENNAI,Sri Devi Speciality Hospial,hospital,13.0887983,80.1994692
+CHENNAI,Corporation Hospital,hospital,13.0336624,80.2572467
+CHENNAI,"Hindu Mission Health Services, Kanchipuram",hospital,12.9787682,80.1846471
+CHENNAI,Military Hospital,hospital,13.0194622,80.1972947
+CHENNAI,Goverment dental hospital & collage,hospital,13.0829605,80.281264
+CHENNAI,Kilpauk Medical College,hospital,13.0785984,80.2433369
+CHENNAI,Hariharan Hospital,hospital,12.9847145,80.1905906
+CHENNAI,BM Hospital,hospital,12.9887616,80.1904116
+CHENNAI,K.F. Hospital,hospital,12.973463,80.1841397
+CHENNAI,Cancer Institute,hospital,13.0061338,80.239884
+CHENNAI,Govt Maternity Hospital,hospital,13.0720996,80.2589871
+CHENNAI,Institute of Child Health,hospital,13.0735496,80.257025
+CHENNAI,Institute of Obstetrics and Gynaecology dd,hospital,13.0735431,80.2591463
+CHENNAI,MIOT International,hospital,13.0211808,80.1858412
+CHENNAI,St. Thomas Hospital,hospital,13.0122733,80.196428
+CHENNAI,Venkataeswara Hospitals,hospital,13.0293624,80.2440921
+CHENNAI,Sarswathi Hospital,hospital,12.9653846,80.2067733
+CHENNAI,Apollo Clinic & Pharmacy,hospital,13.05244,80.2041657
+CHENNAI,Vijaya Heart Centre,hospital,13.0483819,80.2070144
+CHENNAI,"Vasan Eye Care Hospital, Vadapalani",hospital,13.0495316,80.211027
+CHENNAI,JJ Hospital,hospital,13.0571293,80.1942138
+CHENNAI,Appasamy Hospital,hospital,13.0750445,80.2151198
+CHENNAI,Appasamy Hospital,hospital,13.073239,80.2148826
+CHENNAI,Appolo Clinic,hospital,13.0892073,80.2178866
+CHENNAI,Aakash Fertility Centre & Hospital,hospital,13.0554597,80.2118365
+CHENNAI,Rajan Eye Care Hospital,hospital,13.0508335,80.2434416
+CHENNAI,sree dhanalakshmi family clinic,hospital,13.0583046,80.211745
+CHENNAI,Bhadra Homeo,hospital,12.9663879,80.2474724
+CHENNAI,Amma Hospital,hospital,13.0626045,80.2305209
+CHENNAI,Right Hospitals,hospital,13.0787952,80.2405731
+CHENNAI,Vasan Eye Care Hospital,hospital,13.0015307,80.2552541
+CHENNAI,Prime Care Nursing Home,hospital,12.9799192,80.2044922
+CHENNAI,Apollo Free Emergency Clinic,hospital,13.0677233,80.2050055
+CHENNAI,Agarwal Hospital,hospital,13.0385656,80.2165845
+CHENNAI,Senthil Nursing Home,hospital,13.0849671,80.2004752
+CHENNAI,I K Hospital,hospital,13.0868667,80.1991661
+CHENNAI,Ortho clinic,hospital,12.9800456,80.2286587
+CHENNAI,SP Hospital,hospital,12.9933638,80.2009134
+CHENNAI,Fourtts India Laboratories,hospital,12.9321684,80.2337388
+CHENNAI,Rotary Central Margaret Sidney Hospital,hospital,12.9837958,80.1932105
+CHENNAI,Sri Chakra Hospital,hospital,12.9786524,80.1850278
+CHENNAI,Rajan Hospital,hospital,12.8928496,80.1835976
+CHENNAI,Dr. Janardhanan Multispeciality Dental Clinic,hospital,12.9842586,80.1886083
+CHENNAI,Dr Venugopals' Sundaram Clini,hospital,13.076782,80.268345
+CHENNAI,Dr Kabir's Clinic,hospital,13.0768734,80.2678381
+CHENNAI,Dr Sridhars'Clinic,hospital,13.0764345,80.2672427
+CHENNAI,Vepery Hospital,hospital,13.0921812,80.2594411
+CHENNAI,Jaws Dental Foundation,hospital,13.0929667,80.2236256
+CHENNAI,Chennai Skin Foundation,hospital,13.0205681,80.2594702
+CHENNAI,Sukrthi Nursing Home,hospital,12.9710287,80.2082964
+CHENNAI,Kauvery Hospital,hospital,13.0381705,80.2573008
+CHENNAI,Velachery SABA Hospital,hospital,12.9862735,80.2298924
+CHENNAI,Kaya Skin clinic,hospital,12.9767775,80.2223505
+CHENNAI,Pavithra Hospital,hospital,13.1260907,80.2488406
+CHENNAI,Shankara Netralaya Eye Hospital,hospital,13.0642564,80.2497746
+CHENNAI,Srinivasan Rajalakshmi Memorial Hospital,hospital,12.9733792,80.187599
+CHENNAI,Chennai Medical Centre Hospital,hospital,13.0380047,80.1889685
+CHENNAI,SRM Institutes For Medical Science,hospital,13.0515961,80.2114304
+CHENNAI,HEALTH,hospital,13.0135999,80.2395364
+CHENNAI,The Cresent Hospital,hospital,13.0527235,80.2727336
+CHENNAI,Biocosmo Healthcare,hospital,13.0590329,80.2375326
+CHENNAI,Vijaya Group of Hospital,hospital,13.0497391,80.2083222
+CHENNAI,ஹிபா சிறப்பு மருத்துவமனை,hospital,13.0615207,80.275747
+CHENNAI,ARK Hospital,hospital,12.9856999,80.2293536
+CHENNAI,Annamalai Hospital,hospital,13.031147,80.2228983
+CHENNAI,Ezhil Hospital,hospital,13.0319539,80.2207913
+CHENNAI,"Qure Ortho Clinic, Physiotherapy, X Ray & Pharmacy",hospital,12.9794,80.2043658
+CHENNAI,Nivas Skin Clinic,hospital,13.0289663,80.2085951
+CHENNAI,Apollo Cancer Centres,hospital,13.0337515,80.2451004
+CHENNAI,Raju Hospitals,hospital,13.0329888,80.230346
+CHENNAI,Sri Kalyan Hospital,hospital,13.0063976,80.2507134
+CHENNAI,Sen Hospital,hospital,13.1105649,80.2418775
+CHENNAI,Billroth Hospitals,hospital,13.0757435,80.2272588
+CHENNAI,Cauvery Trust Hospital,hospital,13.1026603,80.2112943
+CHENNAI,Kedar Hospital,hospital,13.0229098,80.1670808
+CHENNAI,Soundarapandian Bone and Joint Hospital Research Institute Pvt. Ltd.,hospital,13.0835957,80.2156462
+CHENNAI,Dr. U. Mohan Rau Memorial Hospital - Chennai,hospital,13.079494,80.2572808
+CHENNAI,Chennai Cancer Care,hospital,13.0762935,80.234026
+CHENNAI,Chennai Eye Care Hospital,hospital,12.9789449,80.2246302
+CHENNAI,Chennai Heart Centre,hospital,13.0917939,80.2410534
+CHENNAI,Chennai Kaliappa Hospital,hospital,13.0268492,80.2558082
+CHENNAI,Mots Hospital,hospital,13.0833606,80.2341561
+CHENNAI,Vasanthi Orthopaedic Hospital,hospital,13.0723588,80.2157642
+CHENNAI,R.K. Gynaec And Maternity Hospital,hospital,13.0788127,80.2481786
+CHENNAI,R.G. Stone Urological Research Institute,hospital,13.0240792,80.2278288
+CHENNAI,R. K. Eye Centre,hospital,13.0485912,80.2311788
+CHENNAI,Psymed Hospiyal,hospital,13.0714757,80.2317998
+CHENNAI,"Vasanthram Hospital (P) Ltd.,",hospital,13.0433091,80.2187696
+CHENNAI,Vadapalani Multispeciality Hospital,hospital,13.0516559,80.2133146
+CHENNAI,Sri Ramachandra Hospital,hospital,13.0378713,80.1402023
+CHENNAI,"M N Eye Hospital Private Limited, Tondiarpet",hospital,13.1232306,80.2876528
+CHENNAI,Doctor Rexs Hospitals,hospital,13.0838812,80.2502386
+CHENNAI,Helios Hospital Pvt Ltd,hospital,12.9855882,80.2189144
+CHENNAI,Deepam Muthu Hospital,hospital,13.0995855,80.2605303
+CHENNAI,Malligai Hospital,hospital,13.1238765,80.2899749
+CHENNAI,Huma Specialists Hospital and Research Centre Pvt Ltd,hospital,13.0282655,80.235353
+CHENNAI,Divya Hospital,hospital,12.9644392,80.187601
+CHENNAI,Noor`S Hospital,hospital,13.1418442,80.2485046
+CHENNAI,"Vasan Eye Care Hospital, Perambur",hospital,13.1177888,80.2287099
+CHENNAI,Sri Sai Krs Hospital,hospital,13.0379757,80.2162984
+CHENNAI,"Gowri Nursing Home, Kanchipuram",hospital,12.9779713,80.1883923
+CHENNAI,Satish Eye Hospital,hospital,13.0813959,80.2469972
+CHENNAI,"A.K. Hospital, Chennai",hospital,13.0741442,80.220515
+CHENNAI,Ammayi Eye Hospital,hospital,13.0331935,80.2159045
+CHENNAI,K.M. Speciality Hospital,hospital,13.0379671,80.2013517
+CHENNAI,Subha Hospital,hospital,13.1113868,80.2923493
+CHENNAI,Radhatri Nethralaya,hospital,13.0339283,80.2394965
+CHENNAI,"S M Hospital, Chennai",hospital,13.0400969,80.2044211
+CHENNAI,Cu Shah Sankara Netralaya,hospital,13.0012687,80.2001283
+CHENNAI,Aashiana Hospital,hospital,13.0924039,80.2090184
+CHENNAI,"Ayesha Hospital, Kilpauk",hospital,13.0847009,80.2498054
+CHENNAI,Frontline Eye Hospital,hospital,13.0323531,80.2517212
+CHENNAI,Fousiya Hospital,hospital,13.0477722,80.2744473
+CHENNAI,Hande Hospital,hospital,13.0764653,80.2274586
+CHENNAI,Dr Gurusekaran Hospital Pvt Ltd,hospital,13.0374924,80.2381137
+CHENNAI,G. R. Hospital & Fertility Centre,hospital,12.9952982,80.2068955
+CHENNAI,G K M Hospital Pvt Ltd,hospital,13.0899919,80.2585199
+CHENNAI,Starlight Hospitals Pvt Ltd,hospital,12.9864526,80.2601581
+CHENNAI,Kaliappa Renal Center,hospital,13.0274616,80.2566481
+CHENNAI,K P Childrens Hospital And Neuro Centre,hospital,12.9911179,80.1986745
+CHENNAI,Ayur Kshetra ( A Unit Of Institute Of Ayurvedic Research Pvt Ltd),hospital,13.0760812,80.2107431
+CHENNAI,Krishna Eye And Ent Hospitals,hospital,13.0343985,80.2339764
+CHENNAI,Vishnu Eye Clinic and Laser Foundation,hospital,13.0842894,80.2230605
+CHENNAI,"Santhigiri Ayurveda and Siddha Hospital, Chennai",hospital,13.0476871,80.2646568
+CHENNAI,Vijaya Heart Foundation - Vijaya Hospital,hospital,13.054729,80.2110462
+CHENNAI,Santosh Hospital Pvt Ltd,hospital,12.995229,80.2691898
+CHENNAI,"Dr.Agarwal's Eye Hospital Ltd., Anna Nagar",hospital,13.0847414,80.2219681
+CHENNAI,Athipathi Hospital and Research Centre,hospital,12.9762711,80.2222002
+CHENNAI,Girishwari Hospital Pvt Ltd,hospital,13.0349787,80.2519137
+CHENNAI,Sri Kumaran Multi Speciality Hospital,hospital,13.1152895,80.2923614
+CHENNAI,Dr. K Ravi Eye Care,hospital,13.0407013,80.2618016
+CHENNAI,Madras Ent Research Foundation,hospital,13.0268688,80.2541439
+CHENNAI,Dr. Mohans Mv Diabetes Specialities Centre - Chennai,hospital,13.0541946,80.257671
+CHENNAI,Chettinad Super Speciality Hospital,hospital,12.9109406,80.228211
+CHENNAI,Lifeline Rigid Hospital,hospital,13.0780204,80.2336988
+CHENNAI,Dr. Seshiah Diabetes Research Institute and Dr. Balaji Diabetes Care Centre,hospital,13.0748591,80.2299839
+CHENNAI,Dr.Kamakshi Memorial Hospital,hospital,13.0022187,80.2520867
+CHENNAI,Dr.Duraiswami Eye Hospital,hospital,13.034051,80.2279374
+CHENNAI,Dr.Agarwals Eye Hospital - Velacherry,hospital,12.9832366,80.217509
+CHENNAI,"Dr.Agarwal's Eye Hospital Ltd, Nanganallur",hospital,12.9827844,80.1891661
+CHENNAI,Dr. Udhaya Rajas Dental Centre,hospital,13.0465492,80.2422899
+CHENNAI,Sri Bala Nursing Home,hospital,13.1183119,80.2318051
+CHENNAI,Lakshmi Hospital,hospital,13.0314888,80.2218689
+CHENNAI,Nanthini Hospital,hospital,12.9326457,80.2320063
+CHENNAI,Bharathirajaa Hospital and Research centre,hospital,13.0480981,80.245015
+CHENNAI,Bethany Health Care Centre,hospital,13.0699812,80.2444142
+CHENNAI,Bhagwan Mahaveer Eye Hospital,hospital,13.1105084,80.2917197
+CHENNAI,Bharath Hospital,hospital,12.9823277,80.1937835
+CHENNAI,Trinity Acute Care Hospital - Chennai,hospital,13.0382607,80.2582785
+CHENNAI,Balakrishna Eye Hospital,hospital,13.0274436,80.2269866
+CHENNAI,B.S.S. Hospital,hospital,13.026013,80.2655232
+CHENNAI,B.R.S. Hospital Pvt. Ltd.,hospital,13.0519442,80.2454831
+CHENNAI,Harvey Healthcare Limited,hospital,13.037303,80.2558136
+CHENNAI,Chitra's Ent Laser Hospital,hospital,13.0518247,80.2476483
+CHENNAI,Kottakkal Arya Vaidya Sala,hospital,13.0395483,80.2313016
+CHENNAI,Je Nesam Hospital,hospital,13.0405732,80.2146873
+CHENNAI,Chennai Meenakshi Multispeciality Hospital Ltd,hospital,13.0376198,80.2619625
+CHENNAI,Chennai Skin Foundation and Yesudian Research Institute,hospital,13.0210394,80.2592924
+CHENNAI,Dr.Mu.Va.Hospital,hospital,13.0743327,80.228278
+CHENNAI,Mysaan Hospital,hospital,13.0641326,80.2705644
+CHENNAI,V H M Hospitals Pvt Ltd,hospital,13.0462892,80.1979979
+CHENNAI,Robin and Robin Health Care,hospital,13.0807741,80.1989025
+CHENNAI,West Madras Medical Centre,hospital,13.0850496,80.215956
+CHENNAI,"Kauvery Hospital, Chennai",hospital,13.0390564,80.2568208
+CHENNAI,Rathi Med Speciality Hospital,hospital,13.0916495,80.2179844
+CHENNAI,Santhi Hospital,hospital,12.9507835,80.255186
+CHENNAI,Sunder Eye Hospital,hospital,13.08497,80.2159721
+CHENNAI,Laksha Hospital,hospital,13.0435469,80.2636349
+CHENNAI,Narayanaa Hospital,hospital,13.0893773,80.2547595
+CHENNAI,Janamma Hospital,hospital,13.0269457,80.2623196
+CHENNAI,"Noble Hospital, Chennai",hospital,13.0821536,80.253244
+CHENNAI,"J.K. Hospital, Chennai",hospital,13.1354513,80.2934799
+CHENNAI,Indira Eye Hospital,hospital,13.0222055,80.2622388
+CHENNAI,Indian Hospitals,hospital,13.0766658,80.2057502
+CHENNAI,Diabetes Research Centre and M.V.Hospital For Diabetes,hospital,13.1119458,80.2952072
+CHENNAI,"Vasan Eye Care Hospital, Neelankarai",hospital,12.9504267,80.2551001
+CHENNAI,Apollo First Medical Foundation,hospital,13.0776912,80.2459216
+CHENNAI,Josephs Nursing Home,hospital,13.0739408,80.2357346
+CHENNAI,Jayam Polyclinc,hospital,12.9958562,80.2603345
+CHENNAI,Jayadev Polyclinic Hospital,hospital,13.0778545,80.2415295
+CHENNAI,Kummaran Eye Speciality Centre,hospital,13.0600349,80.2302911
+CHENNAI,Kvt Health Centre,hospital,13.1282303,80.2421558
+CHENNAI,Ezhil Hospital,hospital,13.1302259,80.2916855
+CHENNAI,Premier Health Center,hospital,13.0842489,80.220851
+CHENNAI,Vasantha Subramanian Hospitals Pvt Ltd,hospital,13.0731975,80.2527237
+CHENNAI,"Vasan Eye Care Hospital, Tondiarpet",hospital,13.1109009,80.2812195
+CHENNAI,Madras Poly Clinic and R.R. Scan,hospital,13.0461063,80.2220044
+CHENNAI,Life Medhospital,hospital,13.0535505,80.2576911
+CHENNAI,"K.M. Hospitals, Chennai",hospital,13.0884107,80.2421169
+CHENNAI,Zubeda Hospitals Ltd.,hospital,13.0741955,80.2357775
+CHENNAI,RR Multispeciality Hospital,hospital,13.0584745,80.2740124
+CHENNAI,Dr.Manju Kulkarni Hospital,hospital,13.0743836,80.2367672
+CHENNAI,S.V. Bone And Joint Hospital,hospital,13.0473239,80.2241461
+CHENNAI,Sri Eshodha Hospital,hospital,13.0981213,80.2362643
+CHENNAI,Srichakara Multispeciality Hospital,hospital,12.97853,80.1851381
+CHENNAI,Abhijay Hospital,hospital,13.1160177,80.2328438
+CHENNAI,"Sinus And Nose Hospital - Mylapore, Chennai",hospital,13.0350623,80.2778479
+CHENNAI,Sibi Hospital,hospital,12.9697917,80.1904562
+CHENNAI,Sri Venkateshwara`s C.M. Hospital,hospital,12.9857914,80.185987
+CHENNAI,Srinivas Priya Hospital (P) Ltd,hospital,13.1100467,80.2466847
+CHENNAI,"M.R. Hospital, Chennai",hospital,13.0725279,80.2195783
+CHENNAI,M. N. Orthopaedic Hospital,hospital,13.0810328,80.2336653
+CHENNAI,M V Hospital For Diabetes Pvt Ltd,hospital,13.1121574,80.2956927
+CHENNAI,M N Eye Hospital,hospital,12.996767,80.2603599
+CHENNAI,"A.V. Hospital, Chennai",hospital,13.1170802,80.2864189
+CHENNAI,N.R. Hospital,hospital,13.1122162,80.2309737
+CHENNAI,N.R. Medical Home Private Limited,hospital,13.0965878,80.2597135
+CHENNAI,Nagamani Hospitals Private Limited,hospital,13.117412,80.289427
+CHENNAI,Nalamm Hospital Pvt Ltd,hospital,13.1184216,80.2610184
+CHENNAI,Nandalala Medical Foundation,hospital,13.0328516,80.2615173
+CHENNAI,Sri Kumaran Health Centre,hospital,13.1308907,80.2138799
+CHENNAI,Nandhini Hospital,hospital,12.9784706,80.2247932
+CHENNAI,Navasuja Sankara Nethralaya,hospital,13.0265108,80.2607878
+CHENNAI,Neomed Hospital - Chennai,hospital,13.083452,80.2030747
+CHENNAI,"New Balaji Hospital, Chennai",hospital,13.0316469,80.2311185
+CHENNAI,New Hope Indian Specilaity Hospital,hospital,13.0777579,80.2414826
+CHENNAI,New Hope Medical Centre Pvt. Ltd,hospital,13.0776821,80.2415201
+CHENNAI,Nichani Health Centre,hospital,13.111251,80.2940284
+CHENNAI,Orthopedic and Specialities Hospital,hospital,13.0390564,80.2086724
+CHENNAI,Padmapriya Hospital Pvt. Ltd.,hospital,12.9996223,80.2537027
+CHENNAI,Palani Balaji Fertility Centre,hospital,13.0122123,80.2235084
+CHENNAI,Pallava Hospital,hospital,13.0420391,80.2126005
+CHENNAI,Pankajam Memorial Hospital,hospital,12.9801472,80.1835965
+CHENNAI,Apollo Childrens Hospital,hospital,13.060131,80.2523656
+CHENNAI,Anuradha Maternity Centre,hospital,13.0356881,80.2337551
+CHENNAI,Shri Balaji Hospital - Chennai,hospital,13.0919709,80.2511633
+CHENNAI,Tamil Nadu Urological Research Centre,hospital,13.0710341,80.222632
+CHENNAI,Thirimoorthys Heart Care Hospital,hospital,12.9673347,80.1867983
+CHENNAI,"Thulasi Krishna Nursing Home, Kodambakkam",hospital,13.0517176,80.2300054
+CHENNAI,Dr. Agarwal's Eye Hospital,hospital,13.074266,80.2382156
+CHENNAI,Selvarangam Hospital,hospital,13.0850183,80.2244673
+CHENNAI,"Sankara Nethralaya, Chennai",hospital,13.0670837,80.2505444
+CHENNAI,Sri Lakshmi Multi Speciality Hospital Pvt Ltd,hospital,12.9640779,80.2461429
+CHENNAI,Dr Agarwal Eye Hospital Ltd,hospital,13.1135903,80.2270764
+CHENNAI,Tosh Hospitals Private Limited,hospital,13.0827016,80.2424652
+CHENNAI,Sundaram Cancer Centre,hospital,13.07604,80.2366224
+CHENNAI,R.R. Eye Instutute and Laser Foundation,hospital,13.0483992,80.2040416
+CHENNAI,Avm Medical Ent Research Foundation Pvt Ltd,hospital,13.0441485,80.2637114
+CHENNAI,"Aditya Hospital, Chennai",hospital,13.0806801,80.2486159
+CHENNAI,Laser and Laparascopic Hospital,hospital,13.0430125,80.2371521
+CHENNAI,Lakshmi Maternity Hospital,hospital,12.9938673,80.2528444
+CHENNAI,Kumaran Hospital Pvt.Ltd.,hospital,13.0790289,80.2490893
+CHENNAI,Apollo Specialty Hospitals Private Limited,hospital,13.0177957,80.2711008
+CHENNAI,Deepam Eye Hospital,hospital,13.0877615,80.2423476
+CHENNAI,Dr. A. Ramachandran's Diabetes Hospital,hospital,13.0685338,80.2579902
+CHENNAI,Veecare Eye Hospital,hospital,13.0843952,80.2182426
+CHENNAI,Velachery K S Hospital,hospital,12.9763914,80.2114016
+CHENNAI,K.J. Hospital,hospital,13.0790015,80.25267
+CHENNAI,Sathya Physiotherapy Centre,hospital,13.0440365,80.2336198
+CHENNAI,Kensington Hospital,hospital,13.0788382,80.2469368
+CHENNAI,Ponmalligai Hospital Pvt Ltd,hospital,12.9925116,80.2061465
+CHENNAI,Pdr Othopaedic Hospital,hospital,13.0389519,80.2290894
+CHENNAI,E V Kalyani Medical Centre,hospital,13.0427786,80.2706811
+CHENNAI,Yogi Vedha Kumari Hospital,hospital,13.0269877,80.2631588
+CHENNAI,Xcellent Care Superspeciality Hospital,hospital,12.9833895,80.2181782
+CHENNAI,Women and Children Foundation,hospital,13.0478465,80.2329075
+CHENNAI,"Sudha Hospital, Chennai",hospital,13.0791504,80.2541493
+CHENNAI,V.K. Hospital,hospital,13.0816938,80.2522811
+CHENNAI,U.K. Hospitals Pvt. Ltd.,hospital,13.0838857,80.2252632
+CHENNAI,"Trust Hospital, Chennai",hospital,13.0892193,80.2415402
+CHENNAI,Titan Eye,hospital,13.082343,80.2076291
+CHENNAI,Sai Ortho Care Hospital,hospital,13.0332775,80.2371645
+CHENNAI,Sooriya Hospital,hospital,13.0481888,80.2035199
+CHENNAI,Centre For Blood Disorders,hospital,13.0496502,80.2410582
+CHENNAI,Roselin Gandhi Hospital,hospital,13.1166714,80.2803303
+CHENNAI,Paterson Cancer Center / Vijaya Health Centre Premises,hospital,13.0475826,80.2069719
+CHENNAI,Fertility Research Centre,hospital,13.0558855,80.2481343
+CHENNAI,Spot Hospital,hospital,13.047269,80.2187347
+CHENNAI,B B Hospital,hospital,13.1184203,80.204346
+CHENNAI,Appasamy Krishna Hospital and Medical Research Centre,hospital,12.9758647,80.2205016
+CHENNAI,"Medindia Hospitals, Chennai",hospital,13.0606718,80.2432201
+CHENNAI,Rudhra-Chella Clinicare`N`Cure Services,hospital,13.1228878,80.293498
+CHENNAI,K.K.R. ENT Hospital and Research Institute(P) Ltd,hospital,13.0781955,80.2452886
+CHENNAI,"Srinivasa Hospital P P N, Chennai",hospital,13.0503377,80.2299377
+CHENNAI,Gastro Cre Hospital,hospital,13.0394065,80.2507684
+CHENNAI,Aaditya Kamaraja Eye Hospital,hospital,13.0463676,80.1865241
+CHENNAI,Sahishnatha Indtitute Of Maternal And Child Health,hospital,12.9531897,80.2541614
+CHENNAI,Siva E N T Hospital,hospital,13.0619796,80.2741693
+CHENNAI,"Vinayagam Laser Hospital, Chennai",hospital,13.0476113,80.2650954
+CHENNAI,"Dr Agarwals Eye Hospital, Triplicane",hospital,13.0524884,80.2736449
+CHENNAI,"Dr.Agarwal's Eye Hospital Ltd., Gopala Puram",hospital,13.0432085,80.259169
+CHENNAI,Bharani Hospital,hospital,13.0380111,80.2013205
+CHENNAI,Fortis Vadapalani Hospital,hospital,13.0475131,80.2042733
+CHENNAI,Tamil Nadu Urological Research Centre Best Kidney Stone Clinic,hospital,13.0748708,80.2147555
+CHENNAI,Sri Ranga Hospitals,hospital,13.0290525,80.2636265
+CHENNAI,Chamiers Day Care Center,hospital,13.0297278,80.2446245
+CHENNAI,London Harley Street Women And Fertility Centre,hospital,12.9609724,80.2421492
+CHENNAI,Gas Hospital,hospital,13.003026,80.2540981
+CHENNAI,Dr.Bala Subramanian,hospital,13.0465056,80.2423799
+CHENNAI,Swasthik Health Care center,hospital,13.1297134,80.2506039
+CHENNAI,NRV Hospital,hospital,13.13468,80.243196
+CHENNAI,Govt Kilpauk Medical College Hospital,hospital,13.07832,80.243753
+CHENNAI,Rasi Hospital,hospital,13.12038,80.285818
+CHENNAI,Government Maternity And Child Hospital,hospital,13.0991743,80.2301988
+CHENNAI,Cloudnine Hospital - Chennai,hospital,13.0433937,80.2461174
+CHENNAI,Shifa Hospital And Reasearch Centre,hospital,13.061988,80.2745135
+CHENNAI,Govt. Stanley Hospital,hospital,13.10618,80.286804
+CHENNAI,Subam Specialities Hospitals,hospital,13.0469783,80.1895003
+CHENNAI,Govt Peripheral Hospital Periyar Nagar,hospital,13.1153048,80.2233851
+CHENNAI,Be Well Hospital,hospital,13.0431134,80.2453103
+CHENNAI,Hera Hospital,hospital,13.0508643,80.1922458
+CHENNAI,Government Unani Hospital,hospital,13.1129012,80.2957982
+CHENNAI,Meenakshi Hospital & Childrens Hospital,hospital,13.0586646,80.2428501
+CHENNAI,Hiba Hospital,hospital,13.0616195,80.275793
+CHENNAI,A.R.A Hospital For Women,hospital,13.0508818,80.2735131
+CHENNAI,Priyas Medical Centre,hospital,13.0594024,80.1954415
+CHENNAI,Dr. Rai Memorial Medical Centre,hospital,13.044837,80.2475507
+CHENNAI,Medway Hospitals,hospital,13.0535971,80.2275376
+CHENNAI,Seven Wells Hospital,hospital,13.0993782,80.2825418
+CHENNAI,Government Hospital,hospital,13.068807,80.2672078
+CHENNAI,Standard Hospital,hospital,13.0524675,80.1898468
+CHENNAI,Chennai Corporation Hospital,hospital,13.1142928,80.2844517
+CHENNAI,Guru Raghavendra Hospital,hospital,13.0410091,80.1964532
+CHENNAI,Seethapathy clinic & Hospital,hospital,13.0487028,80.2645448
+CHENNAI,Kvt Health Speciality Hospital,hospital,13.1267531,80.2489796
+CHENNAI,Sakthi Hospital &Reasearch Centre Helath Care Organization,hospital,13.0572714,80.2757357
+CHENNAI,Women And Children Foundation Hospitals T-Nagar,hospital,13.0480821,80.2329957
+CHENNAI,Annai multispeciality hospital,hospital,13.0538856,80.1927125
+CHENNAI,Firm Hospital,hospital,13.0916464,80.2139939
+CHENNAI,The Best Hospital Private Ltd,hospital,13.0535089,80.2195494
+CHENNAI,Chennai Corporation Hospital,hospital,13.0887,80.256712
+CHENNAI,Triplicane Government Hospital,hospital,13.060986,80.2747981
+CHENNAI,Government Hospital For Ladies And Children,hospital,13.0590564,80.1928218
+CHENNAI,SIMS Hospital,hospital,13.0561828,80.2478331
+CHENNAI,Suraj Hospital,hospital,12.9107782,80.1967559
+CHENNAI,Sunrays Laproscopic Centre,hospital,13.0319129,80.2099892
+CHENNAI,Arun Hospital,hospital,12.9408644,80.1828683
+CHENNAI,Motherhood Hospital,hospital,13.0312006,80.2511993
+CHENNAI,"Government Hospital, Adyar",hospital,12.9979497,80.2562121
+CHENNAI,Gunasekaran Hospitals Pvt.Ltd,hospital,13.0374624,80.2389389
+CHENNAI,Kumaran Specialities Hospital,hospital,13.03968,80.21204
+CHENNAI,Arokiya hospital,hospital,13.0374234,80.190944
+CHENNAI,Genesis Womens Hospital,hospital,13.034922,80.2465468
+CHENNAI,Radhatri Nethralaya,hospital,13.0342203,80.2398192
+CHENNAI,Kavery Hospital,hospital,13.038362,80.2572398
+CHENNAI,Kanamapet Government Hospital,hospital,13.0298989,80.2261208
+CHENNAI,Government Hospital Alandur,hospital,13.0048164,80.2025432
+CHENNAI,Janani Hospital,hospital,13.0313233,80.1909256
+CHENNAI,T.K.R. Hospital,hospital,12.9342227,80.1807557
+CHENNAI,Deepam Rehabilitation Centre,hospital,12.9163865,80.1789307
+CHENNAI,HCL Health Care,hospital,12.9044723,80.216804
+CHENNAI,Subasree Hospital,hospital,12.916822,80.1940932
+CHENNAI,Centre For Vision and Eye Surgery,hospital,12.8948311,80.2233057
+CHENNAI,Shri Sai Children's Hospital and Dental Clinic,hospital,12.912214,80.229384
+CHENNAI,Sri Balaji Hospital,hospital,12.9178242,80.190331
+CHENNAI,S.V. Hospital,hospital,12.9069075,80.2026845
+CHENNAI,SV Hospital,hospital,12.9319677,80.2326252
+CHENNAI,Karthick Children's Hospital,hospital,12.9123221,80.192466
+CHENNAI,Arun Hospital,hospital,12.9149784,80.1948032
+CHENNAI,Radial Ortho Speciality Hospital,hospital,12.9131978,80.1915965
+CHENNAI,Jayam Hospital,hospital,12.9498749,80.2381651
+CHENNAI,Maternity and Child Care Hospital,hospital,12.9164866,80.1896622
+CHENNAI,Shri Balaji Diabetes Hospital,hospital,12.9150069,80.1929516
+CHENNAI,Dhanvantri Multi Speciality,hospital,12.9402236,80.2412342
+CHENNAI,Annai Teresa Hospital,hospital,12.9184999,80.1892056
+CHENNAI,Swaram Hospital and Speciality Clinic,hospital,12.9011793,80.2286
+CHENNAI,C-Dot Hospital,hospital,12.9072738,80.2027359
+CHENNAI,KL Hospital,hospital,12.9006729,80.2283278
+CHENNAI,Mugavari Eye Hospital and Research Institute,hospital,12.9167105,80.1921463
+CHENNAI,Global Hospital,hospital,12.9060064,80.2072713
+CHENNAI,Dr. Velmurugan Hospital,hospital,12.9296419,80.2029589
+CHENNAI,AM Hospital,hospital,12.9344546,80.1819961
+CHENNAI,Inbam Hospital,hospital,12.9339688,80.2041509
+CHENNAI,Hindusthan Hospital,hospital,12.9393514,80.1806898
+CHENNAI,RKP Hospital,hospital,12.9379829,80.1799993
+CHENNAI,Muthu Multi Speciality Hospital and Pharmacy,hospital,12.928263,80.200805
+CHENNAI,Raj Joty Eye Hospital,hospital,12.935221,80.181802
+CHENNAI,V Cure Hospital,hospital,12.9280452,80.199546
+CHENNAI,V.S. Hospital,hospital,12.933726,80.1811973
+CHENNAI,Shakthi Hospital,hospital,12.9753651,80.2543198
+CHENNAI,Hale and Healthy Hospitals,hospital,12.9757686,80.2590077
+CHENNAI,Rathna Hospital,hospital,13.0087475,80.1937172
+CHENNAI,S.S. Hospital,hospital,13.0036449,80.2030844
+CHENNAI,Dhanraj Hospital,hospital,13.0017797,80.2033269
+CHENNAI,Nalam Hospital,hospital,13.0164671,80.1772853
+CHENNAI,Promed Hospital,hospital,12.9751423,80.2582571
+CHENNAI,Happy Clinic Hospital,hospital,12.9693629,80.2566138
+CHENNAI,Jaya Sri Hospital,hospital,13.0027883,80.207025
+CHENNAI,Kedar Hospital,hospital,13.0441663,80.1364773
+CHENNAI,Kaanthi Makapperu Hospital,hospital,13.003406,80.2063632
+CHENNAI,Medforte Health Care,hospital,12.9700475,80.1499015
+CHENNAI,Contonment Board General Hospital,hospital,12.97059,80.148318
+CHENNAI,Corporation Hospital,hospital,12.9915347,80.2615046
+CHENNAI,Relief Dental Hospitals,hospital,12.978253,80.258947
+CHENNAI,Accu Hospital,hospital,13.041251,80.267354
+CHENNAI,Kalyani Hospital,hospital,13.0512111,80.273209
+CHENNAI,Triveni Hospital,hospital,13.0385371,80.2581929
+CHENNAI,SMK Hospital,hospital,12.986383,80.260187
+CHENNAI,Uma Sankaran Siddha Hospital,hospital,12.9916719,80.2624479
+CHENNAI,Vasantha Hospital,hospital,13.0490602,80.2747953
+CHENNAI,Orthomed Hospital,hospital,13.0454703,80.2668731
+CHENNAI,Mint Hospitals,hospital,13.0013494,80.258796
+CHENNAI,Saanvi Fertility Centre Urology and Stone Centre,hospital,13.0436591,80.2639406
+CHENNAI,The Crescent Hospital,hospital,13.0528771,80.2727865
+CHENNAI,Syma Hospital,hospital,13.0546321,80.2774772
+CHENNAI,Sri Parthasarathy Hospital,hospital,13.0547617,80.2756509
+CHENNAI,Ashwini Hospital,hospital,12.9890173,80.2599586
+CHENNAI,R.S. Hospital,hospital,13.0549375,80.2068588
+CHENNAI,Arun Vijaya Hospitals,hospital,13.038873,80.192755
+CHENNAI,C.M. Hospital,hospital,13.0553167,80.2012868
+CHENNAI,Shali Day & Night Hospital,hospital,13.051996,80.204702
+CHENNAI,Koncept Hospitals,hospital,13.051051,80.243818
+CHENNAI,Diawin Multi Speciality Siddha Hospital,hospital,13.0520108,80.2076585
+CHENNAI,G G Hospital,hospital,13.0554543,80.2477343
+CHENNAI,K R S Hospitals,hospital,13.0616711,80.2434943
+CHENNAI,Sterling Hospitals,hospital,13.0616367,80.243704
+CHENNAI,Lily Shantha Hospital,hospital,13.0516365,80.1939117
+CHENNAI,Dr. Maibbar Hospital,hospital,13.0594426,80.2459459
+CHENNAI,Swastik Hospital,hospital,13.0539266,80.1991968
+CHENNAI,Standard Hospital,hospital,13.0526943,80.1899425
+CHENNAI,MM Hospital,hospital,13.0527721,80.191781
+CHENNAI,Arun Hospital,hospital,13.0514652,80.2031882
+CHENNAI,Krishna Geetham Vaidyasala,hospital,13.0538214,80.1989274
+CHENNAI,Agm Hospital,hospital,13.0802093,80.2522439
+CHENNAI,Dr. Sambandam Eye Hospital,hospital,13.0886474,80.2416011
+CHENNAI,Sugumar Hospital,hospital,13.0828855,80.2709938
+CHENNAI,Ranjith Hospital,hospital,13.0888843,80.2418555
+CHENNAI,Mythili Hospitals,hospital,13.0704319,80.2421491
+CHENNAI,Santosham Chest Hospital,hospital,13.0746638,80.2537976
+CHENNAI,Tune 32 Hospital,hospital,13.0715459,80.2622655
+CHENNAI,Pandalai Hospital,hospital,13.0771575,80.2450769
+CHENNAI,Centre For Gastro Esophageal Disorders,hospital,13.0786423,80.2540859
+CHENNAI,Be Well Hospital,hospital,13.0807479,80.2340062
+CHENNAI,Puttur Kattu Hospital,hospital,13.0812406,80.2506114
+CHENNAI,An-Noor Eye Hospital,hospital,13.0849581,80.2669979
+CHENNAI,Herbzalive Ayurveda Hospital,hospital,13.0793874,80.2473996
+CHENNAI,Meta Hospital,hospital,13.0826737,80.2705905
+CHENNAI,Dr. H. Yogish Hospital,hospital,13.0737332,80.2268354
+CHENNAI,Neuro Hospital,hospital,13.0713435,80.2625981
+CHENNAI,Murugan Hospitals,hospital,13.0833684,80.234299
+CHENNAI,Amrit Hospital,hospital,13.0811868,80.2520834
+CHENNAI,Mercury Hospital,hospital,13.071832,80.260048
+CHENNAI,Naz Unani Hospital,hospital,13.0850158,80.2699983
+CHENNAI,S.K. Selvam Hospital,hospital,13.0761303,80.2694819
+CHENNAI,Apollo Hospital,hospital,13.0825738,80.2710331
+CHENNAI,Kola Saraswathi Agarwal Samaj Health Centre,hospital,13.0813334,80.2553965
+CHENNAI,Demo Hospital,hospital,13.0844036,80.2454945
+CHENNAI,Gremaltes Hospital,hospital,13.0793157,80.2290477
+CHENNAI,Srl Hospital,hospital,13.0814203,80.2333756
+CHENNAI,Periyar Maniammai Hospital,hospital,13.0811497,80.2620778
+CHENNAI,Red Cross Hospital,hospital,13.074301,80.267569
+CHENNAI,Ponmalligai Hospitals,hospital,13.0768584,80.2339377
+CHENNAI,V S Hospital,hospital,13.1216771,80.2236766
+CHENNAI,Iyyappa Multi Speciality Hospitals,hospital,13.1160443,80.2454243
+CHENNAI,GK Hospital,hospital,13.113594,80.2394367
+CHENNAI,Dr. Kleela Hospital,hospital,13.1155627,80.2457851
+CHENNAI,Bluemed Healthcare,hospital,13.1297562,80.2172747
+CHENNAI,St. Joseph Cluny Hospital,hospital,13.1204837,80.2243993
+CHENNAI,Dr. A C Aruldas Hospital,hospital,13.1102652,80.2418486
+CHENNAI,Bharathiraja Hospitals,hospital,13.1300779,80.216941
+CHENNAI,Kolathur Multi Speciality and Research Centre,hospital,13.1222839,80.2160951
+CHENNAI,Arul Childs Hospital,hospital,13.1185,80.2258076
+CHENNAI,KCK Hospital,hospital,13.129071,80.2159086
+CHENNAI,Sugar Hospital,hospital,13.121994,80.2236309
+CHENNAI,Retteri Kumaran Hospital,hospital,13.129869,80.214109
+CHENNAI,Government Hospital,hospital,13.1093369,80.2312849
+CHENNAI,K.H.M. Hospital,hospital,13.129327,80.2152624
+CHENNAI,Sankar Eye Hospital,hospital,13.1131038,80.2404022
+CHENNAI,Niranjana Hospital,hospital,13.1101477,80.2244516
+CHENNAI,Parvatham Hospital,hospital,13.1148422,80.2441515
+CHENNAI,U.S. Hospital,hospital,13.1263043,80.2192658
+CHENNAI,Bharani Hospital,hospital,13.1106227,80.2374461
+CHENNAI,K.M. Nursing Home,hospital,13.0371216,80.2013389
+CHENNAI,Military Hospital,hospital,13.0117736,80.1941708
+CHENNAI,உழைப்பாளி மருத்துவமனை,hospital,13.0487242,80.2036274
+CHENNAI,KS Bone and Joint Clinic - Ortho,hospital,13.026029,80.212368
+CHENNAI,Shens Multi-Speciality Hospital,hospital,13.0318828,80.2103124
+CHENNAI,Sanjeevani Ayurvedic Hospital,hospital,12.9120483,80.2489789
+CHENNAI,Prashanth Hospitals,hospital,12.9784544,80.2214698
+CHENNAI,Geri care hospital,hospital,13.0439323,80.2407095
+CHENNAI,Women And Children Foundation Hospital,hospital,13.1180276,80.2126037
+CHENNAI,Frame of Mind - SCARF Psychiatric Hospital,hospital,13.0972767,80.1982422
+CHENNAI,Vasantha Memorial Cancer Centre,hospital,13.040756,80.2146876
+CHENNAI,KHM,hospital,13.084556,80.2130458
+CHENNAI,Jananam fertility centre,hospital,12.9569147,80.2513405
+CHENNAI,Dental College & Hospital,hospital,12.8705153,80.2233736
+CHENNAI,"Commissioner of Police office, Greater chennai Police",hospital,13.081276,80.2631177
+CHENNAI,Dr Bala's Skin clinic,hospital,12.9831959,80.2013573
+CHENNAI,Vadivelu Hospital,hospital,13.1002212,80.2400853
+CHENNAI,Iswarya Fertility Center,hospital,13.0064894,80.2504829
+CHENNAI,Good Shepard hospital,hospital,12.9810842,80.2343492
+CHENNAI,Chola Sheraton,hotel,13.0453871,80.2573123
+CHENNAI,Samco,hotel,13.0382411,80.256529
+CHENNAI,Eldams Lodge,hotel,13.0390202,80.2488531
+CHENNAI,Green Park - Chennai,hotel,13.051048,80.2081917
+CHENNAI,Le Royal Meridian,hotel,13.0070349,80.2055161
+CHENNAI,Residency Towers,hotel,13.0402539,80.2437255
+CHENNAI,Accord Metropolitan,hotel,13.0459441,80.2425563
+CHENNAI,Courtyard Marriott,hotel,13.0459725,80.2477447
+CHENNAI,Hotel Mount Palace,hotel,13.0404792,80.2469187
+CHENNAI,Trident Hilton,hotel,12.9935805,80.1862283
+CHENNAI,Radisson Blu Hotel,hotel,12.9940405,80.1876359
+CHENNAI,Hotel Clarion,hotel,13.0434191,80.2711218
+CHENNAI,Palmgrove,hotel,13.0528514,80.2480182
+CHENNAI,Barathi Hostel,hotel,13.0575776,80.2630724
+CHENNAI,Hotel Maris,hotel,13.0452178,80.2578584
+CHENNAI,New Woodlands,hotel,13.0453549,80.2621727
+CHENNAI,Hotel Savera,hotel,13.0460029,80.2612636
+CHENNAI,Sangeetha Residency,hotel,13.0367415,80.2672996
+CHENNAI,Hotel Aruna Inn,hotel,13.066127,80.2422523
+CHENNAI,Sridevi Park,hotel,13.0453722,80.2330855
+CHENNAI,Orient Inn,hotel,13.0457449,80.2589389
+CHENNAI,Deccan Plaza,hotel,13.0465348,80.2666728
+CHENNAI,Broadlands Lodge,hotel,13.0630301,80.273438
+CHENNAI,Park Sheraton Residency,hotel,13.0294193,80.2495759
+CHENNAI,Raintree,hotel,13.028834,80.253197
+CHENNAI,Hotel Checkers,hotel,13.0142025,80.2228881
+CHENNAI,Rani Meyyamai Hostel,hotel,13.0649764,80.2592643
+CHENNAI,ITDC Hotel Kanchi,hotel,13.0644831,80.2578567
+CHENNAI,Lemon Tree Hotel,hotel,13.0111805,80.2246934
+CHENNAI,GLM Meridian,hotel,13.0326957,80.2395062
+CHENNAI,Hotel Picnic,hotel,13.0363286,80.2679907
+CHENNAI,Esthell Continental Hotel,hotel,13.007268,80.2594014
+CHENNAI,GRT Business Hotel,hotel,13.0397233,80.2453615
+CHENNAI,Hotel ashoka,hotel,13.0724389,80.2605699
+CHENNAI,Le Waterina,hotel,12.9732112,80.2650024
+CHENNAI,Best Guest House,hotel,13.0334876,80.2306962
+CHENNAI,Bell Central,hotel,13.080643,80.26928
+CHENNAI,Ginger Hotel,hotel,12.990989,80.242128
+CHENNAI,HIVE HOTEL,hotel,12.9315233,80.2332487
+CHENNAI,The Hive,hotel,12.9295546,80.2321618
+CHENNAI,Aloft,hotel,12.8996647,80.2282352
+CHENNAI,Westin,hotel,12.9894247,80.2208305
+CHENNAI,The Raintree Hotel,hotel,13.0339315,80.2438998
+CHENNAI,Ammu Palace,hotel,13.0660462,80.2672752
+CHENNAI,Ammu Palace,hotel,13.0658923,80.2671647
+CHENNAI,Vistana,hotel,13.040252,80.2364037
+CHENNAI,grand sweet and snacks (Amritham Restaurant),hotel,13.0470653,80.2351498
+CHENNAI,friends hotel,hotel,13.02759,80.13303
+CHENNAI,Hotel Aarun,hotel,13.0247041,80.2165248
+CHENNAI,Amma Unavagam,hotel,13.0249392,80.2198305
+CHENNAI,Amma Unavagam,hotel,13.0246097,80.2125531
+CHENNAI,The Gateway Hotel IT Expressway Chennai,hotel,12.9055936,80.2277311
+CHENNAI,Ponnusamy Hotel,hotel,12.9047334,80.2278475
+CHENNAI,Lakshmi Nest,hotel,13.0086025,80.2498155
+CHENNAI,Hotel City Gate,hotel,12.9878328,80.2556935
+CHENNAI,Hotel Mines,hotel,13.0236643,80.2066037
+CHENNAI,Lemon Tree Hotel Shimona,hotel,13.0201552,80.1848739
+CHENNAI,Emirates Residency,hotel,13.0731091,80.2009166
+CHENNAI,Amma Unavagam,hotel,13.0326902,80.2168568
+CHENNAI,The Spring Hotel,hotel,13.0530637,80.2483204
+CHENNAI,Bai kadai,hotel,13.0198261,80.1430544
+CHENNAI,Muniyandi Vilase Hotel,hotel,13.0202551,80.1436539
+CHENNAI,Hotel Imperial Plaza,hotel,13.0772269,80.2629526
+CHENNAI,Hotel Victoria,hotel,13.0768942,80.2625212
+CHENNAI,Hotel Pandian,hotel,13.0755628,80.2627183
+CHENNAI,Hotel Masa,hotel,13.0757272,80.2624076
+CHENNAI,The King’s Hotel,hotel,13.0724048,80.2551543
+CHENNAI,அம்மா உணவகம்,hotel,13.0315385,80.2450231
+CHENNAI,Holiday Inn Express Chennai OMR Thoraipakkam,hotel,12.9300691,80.2300221
+CHENNAI,Hotel Shelter Inn,hotel,13.0328612,80.2660641
+CHENNAI,Jai Ganesha Bhavan,hotel,13.0104467,80.19864
+CHENNAI,The Belstead,hotel,13.062277,80.2455306
+CHENNAI,Grand Oliver,hotel,13.082574,80.2700756
+CHENNAI,Celebrity Inn,hotel,13.0568213,80.2430069
+CHENNAI,Park Elanza,hotel,13.0566294,80.2428454
+CHENNAI,Oyo Neha,hotel,13.0540714,80.2465575
+CHENNAI,Oyo SilverKey,hotel,13.0555339,80.2464988
+CHENNAI,Royal Residency,hotel,13.0270224,80.2107828
+CHENNAI,Amma Unavagam,hotel,13.016345,80.1917776
+CHENNAI,Samuthaya Koodam,hotel,13.0278165,80.211374
+CHENNAI,G R Guest House,hotel,13.0296004,80.2090818
+CHENNAI,The Residency,hotel,13.0448669,80.2407673
+CHENNAI,Buhari hotel,hotel,13.0471004,80.2445843
+CHENNAI,Hotel Chennai Deluxe,hotel,13.0697125,80.1987229
+CHENNAI,فندق موريا,hotel,13.0489323,80.2088591
+CHENNAI,The Park Avenue Hotel,hotel,13.0839868,80.2702476
+CHENNAI,Ganpathy Bhavan,hotel,13.0861823,80.2123869
+CHENNAI,Hotel Dhans,hotel,12.9810213,80.2314397
+CHENNAI,Greens Suite,hotel,13.0814738,80.2703442
+CHENNAI,SPOT ON OYO RKH Inn,hotel,13.0570203,80.2734588
+CHENNAI,White Park,hotel,13.0838575,80.269664
+CHENNAI,4U,hotel,13.0813777,80.2703526
+CHENNAI,Hotel M Grand,hotel,13.0493431,80.2400216
+CHENNAI,Hotel ganga,hotel,13.1281889,80.2016551
+CHENNAI,Goutham Manor,hotel,13.0635038,80.2441861
+CHENNAI,Grace Residency Airport,hotel,12.9807835,80.1643354
+CHENNAI,The Madras Grand,hotel,13.07518,80.2560202
+CHENNAI,Mango Hill,hotel,13.0517341,80.2405153
+CHENNAI,The hotel royal plaza,hotel,13.0695934,80.1982775
+CHENNAI,Kaira Park,hotel,13.0350289,80.25741
+CHENNAI,அண்ணா நகர் கோபுரம்,viewpoint,13.0863046,80.2137898
+CHENNAI,arun anna room,viewpoint,13.0585933,80.2075767
+CHENNAI,idea showroom,viewpoint,13.048233,80.2119691
+CHENNAI,Sangeetha hostel,viewpoint,13.0662111,80.2311828
+CHENNAI,Ambedkar Memorial,attraction,13.0193208,80.266984
+CHENNAI,Rajaji Memorial,attraction,13.0064804,80.2391664
+CHENNAI,Bakthavachalam Memorial,attraction,13.0067142,80.2362341
+CHENNAI,Kamaraj Memorial,attraction,13.006922,80.2355846
+CHENNAI,Snake Park,attraction,13.0032701,80.2384929
+CHENNAI,Brodie Castle,attraction,13.0158394,80.2628474
+CHENNAI,Birla Planetarium,attraction,13.0119591,80.2440161
+CHENNAI,Cholamandal Artists' Village,attraction,12.9229059,80.2517281
+CHENNAI,CHENNAI CORPORATION PARK,attraction,13.0263685,80.2171939
+CHENNAI,CHICKEN 65 SHOP,attraction,13.0323409,80.2200818
+CHENNAI,MLA OFFICE ,attraction,13.0247674,80.2182663
+CHENNAI,DUGAR GROUP OF COMPANY,attraction,13.0684992,80.2605802
+CHENNAI,BHARAT SCANS,attraction,13.0337069,80.2122522
+CHENNAI,s.sriram,attraction,13.0229114,80.1850132
+CHENNAI,அக்பர் மருந்து மில்,attraction,13.0347941,80.273749
+CHENNAI,சென்னை மெரினா கலங்கரை விளக்கம்,attraction,13.039631,80.2794168
+CHENNAI,Former site of Binny Mills Building,attraction,13.0908999,80.2876055
+COIMBATORE,Indian Oil,fuel,11.0676625,77.0998701
+COIMBATORE,Bharat Petroleum,fuel,11.0740038,77.10848
+COIMBATORE,HP,fuel,11.0813425,77.1213385
+COIMBATORE,Hindusthan Petroleum,fuel,11.0784089,76.9418801
+COIMBATORE,ARC Bharat Petroleum,fuel,11.0275851,76.9514438
+COIMBATORE,Indian Oil,fuel,11.2164596,77.0850864
+COIMBATORE,Indian Oil,fuel,11.1273864,77.0303319
+COIMBATORE,HP,fuel,11.08003,77.0042231
+COIMBATORE,Indian Oil,fuel,11.039519,76.9805839
+COIMBATORE,HP,fuel,11.0153511,76.9676319
+COIMBATORE,BP,fuel,11.012646,76.9673432
+COIMBATORE,Ramsons Petrol Station,fuel,11.0108923,76.9820694
+COIMBATORE,Indian Oil,fuel,10.9954301,76.9757862
+COIMBATORE,IBP,fuel,10.9630048,76.9550773
+COIMBATORE,HP,fuel,11.2769057,76.9842852
+COIMBATORE,HP Petrol Bunk,fuel,11.0217902,76.9523462
+COIMBATORE,BP Petrol Bunk,fuel,11.0216235,76.9524414
+COIMBATORE,HP Petrol Bunk,fuel,11.3005048,76.9411625
+COIMBATORE,BP Gas Station,fuel,11.2905967,76.9584305
+COIMBATORE,Indian Oil,fuel,11.0094398,76.9441479
+COIMBATORE,Bharat Petroleum Retail Outlet,fuel,11.0530119,76.9939054
+COIMBATORE,Bharat Petroleum,fuel,11.0519614,76.9924402
+COIMBATORE,Indian Oil,fuel,11.0517919,76.992171
+COIMBATORE,Reliance Petrol bunk,fuel,11.0923408,76.9383442
+COIMBATORE,Marudur Fuels,fuel,11.2327455,76.9015115
+COIMBATORE,Bharat Petroleum,fuel,11.0314324,76.9762591
+COIMBATORE,HP,fuel,11.0092041,76.9669118
+COIMBATORE,Fuel Station,fuel,11.2420031,76.8856529
+COIMBATORE,Sri Abirami Agencies Petrol Bunk,fuel,11.2330068,76.9009814
+COIMBATORE,Sri Ambal & Co,fuel,11.2358911,77.1075892
+COIMBATORE,Indian oil,fuel,11.2851863,76.9667283
+COIMBATORE,Indian Oil Corporation Petrol Bunk,fuel,10.6454032,76.9723116
+COIMBATORE,Petrol Bunk,fuel,10.6414455,76.9624246
+COIMBATORE,Indian Oil,fuel,11.027993,77.076201
+COIMBATORE,Indian Oil,fuel,11.2329842,77.0996325
+COIMBATORE,HP,fuel,11.2330963,77.100358
+COIMBATORE,Bharat Petroleum,fuel,11.288206,76.9615547
+COIMBATORE,Bharat Petroleum,fuel,11.0814333,76.9409426
+COIMBATORE,Gas Station,fuel,11.0574171,76.91343
+COIMBATORE,Indian Oil Pump,fuel,10.9968795,76.8474822
+COIMBATORE,HP,fuel,11.02043,76.9181459
+COIMBATORE,Bharat Petroleum,fuel,11.0219737,76.9147912
+COIMBATORE,Indian Oil,fuel,11.1124779,77.0305876
+COIMBATORE,HP,fuel,11.3141918,77.004036
+COIMBATORE,Indianoil,fuel,10.8238413,76.8698173
+COIMBATORE,Bharat Petroleum,fuel,11.0025063,77.0407173
+COIMBATORE,Bharath petroleum,fuel,11.1133588,76.9353139
+COIMBATORE,HP petrol bunk,fuel,11.0051914,76.9458676
+COIMBATORE,Indian oil,fuel,11.0814851,77.1901004
+COIMBATORE,HP,fuel,11.3012665,76.9126439
+COIMBATORE,Essar,fuel,11.2376279,76.9666788
+COIMBATORE,Indian Oil,fuel,11.314004,76.9285936
+COIMBATORE,Indian Oil,fuel,11.1112531,76.7634756
+COIMBATORE,HP,fuel,11.0198182,77.0223927
+COIMBATORE,Shell,fuel,11.0128025,77.0242776
+COIMBATORE,Bharat petroleum products,fuel,11.0832597,76.9832303
+COIMBATORE,Nayara,fuel,11.0535979,77.0624604
+COIMBATORE,Shell,fuel,11.0480085,77.0547717
+COIMBATORE,HP,fuel,10.9890935,77.0883473
+COIMBATORE,Nayara,fuel,11.0430367,77.1164235
+COIMBATORE,HP,fuel,11.0450053,77.1174238
+COIMBATORE,Bharat Petroleum,fuel,11.0618871,77.1118646
+COIMBATORE,HP,fuel,11.0667526,77.1100421
+COIMBATORE,Bharat Petroleum,fuel,11.0760758,77.1131312
+COIMBATORE,Bharat Petroleum,fuel,10.9740857,77.0399491
+COIMBATORE,Petrol Pump,fuel,10.6624964,77.003966
+COIMBATORE,Nayara,fuel,11.2844847,76.9674639
+COIMBATORE,Bharat Petroleum,fuel,11.011671,76.9429975
+COIMBATORE,Essar Petroleum,fuel,11.0066097,77.0150251
+COIMBATORE,HP,fuel,10.8843595,76.9122835
+COIMBATORE,Indian Oil,fuel,10.8691754,76.8861351
+COIMBATORE,SREC Health Center,hospital,11.1005451,76.9637445
+COIMBATORE,Sri Ramakrishna Dental Hospital,hospital,11.0212988,76.9883526
+COIMBATORE,Ellen Multispeciality Hospital,hospital,11.0213634,76.9708723
+COIMBATORE,GP Hospital,hospital,11.0201233,76.9710726
+COIMBATORE,Saravana Dental Care Hospital,hospital,11.0028292,76.9513725
+COIMBATORE,Senthil Hospital,hospital,11.0089752,76.9578034
+COIMBATORE,Dr. S. G. Rajarathinam Hospital,hospital,11.0095256,76.9619316
+COIMBATORE,"K. G. Hospital, Coimbatore",hospital,11.0004227,76.9715023
+COIMBATORE,Sengaliappan Nursing Home,hospital,11.0165542,76.955239
+COIMBATORE,Bala Hospital,hospital,10.9969296,76.995705
+COIMBATORE,"Ganga Medical Centre and Hospitals Pvt. Ltd ,Ramnagar",hospital,11.0158724,76.9594235
+COIMBATORE,Krishna Nursing Home,hospital,11.0152327,76.9593766
+COIMBATORE,"Kongunad Hospital, Coimbatore",hospital,11.018058,76.9604883
+COIMBATORE,Sheela Clinic,hospital,11.01843,76.9604642
+COIMBATORE,"Surya Hospital, Coimbatore",hospital,11.0390101,76.979517
+COIMBATORE,Fair Pharma,hospital,10.8927566,76.9246984
+COIMBATORE,Vasan eye Care Hospital,hospital,10.9560967,76.9540004
+COIMBATORE,PSG Hospitals,hospital,11.0188398,77.0073136
+COIMBATORE,K T V R Group Hospital,hospital,11.026167,76.9499384
+COIMBATORE,Coimbatore Bone and Joint Foundation (P) Ltd.,hospital,11.0149404,76.9543844
+COIMBATORE,"Womens Medical Centre, Coimbatore",hospital,11.0337824,76.9517175
+COIMBATORE,Masonic Medical Centre For Children,hospital,10.9997961,76.9799441
+COIMBATORE,Somu medicals,hospital,11.0264568,76.9448591
+COIMBATORE,Akila Medicals,hospital,11.0265516,76.9443924
+COIMBATORE,Dr.U.S.Prakash's Clinic,hospital,11.0256249,76.9372845
+COIMBATORE,KG Eye Hospital,hospital,11.0825506,76.997422
+COIMBATORE,"Shree Siva Hospital, Ganapathy,",hospital,11.0441103,76.9856071
+COIMBATORE,Mettupalayam GH,hospital,11.3047109,76.9364387
+COIMBATORE,Hindustan Hospital,hospital,11.2816017,76.9462511
+COIMBATORE,K.R. Hospital,hospital,11.1564875,76.944041
+COIMBATORE,Kalpaviruksha Ayurvedic Hospital,hospital,11.1293552,76.9351656
+COIMBATORE,Sai Shraddha Hospitality,hospital,11.0254581,76.9726262
+COIMBATORE,Vega ENT Hospitals,hospital,11.0144183,76.9437894
+COIMBATORE,Sitalakshmi Hospital,hospital,11.0142906,76.9449521
+COIMBATORE,Manonmani Hospital,hospital,11.0147975,76.9475002
+COIMBATORE,Preetam's Cardio Care,hospital,11.0152003,76.9498136
+COIMBATORE,Rasi Hospital,hospital,11.0097731,76.9503293
+COIMBATORE,Immanuel Eye Hospital,hospital,11.3022381,76.9400735
+COIMBATORE,City Hospital,hospital,11.0193391,76.9635166
+COIMBATORE,Bethel Hospital,hospital,11.0190021,76.962084
+COIMBATORE,Arasu Medicals,hospital,11.010593,76.950234
+COIMBATORE,The Eye Foundaton,hospital,11.0134549,76.9496753
+COIMBATORE,Moses Eye Hospital,hospital,10.9943793,76.9664663
+COIMBATORE,Thayarammal poly clinic,hospital,10.9935069,76.9756194
+COIMBATORE,Vasan Eye Care Hospital,hospital,11.0124743,76.9862396
+COIMBATORE,Coimbatore Kidney Centre,hospital,11.009415,76.9893791
+COIMBATORE,Clinic - Dr.Rajashree,hospital,10.9978977,76.9893923
+COIMBATORE,K. J. Hospital,hospital,10.9414068,76.9369908
+COIMBATORE,Ashwin Hospital,hospital,11.0241826,76.9731186
+COIMBATORE,The Eye Foundation,hospital,11.3031429,76.9359938
+COIMBATORE,Aravindan Hospital,hospital,11.1334592,77.0340488
+COIMBATORE,Arya Vaidya Pharmacy,hospital,10.995609,76.9917076
+COIMBATORE,Aalva Hospital,hospital,10.6378336,76.950131
+COIMBATORE,Primary Health Center,hospital,10.601104,76.9285955
+COIMBATORE,"Vasan Eye Care Hospital, Kuniamuthoor",hospital,10.957713,76.9543156
+COIMBATORE,Ortho One,hospital,11.0018351,77.0328061
+COIMBATORE,Government Urban Primary Health Center,hospital,11.0827084,76.9427442
+COIMBATORE,Karpagam Faculty Of Medical Sciences And Research,hospital,10.8840061,77.0066035
+COIMBATORE,Sholayar Garden Hospital,hospital,10.2935723,76.9455228
+COIMBATORE,Aravind Eye Hospital (City Centre),hospital,11.0153158,76.9539881
+COIMBATORE,"Lotus Eye Care Hospital, Coimbatore",hospital,11.0140006,76.9543624
+COIMBATORE,ECHS,hospital,11.0051924,76.9879176
+COIMBATORE,ECHS Polyclinic,hospital,11.0053321,76.9876533
+COIMBATORE,Baalaje Hospital,hospital,11.0247244,76.9055811
+COIMBATORE,"Sri Lakshmi Hospital, Coimbatore",hospital,11.0782349,76.9409348
+COIMBATORE,Vijaya Hospitals,hospital,11.0148532,76.9489909
+COIMBATORE,"Shri Hari Hospital, Coimbatore",hospital,11.0265248,76.9475939
+COIMBATORE,Bethesda Hospital,hospital,11.0354039,76.9304803
+COIMBATORE,"Kiruba Hospital, Koilmedu,Coimbatore",hospital,11.0335068,76.929457
+COIMBATORE,G R Hospital,hospital,11.0093491,77.0024216
+COIMBATORE,TNAU Hospital,hospital,11.0080012,76.9362691
+COIMBATORE,Subbu Hospital,hospital,11.2434041,76.9602041
+COIMBATORE,Government primary health center,hospital,11.2385887,76.9640887
+COIMBATORE,Telugupalayam Hospital,hospital,10.9842757,76.9297655
+COIMBATORE,Leo Ortho care Hospital,hospital,10.9969428,76.9993022
+COIMBATORE,Eye Trust Hospital,hospital,11.0242987,76.9582327
+COIMBATORE,government sub health center,hospital,11.2376384,76.9224629
+COIMBATORE,ESI Hospital,hospital,11.0092807,77.0240486
+COIMBATORE,bhagirathi hospital,hospital,11.0794799,76.9409445
+COIMBATORE,KG Hospital Blood Bank,hospital,11.0004991,76.9716378
+COIMBATORE,PSG Hospital Blood Bank,hospital,11.0184957,77.0069428
+COIMBATORE,Bethel Hospital Pvt. Ltd. - Coimbatore,hospital,11.0187223,76.9612328
+COIMBATORE,"Park Hospital, Coimbatore",hospital,11.0419411,77.0379131
+COIMBATORE,"Srinivasa Hospital, Sirumugai",hospital,11.3218786,77.0092678
+COIMBATORE,"Mouthi Hospital Vadavalli, Coimbatore",hospital,11.0291808,76.9019419
+COIMBATORE,"Vikaram ENT Hospital, Coimbatore",hospital,11.0120021,76.9494063
+COIMBATORE,R. A. Hospital,hospital,10.998556,76.9918562
+COIMBATORE,"R V Hospital, Coimbatore",hospital,11.0546916,77.0639178
+COIMBATORE,R A Medical Center and Hospital,hospital,11.2976038,76.940787
+COIMBATORE,Vasavi Hospital,hospital,10.9927872,76.9550228
+COIMBATORE,Arathana Hospital,hospital,10.6682257,77.0070174
+COIMBATORE,Vallalar Hospitals (Pvt) Ltd,hospital,11.0218408,76.9152537
+COIMBATORE,"Sri Ramakrishna Hospital, Coimbatore",hospital,11.0231203,76.9776419
+COIMBATORE,Sri Ramana Hospital,hospital,10.9972817,76.9598213
+COIMBATORE,"Sri Sakthi Hospital, Ganapathi, Coimbatore",hospital,11.0474918,76.9930659
+COIMBATORE,Sri Maruthi Medical Center and Hospital,hospital,11.0891666,76.9384105
+COIMBATORE,Veeku Hospital,hospital,11.0150799,76.9517022
+COIMBATORE,"Vasan Eye Care Hospital, Pollachi",hospital,10.6643938,77.0057119
+COIMBATORE,Pranav Clinic,hospital,11.0631074,76.9985509
+COIMBATORE,Garnett Memorial Eye Hospital,hospital,11.3020423,76.9400816
+COIMBATORE,Gowtham Hospital,hospital,10.962127,76.9556397
+COIMBATORE,"St Lukes Hospital, Coimbatore",hospital,11.0335424,77.0376261
+COIMBATORE,N.M. Hospital,hospital,10.9981558,76.9994865
+COIMBATORE,Sri Guru Hospital Pvt Ltd,hospital,11.0264336,76.9423118
+COIMBATORE,H. S. Hospital,hospital,11.0418035,76.9477855
+COIMBATORE,Vedanayagam Hospital (P) Limited,hospital,11.0144375,76.9504979
+COIMBATORE,Siva Meds Multispeciality Hospital,hospital,10.6633006,77.0100774
+COIMBATORE,VGM Hospital,hospital,10.9986666,77.0143291
+COIMBATORE,Dr. Muthu's Ortho Centre-Coimbatore,hospital,11.0026291,77.0406497
+COIMBATORE,Sree Abishek Hospitals,hospital,11.0430968,76.9241157
+COIMBATORE,Sree Andal Hospital,hospital,11.0560065,77.0164575
+COIMBATORE,The Arya Vaidya Chikitsalayam and Research Institue,hospital,10.9958401,76.9915813
+COIMBATORE,Kps Hospitals Pvt Ltd,hospital,11.3003873,76.9402459
+COIMBATORE,Kovai Ent Hospital and Research Centre,hospital,11.041741,76.9835246
+COIMBATORE,Kovai Diabetes Speciality Centre and Hospital,hospital,11.0159329,76.9613153
+COIMBATORE,Koushikha Hospital,hospital,10.9589868,76.9788824
+COIMBATORE,"Kiruba Hospital, Mettupalayam",hospital,11.2998948,76.9330971
+COIMBATORE,Chinniampalayam Venkateshwara Hospital,hospital,11.0545152,77.0652106
+COIMBATORE,Richmond Hospital,hospital,10.9946605,76.9793813
+COIMBATORE,"Ranga Hospital, Velandipalayam",hospital,11.0290235,76.932096
+COIMBATORE,Rao Hospital,hospital,11.018513,76.9445555
+COIMBATORE,"Joseph Hospital, Coimbatore",hospital,11.017244,76.9990446
+COIMBATORE,Ramvel Hospital,hospital,11.01362,77.0222618
+COIMBATORE,"Suriya Hospital, Coimbatore",hospital,11.30192,76.9400722
+COIMBATORE,"Supa Hospital, Coimbatore",hospital,11.3053984,76.9361427
+COIMBATORE,Immaculate Conception Convent Hospital,hospital,10.9943683,76.9642074
+COIMBATORE,"Vasan Eye Care Hospital, Coimbatore",hospital,11.0091245,76.9454058
+COIMBATORE,"Krithika Hospital , Tiruppur",hospital,11.0424742,76.9476856
+COIMBATORE,MRS Hospital & Fertility centre,hospital,10.6647489,77.0050326
+COIMBATORE,M. V. Eye Care Centre,hospital,11.0129421,76.9629608
+COIMBATORE,"Lotus Eye Care Hospital Ltd, Coimbatore",hospital,11.0406116,77.0401856
+COIMBATORE,Nandha Hospital,hospital,11.0168636,76.9756664
+COIMBATORE,Nataraj Medical Care Center Private Limited,hospital,10.994101,76.9569379
+COIMBATORE,Ortho One Orthopaedic Speciality Center(A Unit Of Spine Arthroscopic and Joint Replacement Center Pvt Ltd),hospital,10.9962048,77.0082217
+COIMBATORE,Padmavathy Hospital,hospital,11.0427427,76.9477212
+COIMBATORE,Vishnu Ent Hospital - Coimbatore,hospital,11.0265389,76.9470734
+COIMBATORE,Mcv Memorial Ent Trust Hospital,hospital,10.6627918,76.9995756
+COIMBATORE,The Balakrishnan Hospital,hospital,11.0190567,76.9625585
+COIMBATORE,The Pollachi Cardiac Center,hospital,10.6742907,77.0081305
+COIMBATORE,Subbiah Nadar Krishnammal Selvam Hospital,hospital,11.3066497,76.9326887
+COIMBATORE,Sowmiya Hospital,hospital,11.2400426,76.9619912
+COIMBATORE,"Sangeetha Hospital, Coimbatore",hospital,10.963603,76.9563907
+COIMBATORE,"Priya Hospital, Coimbatore",hospital,10.9446403,76.9352093
+COIMBATORE,Sumith Hospital,hospital,11.0261493,77.0176752
+COIMBATORE,"Rajah Hospital, Coimbatore",hospital,11.0270299,77.0187333
+COIMBATORE,Lalitha Hospital,hospital,11.0174139,76.9617565
+COIMBATORE,"Hindusthan Hospital, Coimbatore",hospital,11.019682,76.9947731
+COIMBATORE,"Kumaran Hospital, Coimbatore",hospital,11.0150812,76.95132
+COIMBATORE,Seesha Karunya Community Hospital,hospital,11.0160619,76.9593814
+COIMBATORE,K.M. Hospitals,hospital,10.6625561,77.003421
+COIMBATORE,"Sanjeevani Hospital And Maternity Home, Annur",hospital,11.21711,77.0872946
+COIMBATORE,"Sankara Eye Hospital, Coimbatore",hospital,11.0133673,76.9553728
+COIMBATORE,Madurai Eye Center,hospital,11.0137122,76.951316
+COIMBATORE,Vega Ent Hospital,hospital,11.0142295,76.9437897
+COIMBATORE,Spt Hospitals,hospital,11.0143493,76.9614293
+COIMBATORE,Dr K Padmavathy Hospital,hospital,11.0081878,76.9578948
+COIMBATORE,"V. G. Hospital, Thudiyalur",hospital,11.0706896,76.9420054
+COIMBATORE,Sri Vishnu Priyaa Hospitals Pvt Ltd,hospital,11.036949,76.927958
+COIMBATORE,Aparna Hospital,hospital,10.9561995,76.9541618
+COIMBATORE,"Smyle Hospital, Mettupalayam",hospital,11.2878481,76.9420704
+COIMBATORE,Snekaram Multi Specality Hospital,hospital,10.987562,76.9358088
+COIMBATORE,"Maruthi Hospital, Coimbatore",hospital,11.0031531,76.9513019
+COIMBATORE,K. J. Hospital,hospital,10.9707765,76.9564471
+COIMBATORE,Roselet Medical ObgandSurgical Centre,hospital,11.0177943,76.9612482
+COIMBATORE,Sruti Hospitals,hospital,11.0060677,76.9525994
+COIMBATORE,burma doctor hospital,hospital,11.2414022,76.9600962
+COIMBATORE,Ar Ortho Hospital,hospital,10.6622765,77.0125401
+COIMBATORE,Shree Sivaa Hospital,hospital,11.0450728,76.9856121
+COIMBATORE,Dr. BRJ Ortho Centre,hospital,11.0340354,76.9512209
+COIMBATORE,"Mudis Garden Hospital, Valparai",hospital,10.2780339,76.9272208
+COIMBATORE,"Prabhu Hospital, Pc Pollachi",hospital,10.66269,77.009684
+COIMBATORE,Avm Hospital- Pollachi,hospital,10.66242,77.0030365
+COIMBATORE,"Kowsalya Medical Centre, Pollachi",hospital,10.66299,77.010025
+COIMBATORE,"S.N. Hospital, Pollachi",hospital,10.659567,77.0005675
+COIMBATORE,"Sakthi Hospital, Pollachi",hospital,10.6629552,77.0106019
+COIMBATORE,"JP Hospital, Pollachi",hospital,10.66024,77.0049
+COIMBATORE,"Government Hospital, Pollachi",hospital,10.6581617,77.0098249
+COIMBATORE,Thirumalai Hospital,hospital,10.6650579,77.005872
+COIMBATORE,"Moorthy Hospital, Udumalai",hospital,10.6220772,77.1484896
+COIMBATORE,Pills Hospital,hospital,10.66419,77.010376
+COIMBATORE,"ShreeHospital ,Negamam",hospital,10.7433038,77.1003106
+COIMBATORE,"Shanthi Hospital, Pollachi",hospital,10.6631858,77.0149942
+COIMBATORE,Vadugapalayam Government Hospital,hospital,10.66878,76.9951891
+COIMBATORE,"Surya Hospital, Pollachi",hospital,10.6627371,77.0122918
+COIMBATORE,"Arun Hospital, Pollachi",hospital,10.6625657,77.0129734
+COIMBATORE,"Government Hospital, Vettaikaranputhur",hospital,10.564213,76.9196298
+COIMBATORE,"Pannimedu Hospital, Valparai",hospital,10.325588,76.9555929
+COIMBATORE,"Government Hospital, Valparai",hospital,10.329979,76.957798
+COIMBATORE,"Sri Kalaivani Hospital, Kottur, Pollachi",hospital,10.5395969,76.9819098
+COIMBATORE,"Geethasree Hospital, Coimbatore",hospital,11.07196,77.002444
+COIMBATORE,"Balaji Hospital, Sulur",hospital,11.0277947,77.1298133
+COIMBATORE,Bethany Medical Centre,hospital,11.1119003,76.7638687
+COIMBATORE,"J.M.Hospital, Edayarpalayam",hospital,11.04984,76.918862
+COIMBATORE,AR Medical Centre,hospital,11.04788,76.971976
+COIMBATORE,"Kamalaprakasam, Kalapatti",hospital,11.0778,77.035681
+COIMBATORE,Coimbatore Medical College Hospital,hospital,11.0289285,77.0237553
+COIMBATORE,SS Hospital Coimbatore,hospital,11.04761,77.000115
+COIMBATORE,Vagai Government Hospital,hospital,11.1443519,77.1325092
+COIMBATORE,"Hem Hospital- Thudiaylur, Coimbatore",hospital,11.0757442,76.9424139
+COIMBATORE,"Governmemt Hospital, Somanur",hospital,11.0839439,77.189266
+COIMBATORE,"Harini Shravan, Coimbatore",hospital,11.0703318,77.0005452
+COIMBATORE,"Royal Care Hospital, Coimbatore",hospital,11.059106,77.0893479
+COIMBATORE,Ramana Gounder Medical Trust Hospital,hospital,11.0753938,76.939234
+COIMBATORE,"Bishop Walsh Memorial Hospital, Coimbatore",hospital,11.07251,76.871537
+COIMBATORE,Malar Hpl Goundanpalayam,hospital,11.0437293,76.9475494
+COIMBATORE,Sai Hospital,hospital,11.0904781,76.9383967
+COIMBATORE,Pavithra Medical Centre,hospital,11.08088,76.869337
+COIMBATORE,"V.R.Hospital, Coimbatore",hospital,11.05642,77.001972
+COIMBATORE,Sree Subiksha Hospital,hospital,11.0287,76.897449
+COIMBATORE,Vimal Jothi Hospital,hospital,11.0892,77.008366
+COIMBATORE,"Sampath Hospital ,S.S.Kulam",hospital,11.1339,77.034088
+COIMBATORE,"Ambal Malumichampatty, Coimbatore",hospital,10.90265,76.997586
+COIMBATORE,Seesha - Karunya Rural Community Hospital,hospital,10.9385845,76.7416507
+COIMBATORE,"Government Hospital, Madukkarai",hospital,10.9037986,76.9635381
+COIMBATORE,Natraj Hospital,hospital,10.9042796,76.9586654
+COIMBATORE,"I.J.Hospital, Kuniayamuthur, Coimbatore",hospital,10.95365,76.955989
+COIMBATORE,"Government Hospital, Kinathukadavu",hospital,10.82107,77.017406
+COIMBATORE,Sri Venkateswara Kinnathukadavu,hospital,10.8241085,77.0191884
+COIMBATORE,"Abirami Hospital, Coimbatore",hospital,10.95254,76.973201
+COIMBATORE,"Ganapathy Pc Sundarapuram,",hospital,10.9521673,76.9758815
+COIMBATORE,Ponnaiah Hospital,hospital,11.0108047,76.9530054
+COIMBATORE,"Rani Nursing Home, Selvapuram, Coimbatore",hospital,10.9871756,76.9392029
+COIMBATORE,"Shree Hospital, Puliakulam, Coimbatore",hospital,11.0064832,76.9914482
+COIMBATORE,"Sri Meenakshi Hospital, Kuniamuthur",hospital,10.9567349,76.9544328
+COIMBATORE,Shanmuga Hospital Rs Puram,hospital,11.0029,76.948869
+COIMBATORE,"Government Hospital, Sulur",hospital,11.0247544,77.1228621
+COIMBATORE,Singanallur Government Hospital,hospital,11.0011,77.033733
+COIMBATORE,Podanur Government Hospital,hospital,10.9664096,76.9870623
+COIMBATORE,"Jeevan Clinic and Hospital, Coimbatore",hospital,11.019947,76.9670891
+COIMBATORE,"Medwin Hospital, Coimbatore",hospital,10.9972946,77.0051728
+COIMBATORE,Sudha Hospital,hospital,11.0168278,76.9758131
+COIMBATORE,"I.C.C Hospital For Women & Children, Coimbatore",hospital,10.9958251,76.9634777
+COIMBATORE,"Government Hospital, Kuruchi",hospital,10.9638671,76.97122
+COIMBATORE,"Peoples Medical Centre, Coimbatore",hospital,11.0217448,77.0603524
+COIMBATORE,"VGM Hospital, Coimbatore",hospital,10.99819,77.014447
+COIMBATORE,"Roselet Medical Centre,Coimbatore",hospital,11.01005,77.008874
+COIMBATORE,"Sabari Hospital, Coimbatore",hospital,11.0254441,76.939724
+COIMBATORE,Raksha Medical Centre,hospital,10.95665,76.987019
+COIMBATORE,"Dr.Manoharan Hospital, Thadagam, Coimbatore",hospital,11.0067511,76.9452484
+COIMBATORE,"Sengottaiah Hospital, Coimbatore",hospital,11.0225148,76.9601579
+COIMBATORE,"Sangeetha Hospital, Kuniyamuthur",hospital,10.9641042,76.9562562
+COIMBATORE,"Seetharam Hospital, Coimbatore",hospital,10.99941,76.948495
+COIMBATORE,Preethi Medical Centre,hospital,11.0208486,76.9649585
+COIMBATORE,"Ishaiah Hospital, Coimbatore",hospital,11.0154329,76.9779193
+COIMBATORE,Manu Hospital- Coimbatore,hospital,10.99147,76.976787
+COIMBATORE,Saraswathi Hospital,hospital,11.0069868,77.071368
+COIMBATORE,Akshaya Maternity Center,hospital,11.02567,76.902176
+COIMBATORE,Coimbatore Corporation Maternity Centre,hospital,11.0068267,76.9668812
+COIMBATORE,"Muniyappa Hospital, Coimbatore",hospital,11.0060689,76.9527967
+COIMBATORE,"Rajalakshmi Hospital, Coimbatore",hospital,11.0044176,76.9503459
+COIMBATORE,Sivashantha Mother & Child Health Centre,hospital,11.0231222,76.9136781
+COIMBATORE,"Vela Hospital, Singanallur, Coimbatore",hospital,11.0017873,77.0300545
+COIMBATORE,"Guru Kirupa Hospital, Pn Palayam, Coimbatore",hospital,10.9995252,76.9511992
+COIMBATORE,Sathyan Eye Care Hospital & Coimbatore Glaucoma Foundation,hospital,10.9980405,77.0009615
+COIMBATORE,St. Mary's Hospital,hospital,10.9626641,76.98594
+COIMBATORE,"Thondamuthur, Government Hospital",hospital,10.9917607,76.8421063
+COIMBATORE,"Revathi Hospital, Selvapuram",hospital,10.9882483,76.9400963
+COIMBATORE,Nehru Urology Centre,hospital,11.0248525,76.9943296
+COIMBATORE,"Om Sakthi Hospital, Coimbatore",hospital,11.00282,76.988996
+COIMBATORE,Sri Bala Medical Centre Hospital,hospital,10.9967187,76.9954568
+COIMBATORE,Santhiya Hospital,hospital,10.9950877,76.9746602
+COIMBATORE,Sowmiya Hospital,hospital,11.2377363,76.9652218
+COIMBATORE,"KR Hospital, Karamadai",hospital,11.23934,76.962781
+COIMBATORE,"Government Hospital, Annur",hospital,11.2325,77.102249
+COIMBATORE,"Dj Jothipuram, Coimbatore",hospital,11.16107,76.946818
+COIMBATORE,NM Hospital,hospital,11.23271,77.10187
+COIMBATORE,Shanthi Medical Foundation,hospital,11.232428,77.1016701
+COIMBATORE,Nivarithi Hospital,hospital,11.168874,76.9536715
+COIMBATORE,R.G. Hospital,hospital,11.23188,77.100705
+COIMBATORE,"Government Hospital, Perianaickenpalaym",hospital,11.1520934,76.9465875
+COIMBATORE,"Government Hospital, Mettupalayam",hospital,11.2891427,76.9409612
+COIMBATORE,Devi Hospital,hospital,11.0253792,76.9381035
+COIMBATORE,Sumith Hospital,hospital,11.0387262,76.9228367
+COIMBATORE,Ranjith Dental Hospital,hospital,11.038389,76.926209
+COIMBATORE,Rukmani Ammal Hospital,hospital,11.025042,76.9439008
+COIMBATORE,Onecare Ortho Hospital,hospital,11.026568,76.948798
+COIMBATORE,Raaj Dental Hospital,hospital,11.0263447,76.9423976
+COIMBATORE,Aswin Hospital,hospital,11.0255271,76.9515108
+COIMBATORE,Sakthi Fertility Hospital,hospital,11.0255323,76.9463747
+COIMBATORE,Masani Hospital,hospital,11.0246928,76.9435571
+COIMBATORE,Kandaswamy Sidhq Hospital,hospital,11.026645,76.945987
+COIMBATORE,P S G Cules Hospital,hospital,11.045772,76.92291
+COIMBATORE,Paavai ENT Hospital,hospital,11.0270905,76.9416551
+COIMBATORE,Vishnupriys Hospital,hospital,11.0365363,76.9317515
+COIMBATORE,Srinivas Hospital,hospital,11.013248,77.0192485
+COIMBATORE,Chycartist Hospital,hospital,11.0160902,77.0202551
+COIMBATORE,Dr. Felix Hospital,hospital,11.0044086,77.0348661
+COIMBATORE,Nithya Hospital,hospital,11.0210366,76.9665217
+COIMBATORE,Vishnu Hospital,hospital,11.0076298,76.9576345
+COIMBATORE,Arc Fertility Hospital,hospital,11.012539,76.986166
+COIMBATORE,Rex Ortho Hospital,hospital,11.008405,76.956396
+COIMBATORE,N R Hospital,hospital,11.0112326,76.9548289
+COIMBATORE,Parvathy Hospitals,hospital,11.01472,76.952299
+COIMBATORE,Srigiri Ayurvedic Hospital,hospital,11.0081541,76.9578763
+COIMBATORE,K.B.S. Hospital,hospital,11.0157437,76.9842202
+COIMBATORE,Dr. G. Thiagarajan's Memorial Hospital,hospital,11.00534,76.989401
+COIMBATORE,Ramvel Hospital,hospital,10.9958212,76.9963939
+COIMBATORE,Sathya Medical Centre & Hospital,hospital,11.0238937,76.9582121
+COIMBATORE,Dr. K Shitra Hospital,hospital,11.0052314,76.9555303
+COIMBATORE,Ramakrishna Hospital,hospital,11.0207084,76.972413
+COIMBATORE,Seethalakshmi Maternity Hospital,hospital,11.0065379,76.9600631
+COIMBATORE,Sri Vishnu Priya Hospital,hospital,10.998711,76.951222
+COIMBATORE,Arun Urology Hospital,hospital,11.0143168,76.9449938
+COIMBATORE,Vennila Hospital,hospital,10.9901191,76.9421502
+COIMBATORE,R.S Hospital,hospital,11.0091279,76.954667
+COIMBATORE,Welcare Hospital,hospital,10.989403,76.961714
+COIMBATORE,Becker Manual Hospital,hospital,11.020659,76.968611
+COIMBATORE,Narmada Hospital,hospital,10.9967758,77.0071075
+COIMBATORE,Rao Hospital,hospital,11.0131526,76.948405
+COIMBATORE,Kamala Prakash Hospital,hospital,11.007283,76.956267
+COIMBATORE,Rafa Hospital,hospital,11.007011,76.992439
+COIMBATORE,Subu Hospital,hospital,10.9920096,76.9520898
+COIMBATORE,Rajagambiram Dental Hospital,hospital,10.9923475,76.9559691
+COIMBATORE,Iswarya Hospital,hospital,11.0002483,76.9518169
+COIMBATORE,Sri Guru Hospital,hospital,10.9920855,76.9574858
+COIMBATORE,PGS Hospital,hospital,11.0153485,76.9524368
+COIMBATORE,K Jagathnathan Hospital,hospital,10.999154,76.951549
+COIMBATORE,Mak Hospital,hospital,11.008435,76.9580134
+COIMBATORE,Gokulam ortho hospital,hospital,11.1340331,77.0350369
+COIMBATORE,Arunai Hospitals,hospital,11.0182403,76.9246
+COIMBATORE,Coimbatore Corporation Urban Health Centre,hospital,10.9757337,76.9959721
+COIMBATORE,Kurangumudi Health Wellness Centre,hospital,10.3067308,76.9005212
+COIMBATORE,First Aid Centre,hospital,10.3259346,76.9182503
+COIMBATORE,Stanmore Garden Hospital,hospital,10.3257646,76.9368182
+COIMBATORE,Iyerpadi Gerden Hospital,hospital,10.3389325,76.9656969
+COIMBATORE,Gobi Medical Centre,hospital,11.0572211,76.9709821
+COIMBATORE,Hotel Tamil Nadu,hotel,11.0136135,76.9679034
+COIMBATORE,Hotel Alankar,hotel,11.009903,76.9661668
+COIMBATORE,Heritage Inn,hotel,11.0104497,76.9668505
+COIMBATORE,Hotel City Tower,hotel,11.0104805,76.9664184
+COIMBATORE,Hotel CAG Pride,hotel,11.0163385,76.970776
+COIMBATORE,Deja Vu,hotel,11.0108435,76.9855718
+COIMBATORE,Geni Club,hotel,11.0304643,77.0276054
+COIMBATORE,Residency Hotel,hotel,11.0096228,76.9801062
+COIMBATORE,Sri Balaji Lodge,hotel,10.4796975,76.9545788
+COIMBATORE,Green Hills Hotel,hotel,10.3279249,76.9565009
+COIMBATORE,Monica Garden Bungalow,hotel,10.3252526,76.9300191
+COIMBATORE,EMS Mayura,hotel,11.3001154,76.9381071
+COIMBATORE,Soorya International Hotel,hotel,11.3039598,76.9370278
+COIMBATORE,HOTEL CHANNA,hotel,10.9940168,76.9641692
+COIMBATORE,HOTEL Kooloth lake view residency,hotel,10.9903994,76.9610109
+COIMBATORE,PRESIDENT LODGE,hotel,10.9935853,76.9605094
+COIMBATORE,Hotel Grand Palace,hotel,11.0187947,76.9625545
+COIMBATORE,Punjabi dhaba,hotel,11.0808365,76.9844266
+COIMBATORE,Hotel Karpagam,hotel,11.0104945,76.9659961
+COIMBATORE,Hotel Mayura,hotel,11.3001621,76.9387056
+COIMBATORE,suresh hotel,hotel,11.0149682,76.9483343
+COIMBATORE,Hotel Saravana Bhavan,hotel,11.2779167,76.9822134
+COIMBATORE,Black Thunder Resorts Pvt Ltd,hotel,11.3294138,76.9102472
+COIMBATORE,OYO Homes Race Course,hotel,11.0049649,76.9858523
+COIMBATORE,HMR hotel,hotel,11.0067443,76.95235
+COIMBATORE,Silver Heights Homestay,hotel,10.3321753,76.960759
+COIMBATORE,Sri Guru Inn,hotel,11.0165257,76.9632258
+COIMBATORE,Amma canteen,hotel,11.0045936,76.956686
+COIMBATORE,Hotel Sindhuri lodge,hotel,10.9896554,76.9614005
+COIMBATORE,H.R. Lodge,hotel,10.9908795,76.9606419
+COIMBATORE,Hotel Diner's Park,hotel,10.9860124,77.00123
+COIMBATORE,M.X. Lodge,hotel,11.0013636,77.0295003
+COIMBATORE,Shoba hotel,hotel,11.2427838,76.9587236
+COIMBATORE,Subbian mess,hotel,11.2951775,76.9306892
+COIMBATORE,Hotel Hotel,hotel,11.1115558,76.7635641
+COIMBATORE,Mahi's Gateway,hotel,11.0436147,77.0465634
+COIMBATORE,Hotel Aryaas,hotel,11.0685076,77.002354
+COIMBATORE,Wintel Wild,hotel,10.3305748,76.9602141
+COIMBATORE,Bel Visto,hotel,10.3305564,76.9601294
+COIMBATORE,Sri Nandha,hotel,10.3305219,76.9600367
+COIMBATORE,Shajis Kitchen,hotel,10.3204856,76.920165
+COIMBATORE,Aasife Biriyani,hotel,11.0245448,77.0065883
+COIMBATORE,Loam's View,viewpoint,10.4509959,76.9841554
+COIMBATORE,Rajaji Statue,attraction,11.0168812,76.9687083
+COIMBATORE,Chinnakallar Falls,attraction,10.3028859,77.0294074
+COIMBATORE,Monkey Falls,attraction,10.4595162,76.9682778
+COIMBATORE,Nallamudi Poonjolai,attraction,10.2530396,76.9350701
+COIMBATORE,தமிழ்நாடு வேளாண்மைப் பல்கலைக்கழகம்,attraction,11.0125746,76.9354529
+PUDUCHERRY,Indian Oil,fuel,12.0143543,79.8583103
+PUDUCHERRY,Bharat Petroleum,fuel,12.026085,79.8617063
+PUDUCHERRY,Amudha Surabi Petrol Bunk,fuel,11.9499033,79.8142629
+PUDUCHERRY,HP Fuel Station,fuel,10.9321316,79.836038
+PUDUCHERRY,HP,fuel,11.9519441,79.8303769
+PUDUCHERRY,BHARAT,fuel,11.9181024,79.6619704
+PUDUCHERRY,Petrol bank,fuel,11.9526221,79.819052
+PUDUCHERRY,HP Petrol Pump,fuel,11.9250769,79.8316359
+PUDUCHERRY,Indian Oil,fuel,16.7335804,82.20288
+PUDUCHERRY,Hindustan Petroleum,fuel,11.9219192,79.6323416
+PUDUCHERRY,Bharat Petroleum,fuel,11.9176002,79.812522
+PUDUCHERRY,Bharat Petroleum,fuel,11.9304361,79.8240328
+PUDUCHERRY,Indian Oil,fuel,11.9529574,79.8293268
+PUDUCHERRY,Bharat Petroleum,fuel,11.9467658,79.8112371
+PUDUCHERRY,Essar,fuel,11.8813559,79.67536
+PUDUCHERRY,HP petrol pump,fuel,11.8645509,79.7528278
+PUDUCHERRY,Bharath Petroleum - Krishna Agency,fuel,11.8139337,79.780414
+PUDUCHERRY,Indian Oil,fuel,11.7301939,75.5499038
+PUDUCHERRY,Bharat Petrol Pump,fuel,11.694567,75.5365125
+PUDUCHERRY,Indian Oil,fuel,11.9380947,79.7733535
+PUDUCHERRY,Indian Oil,fuel,11.9202285,79.7634462
+PUDUCHERRY,Indian Oil,fuel,12.043475,79.8690907
+PUDUCHERRY,HP,fuel,12.039374,79.8679692
+PUDUCHERRY,Indian Oil,fuel,12.0389785,79.86785
+PUDUCHERRY,Bharat Petroleum,fuel,12.0374368,79.8671747
+PUDUCHERRY,HP,fuel,10.9260254,79.8248767
+PUDUCHERRY,Bharat Petroleum,fuel,11.8237375,79.7821903
+PUDUCHERRY,Indian Oil,fuel,11.8899397,79.8013175
+PUDUCHERRY,HP,fuel,11.7922463,79.7691037
+PUDUCHERRY,Indian Oil,fuel,11.7963902,79.7714678
+PUDUCHERRY,Indian Oil,fuel,11.797907,79.7739294
+PUDUCHERRY,Indian Oil,fuel,11.885559,79.8006705
+PUDUCHERRY,Indian Oil,fuel,11.9434904,79.8308438
+PUDUCHERRY,HP,fuel,11.8586562,79.7914204
+PUDUCHERRY,Bharat Petroleum,fuel,11.8613319,79.7922268
+PUDUCHERRY,Indian Oil,fuel,11.7947777,79.7710902
+PUDUCHERRY,IOCL Petrol Pump,fuel,10.9557206,79.8251025
+PUDUCHERRY,Indian Oil,fuel,11.9415983,79.8033587
+PUDUCHERRY,BPCL PETROL PUMP,fuel,10.9178103,79.8438441
+PUDUCHERRY,Indian Oil - Fuel Station,fuel,11.7913172,79.7415206
+PUDUCHERRY,Indira Gandhi Medical College and Research Institute,hospital,11.9404008,79.7962236
+PUDUCHERRY,Sri Manakula Vinayagar Hospital,hospital,11.9212608,79.6282086
+PUDUCHERRY,iyyapan hospitel,hospital,11.9188031,79.6623969
+PUDUCHERRY,East Coast Hospitals,hospital,11.9299638,79.7794327
+PUDUCHERRY,Hôpital Saint-Joseph,hospital,11.9300984,79.8339487
+PUDUCHERRY,"PHC, Mettupalayam",hospital,11.9397719,79.7879897
+PUDUCHERRY,"Government Primary Health Centre, Lawspet",hospital,11.9545461,79.8187021
+PUDUCHERRY,S.S. Remedy Hospital,hospital,11.9408229,79.8127892
+PUDUCHERRY,Mahatma Gandhi Medical College and Hospital,hospital,11.8125325,79.7790424
+PUDUCHERRY,Sai kiruba hospital,hospital,11.9286062,79.8197065
+PUDUCHERRY,33,hospital,11.9563099,79.8346537
+PUDUCHERRY,ECHS Polyclinic,hospital,11.9542137,79.8213969
+PUDUCHERRY,PIMS city centre,hospital,11.9464488,79.811299
+PUDUCHERRY,Govt Sub Centre,hospital,11.9526178,79.8389574
+PUDUCHERRY,East Coast Hospital,hospital,11.9298461,79.8266057
+PUDUCHERRY,"Sugam Priya Hospital, Karaikal",hospital,10.9277108,79.8377296
+PUDUCHERRY,St. Rock`S Cluny Hospital,hospital,10.9162822,79.8258622
+PUDUCHERRY,"St. Josephs Hospital, Puducherry",hospital,11.9304352,79.8343085
+PUDUCHERRY,JIPMER Hospital,hospital,11.9541325,79.7978945
+PUDUCHERRY,Certh India Hospital,hospital,11.9224495,79.8308337
+PUDUCHERRY,"Sri Venkateshwaraa Medical College Hospital and Research Centre, Puducherry",hospital,11.9036033,79.7005588
+PUDUCHERRY,Sri Arunachalam Hospital,hospital,11.9304575,79.8248966
+PUDUCHERRY,Aarupadai Veedu Medical College and Hospital,hospital,11.831514,79.7823693
+PUDUCHERRY,Puducherry City Hospitals Pvt Ltd.,hospital,11.9341827,79.8189354
+PUDUCHERRY,Sri Lakshminarayana Institute of Medical Sciences,hospital,11.9382438,79.7356399
+PUDUCHERRY,"Government Hospital, Palloor",hospital,11.7322159,75.5418889
+PUDUCHERRY,Government General Hospital,hospital,16.7293925,82.2148295
+PUDUCHERRY,"GH, Vizhidiyur",hospital,10.9084301,79.7653396
+PUDUCHERRY,Government Hospital Villianur,hospital,11.910803,79.7564867
+PUDUCHERRY,Community Health Centre,hospital,11.8649014,79.7484102
+PUDUCHERRY,Padmavathi Hospital,hospital,11.9548989,79.8321191
+PUDUCHERRY,Senthil Women & Child Hospital,hospital,11.9282269,79.8281897
+PUDUCHERRY,CERTH India,hospital,11.9192596,79.8299896
+PUDUCHERRY,Sacred Heart Physiotherapy Centre,hospital,10.93157,79.838195
+PUDUCHERRY,Renuka Nursing Home,hospital,16.7333073,82.215274
+PUDUCHERRY,Rama Nature Cure Hospital,hospital,16.7310642,82.2149476
+PUDUCHERRY,Government General Hospital,hospital,16.727861,82.229313
+PUDUCHERRY,District Ayurveda Hospital,hospital,16.733472,82.212287
+PUDUCHERRY,Veer Raju Nursing Home,hospital,16.7313923,82.2156519
+PUDUCHERRY,V.K.N. Hospital,hospital,11.921894,79.815586
+PUDUCHERRY,Dakshin Women Care Hospital and Fertility Center,hospital,11.9434009,79.8091914
+PUDUCHERRY,AUM Hospital,hospital,11.9531761,79.8366768
+PUDUCHERRY,ESI Hospital,hospital,11.952675,79.792046
+PUDUCHERRY,Government Ayurveda Hospital,hospital,11.7200019,75.5351897
+PUDUCHERRY,VMMC Hospital,hospital,10.9557678,79.8479203
+PUDUCHERRY,Vasan Eye Care Hospital,hospital,10.9285213,79.8317554
+PUDUCHERRY,KMC Hospital,hospital,10.9196311,79.833629
+PUDUCHERRY,Relax Body Spa,hospital,11.9267548,79.8266981
+PUDUCHERRY,"Government Hospital, Nallathur",hospital,11.0007336,79.7516445
+PUDUCHERRY,L.K. Nursing Home,hospital,11.9588295,79.8227628
+PUDUCHERRY,கால்நடை சிறு மருந்தகம் புதிய கட்டிடம்,hospital,12.0322103,79.8663012
+PUDUCHERRY,Mahi Hospital,hospital,11.6992969,75.5362404
+PUDUCHERRY,Government Hospital for Chest Diseases,hospital,11.9554525,79.7954836
+PUDUCHERRY,Sea Side Guesthouse,hotel,11.9344196,79.8359461
+PUDUCHERRY,Ajantha Beach View,hotel,11.9272507,79.8346143
+PUDUCHERRY,Résidence Anandham,hotel,11.9357136,79.8253082
+PUDUCHERRY,Hotel Atithi,hotel,11.9421869,79.8308845
+PUDUCHERRY,St James Court Beach Resort,hotel,12.0147641,79.8602472
+PUDUCHERRY,Hotel de Pondichery,hotel,11.92592,79.83372
+PUDUCHERRY,Club Mahindra Resort,hotel,11.8052589,79.79711
+PUDUCHERRY,Le Pondy Beach Resort,hotel,11.8701966,79.8171668
+PUDUCHERRY,Chambre d'hôte internationale,hotel,11.9348953,79.8329635
+PUDUCHERRY,Nouvelle maison d'hôtes,hotel,11.9254961,79.8328031
+PUDUCHERRY,Park Guest House,hotel,11.9253361,79.8339061
+PUDUCHERRY,Executive Inn,hotel,11.939753,79.8343806
+PUDUCHERRY,Hôtel Du Parc,hotel,11.9351625,79.8338285
+PUDUCHERRY,Restaurant Paris Residency,hotel,11.9300229,79.8280835
+PUDUCHERRY,Caramandal,hotel,11.933854,79.8301171
+PUDUCHERRY,Hotel de l'Orient,hotel,11.9278171,79.8335223
+PUDUCHERRY,Hotel le Château,hotel,11.9297466,79.8340568
+PUDUCHERRY,Hotel Dindugal Briyani,hotel,11.9317281,79.8184383
+PUDUCHERRY,Ponnusamy Residency,hotel,11.9533568,79.8196554
+PUDUCHERRY,Pension de famille Dumas,hotel,11.9260547,79.8337854
+PUDUCHERRY,Pension de Famille de l'Escale,hotel,11.926202,79.8339715
+PUDUCHERRY,Hotel La Closerie,hotel,11.9264346,79.8338823
+PUDUCHERRY,Lotus Bay View,hotel,11.9272728,79.8344929
+PUDUCHERRY,Tamil Heritage Home,hotel,11.9385321,79.8327035
+PUDUCHERRY,Tamil Heritage Home,hotel,11.9388149,79.8313049
+PUDUCHERRY,La Maison Tamoule,hotel,11.9377284,79.8310391
+PUDUCHERRY,La Résidence Mother Sea View,hotel,11.9273057,79.8343436
+PUDUCHERRY,Tanto Far Beach Guesthouse,hotel,12.0131376,79.8592781
+PUDUCHERRY,La Villa Créole,hotel,11.9259692,79.8317903
+PUDUCHERRY,Pension de famille Raj Classic,hotel,11.9380085,79.8323868
+PUDUCHERRY,Pension de famille de la Bourdonnais,hotel,11.9262122,79.8319321
+PUDUCHERRY,Bougainvilla guest house,hotel,12.0212874,79.7985149
+PUDUCHERRY,HCL Guest house,hotel,12.0232235,79.7991318
+PUDUCHERRY,Hotel D' Europe,hotel,11.9357984,79.807882
+PUDUCHERRY,Pleasant Inn,hotel,11.9347748,79.8305338
+PUDUCHERRY,Jayaram,hotel,11.9374628,79.822596
+PUDUCHERRY,Coral,hotel,11.9387269,79.817946
+PUDUCHERRY,Bouvana Residency,hotel,11.9318952,79.8248157
+PUDUCHERRY,Eden Park,hotel,11.9409131,79.8078764
+PUDUCHERRY,ஸ்ரீ கிருஷ்ணா டிபன் சென்டர்,hotel,11.9285204,79.8258484
+PUDUCHERRY,French Avenue,hotel,11.7020299,75.5332134
+PUDUCHERRY,Hotel arun,hotel,11.8649055,79.747179
+PUDUCHERRY,Hotel Radhakrishna,hotel,11.6990487,75.5365737
+PUDUCHERRY,Hotel Surguru,hotel,11.9425179,79.8269212
+PUDUCHERRY,Hotel Aditya,hotel,11.9374383,79.8212712
+PUDUCHERRY,Hotel Bon Sejour,hotel,11.9336582,79.8118946
+PUDUCHERRY,Maison Radha,hotel,11.9281833,79.82723
+PUDUCHERRY,Hotel Tamizh Park,hotel,11.9406723,79.7921018
+PUDUCHERRY,Treebo Trend South Avenue,hotel,11.9254125,79.8282375
+PUDUCHERRY,Hôtel Sarvainn,hotel,16.7334421,82.2154403
+PUDUCHERRY,Ginger,hotel,11.9525069,79.8294218
+PUDUCHERRY,a,hotel,11.9277415,79.8273902
+PUDUCHERRY,La Maison Radha,hotel,11.9282074,79.8272771
+PUDUCHERRY,Le Suresh Residency Guest House,hotel,11.9278305,79.8276738
+PUDUCHERRY,Fabexpress Santhi Inn,hotel,11.9357629,79.8315844
+PUDUCHERRY,Hotel Corbelli,hotel,11.9351248,79.8309317
+PUDUCHERRY,Raddison Resort,hotel,11.8820594,79.8199428
+PUDUCHERRY,RKN Beach Resort,hotel,11.868479,79.8169775
+PUDUCHERRY,Palais De Mahe,hotel,11.9283673,79.8338512
+PUDUCHERRY,KK Residency,hotel,11.885321,79.799827
+PUDUCHERRY,D.R.Hotel (Parliament Hotel),hotel,11.9336057,79.8326533
+PUDUCHERRY,International guest house,hotel,11.9349803,79.8328943
+PUDUCHERRY,French guest house,hotel,11.9351617,79.8325248
+PUDUCHERRY,Papiers faits à la main de Sri Aurobindo,attraction,11.9407266,79.8335411
+PUDUCHERRY,Notre-Dame de Pondicherry,attraction,11.9330549,79.8302697
+PUDUCHERRY,Chunnambar Boat boarding,attraction,11.8854305,79.79983
+PUDUCHERRY,தூய இருதய ஆண்டவர் பசிலிக்கா,attraction,11.9262753,79.827012
+PUDUCHERRY,பாரதி பூங்கா,attraction,11.9330447,79.8341973
+PUDUCHERRY,புதுச்சேரி கலங்கரை விளக்கம்,attraction,11.9165866,79.8308243
+PUDUCHERRY,Eden Beach,attraction,11.8842785,79.8253984
+PUDUCHERRY,புதுச்சேரி பழைய கலங்கரை விளக்கம்,attraction,11.9329633,79.8355967
+PUDUCHERRY,Pondy Marina,attraction,11.9132245,79.8292915
+PUDUCHERRY,Sri Aurobindo Ashram,attraction,11.9367071,79.8342398
+PUDUCHERRY,Benches in Sand,attraction,11.9365894,79.8368838
+HYDERABAD,Bharat Petrol Pump,fuel,17.4272158,78.5310796
+HYDERABAD,Tarnaka Agencies Petrol Pump,fuel,17.4267938,78.5314488
+HYDERABAD,Indian Oil,fuel,17.4380252,78.3996269
+HYDERABAD,Indian Oil Madhapur,fuel,17.4407798,78.3913972
+HYDERABAD,M.B.R Fuel Point,fuel,17.4850231,78.4968743
+HYDERABAD,Indian Oil,fuel,17.4263594,78.451396
+HYDERABAD,Indian Oil,fuel,17.4435568,78.4877615
+HYDERABAD,Bharat Petroleum,fuel,17.4430364,78.4905722
+HYDERABAD,Bharat Petroleum,fuel,17.4409489,78.5052645
+HYDERABAD,Bharat Petroleum,fuel,17.4397896,78.5089043
+HYDERABAD,Indian Oil,fuel,17.4273769,78.4395446
+HYDERABAD,HP,fuel,17.4367489,78.5179571
+HYDERABAD,Indian Oil,fuel,17.4449593,78.4671058
+HYDERABAD,Indian Oil,fuel,17.4445955,78.4616641
+HYDERABAD,Indian Oil,fuel,17.4550905,78.4855131
+HYDERABAD,Indian Oil,fuel,17.4684922,78.481253
+HYDERABAD,HP fuel station,fuel,17.4634786,78.4736466
+HYDERABAD,Indian Oil,fuel,17.4990452,78.5134502
+HYDERABAD,HP,fuel,17.4663599,78.5051965
+HYDERABAD,IBP Petrol,fuel,17.4500685,78.5321858
+HYDERABAD,HP petrol Station,fuel,17.4477504,78.5359551
+HYDERABAD,Essar Petrol Pump,fuel,17.4218292,78.338227
+HYDERABAD,IBP Petrol Bunk,fuel,17.3671731,78.5575425
+HYDERABAD,Bharath Petroleum,fuel,17.3518725,78.5470173
+HYDERABAD,Shell Petrol Bunk,fuel,17.4232572,78.4589653
+HYDERABAD,Indira Nagar HP Petrol Bunk,fuel,17.4428658,78.3570147
+HYDERABAD,Petrol Pump,fuel,17.4875682,78.4101365
+HYDERABAD,Kothapet Bus Stop,fuel,17.3671585,78.5402431
+HYDERABAD,HP Gas Station,fuel,17.3456896,78.5528627
+HYDERABAD,Indian Oil,fuel,17.3390329,78.5677786
+HYDERABAD,Bharath Petroleum,fuel,17.3363651,78.5793148
+HYDERABAD,Bharath Petroleum,fuel,17.3416368,78.5590587
+HYDERABAD,Hindusthan Petroleum,fuel,17.3366954,78.5767452
+HYDERABAD,Indian Oil,fuel,17.3358402,78.5789933
+HYDERABAD,Bharat Petroleum petrol pump,fuel,17.3328265,78.5885178
+HYDERABAD,Indian Oil,fuel,17.3402666,78.5637208
+HYDERABAD,Indian Oil,fuel,17.3424813,78.5562347
+HYDERABAD,Bharat Petroleum,fuel,17.417971,78.388481
+HYDERABAD,Indian Oil Fuel Station,fuel,17.4211261,78.4559994
+HYDERABAD,Bharat Petroleum,fuel,17.4206051,78.4563468
+HYDERABAD,Indian Oil Petrol bunk,fuel,17.494103,78.3527499
+HYDERABAD,Bharath petroleum,fuel,17.4937077,78.3490857
+HYDERABAD,Bharat Petrol Bunk,fuel,17.3422003,78.5475142
+HYDERABAD,Reliance Petrol Pump,fuel,17.359825,78.558055
+HYDERABAD,Shell,fuel,17.4100926,78.5509412
+HYDERABAD,Public Gardens Petrol Pump,fuel,17.3905862,78.4702853
+HYDERABAD,Paradise Cross Roads,fuel,17.4432701,78.4905593
+HYDERABAD,IOC Petrol Pump,fuel,17.3431878,78.5453799
+HYDERABAD,Prakash Petrol Pump,fuel,17.3382449,78.5495247
+HYDERABAD,Hindustan Petroleum Ltd,fuel,17.3362742,78.5518822
+HYDERABAD,Indian Oil Petrol Pump,fuel,17.3297767,78.5528837
+HYDERABAD,Petrol Pump,fuel,17.3978354,78.5336432
+HYDERABAD,Petrol Pump,fuel,17.3912944,78.5125305
+HYDERABAD,Indian Oil,fuel,17.4234953,78.4120322
+HYDERABAD,Deepthisree Petrol Pump,fuel,17.4947358,78.3416782
+HYDERABAD,HP Petrol Pump,fuel,17.5018459,78.5389541
+HYDERABAD,Hindustan Pertoleum,fuel,17.4125624,78.4796126
+HYDERABAD,HP Gas Station (Petrol pump),fuel,17.3812426,78.4391939
+HYDERABAD,Indian Oil,fuel,17.4362648,78.4381583
+HYDERABAD,Bharat Petroleum,fuel,17.3940858,78.5594081
+HYDERABAD,Bharat Petroleum,fuel,17.4273857,78.5018327
+HYDERABAD,unigas,fuel,17.4367067,78.516726
+HYDERABAD,Casey's General Store,fuel,17.4873033,78.4137696
+HYDERABAD,Bharat Petroleum,fuel,17.3932909,78.4321143
+HYDERABAD,Bharat Petroleum,fuel,17.4991118,78.4135636
+HYDERABAD,Bharat Petroleum,fuel,17.4828696,78.5519325
+HYDERABAD,Brothers Hero Honda Clinic,fuel,17.3874755,78.5162991
+HYDERABAD,Indian Oil,fuel,17.3987617,78.4709627
+HYDERABAD,HP,fuel,17.3909412,78.467487
+HYDERABAD,Bharat Petroleum,fuel,17.3573187,78.4739624
+HYDERABAD,Indian Oil,fuel,17.3575695,78.4736129
+HYDERABAD,Bharat Petroleum,fuel,17.3630312,78.4800241
+HYDERABAD,ESSAR Gas Station,fuel,17.3725366,78.5441289
+HYDERABAD,petrol bunk,fuel,17.3994754,78.4920506
+HYDERABAD,HP,fuel,17.432773,78.4929081
+HYDERABAD,Bharat Petroleum,fuel,17.4092721,78.4979738
+HYDERABAD,HP,fuel,17.4733428,78.3273217
+HYDERABAD,Bharat Petroleum,fuel,17.4150869,78.3941554
+HYDERABAD,IndianOil,fuel,17.41703,78.4102784
+HYDERABAD,Indian Oil,fuel,17.4296684,78.3744683
+HYDERABAD,Bharat Petroleum,fuel,17.4854831,78.3198393
+HYDERABAD,Petrol Pump,fuel,17.4306214,78.4556721
+HYDERABAD,Reliance Trends,fuel,17.3460874,78.5237206
+HYDERABAD,HP,fuel,17.3400784,78.5239222
+HYDERABAD,Bharat Petroleum,fuel,17.4374118,78.3883021
+HYDERABAD,Bharat Petroleum,fuel,17.4415788,78.5005956
+HYDERABAD,Indian oil fuel station,fuel,17.5022583,78.4702527
+HYDERABAD,HP fuel station,fuel,17.5059786,78.4668562
+HYDERABAD,Bharat petroleum fuel station,fuel,17.5067796,78.4663372
+HYDERABAD,GMR Filling Station,fuel,17.5435309,78.2615564
+HYDERABAD,Indian Oil Petrol Bunk,fuel,17.4012663,78.5691628
+HYDERABAD,Bharat Petroleum,fuel,17.3488992,78.513968
+HYDERABAD,Hindustan Petroleum,fuel,17.3491571,78.5133861
+HYDERABAD,Indian Oil,fuel,17.3276613,78.4787851
+HYDERABAD,Bharat Petroleum,fuel,17.3749107,78.4980571
+HYDERABAD,Bharat Petroleum,fuel,17.3778645,78.4923056
+HYDERABAD,Auto Gas,fuel,17.4040258,78.4618329
+HYDERABAD,HP,fuel,17.4577608,78.3841734
+HYDERABAD,Bharat Petroleum,fuel,17.4712572,78.426838
+HYDERABAD,Hp petrol bunk,fuel,17.3887874,78.4743368
+HYDERABAD,Gas station,fuel,17.4267464,78.5306621
+HYDERABAD,Hindustan Pertoleum,fuel,17.4122959,78.4792256
+HYDERABAD,hp petrol bunk,fuel,17.3721697,78.5430879
+HYDERABAD,Indian Oil,fuel,17.3655781,78.5011937
+HYDERABAD,HP,fuel,17.3633735,78.5027654
+HYDERABAD,Indian Oil,fuel,17.3808647,78.4857081
+HYDERABAD,Indian Oil,fuel,17.3873482,78.4772332
+HYDERABAD,Bharat Petroleum,fuel,17.4822669,78.5365102
+HYDERABAD,HP Petrol Pump,fuel,17.4690152,78.4785715
+HYDERABAD,Reliance Diesel Service,fuel,17.5120256,78.445204
+HYDERABAD,Star Quality Fuel Station,fuel,17.515236,78.479671
+HYDERABAD,Bharat Petroleum,fuel,17.4713908,78.6014623
+HYDERABAD,HP Petrol bunk,fuel,17.4650201,78.3647896
+HYDERABAD,Club HP,fuel,17.3686841,78.4286557
+HYDERABAD,Bharat Petroleum,fuel,17.4946076,78.3205126
+HYDERABAD,HP Petrol Bunk,fuel,17.510307,78.448286
+HYDERABAD,HP,fuel,17.435901,78.4273843
+HYDERABAD,Bharat Petroleum,fuel,17.4088996,78.4001889
+HYDERABAD,Indian Oil,fuel,17.528416,78.2680245
+HYDERABAD,Indian Oil,fuel,17.3662592,78.4980173
+HYDERABAD,Sri Balaji laxmi Narasimha Ragavendhra Filling Station,fuel,17.4880206,78.4505936
+HYDERABAD,Sri Venkata Sai Filling Station,fuel,17.4883134,78.4500951
+HYDERABAD,HP,fuel,17.4684853,78.5469277
+HYDERABAD,Bharat Petroleum,fuel,17.3774375,78.5150117
+HYDERABAD,Indian Oil,fuel,17.4018865,78.5715883
+HYDERABAD,Bharat Petroleum,fuel,17.3558817,78.5308325
+HYDERABAD,Bharat Petroleum,fuel,17.449229,78.4496696
+HYDERABAD,Indian petroleum,fuel,17.3724834,78.5071176
+HYDERABAD,HP,fuel,17.5131778,78.3606178
+HYDERABAD,Indian Oil,fuel,17.382448,78.5183431
+HYDERABAD,Bharat Petroleum,fuel,17.3819253,78.5179366
+HYDERABAD,Petrol Bunk,fuel,17.3607635,78.4281042
+HYDERABAD,Indian Oil,fuel,17.4411724,78.565075
+HYDERABAD,HP,fuel,17.4389182,78.5591336
+HYDERABAD,Essar petrol pump,fuel,17.4382741,78.5589997
+HYDERABAD,Indian Oil,fuel,17.4468123,78.5681845
+HYDERABAD,Bharat petrol bunk,fuel,17.3657983,78.4281697
+HYDERABAD,HP,fuel,17.4771897,78.5646842
+HYDERABAD,Indian Oil Petrol Pump,fuel,17.390678,78.4502828
+HYDERABAD,HP,fuel,17.3887447,78.4552104
+HYDERABAD,Bharat Petroleum,fuel,17.5355831,78.3942172
+HYDERABAD,Indian Oil,fuel,17.4982754,78.388678
+HYDERABAD,Bharat Petroleu',fuel,17.3733859,78.4110758
+HYDERABAD,Petrol Bunk,fuel,17.462328,78.5371163
+HYDERABAD,indiana petrol pump,fuel,17.3590055,78.4427517
+HYDERABAD,Mohini Petrol Pump,fuel,17.3593287,78.4443429
+HYDERABAD,HPCL - Swapna Filling Station,fuel,17.3128597,78.4407182
+HYDERABAD,HP,fuel,17.3354729,78.4100881
+HYDERABAD,Indian Oil,fuel,17.3190393,78.4366343
+HYDERABAD,Bharat Petroleum,fuel,17.3153408,78.4432203
+HYDERABAD,Indian Oil,fuel,17.3346572,78.4261405
+HYDERABAD,Indian Oil,fuel,17.3609137,78.4558016
+HYDERABAD,Bharat Petroleum,fuel,17.3726422,78.45
+HYDERABAD,Indian Oil,fuel,17.4715755,78.5950005
+HYDERABAD,Indian Oil,fuel,17.467945,78.4446343
+HYDERABAD,Bharat Petroleum,fuel,17.4323776,78.369946
+HYDERABAD,HP,fuel,17.434867,78.500774
+HYDERABAD,Bharat Petroleum,fuel,17.4617134,78.4690961
+HYDERABAD,Bharat Petroleum,fuel,17.4626973,78.462813
+HYDERABAD,Indian Oil,fuel,17.466143,78.4469855
+HYDERABAD,Bharat Petroleum,fuel,17.4665698,78.447275
+HYDERABAD,HP,fuel,17.458549,78.38424
+HYDERABAD,Go Gas,fuel,17.4680674,78.4444689
+HYDERABAD,Bharat Petroleum,fuel,17.4770601,78.4208759
+HYDERABAD,HP,fuel,17.4790052,78.4182078
+HYDERABAD,Nayara,fuel,17.4873249,78.3569022
+HYDERABAD,Bharat Petroleum,fuel,17.3733667,78.4785666
+HYDERABAD,Bharat Petroleum,fuel,17.3847326,78.4743828
+HYDERABAD,Extra Gas,fuel,17.3943492,78.4700623
+HYDERABAD,HP,fuel,17.473159,78.4248423
+HYDERABAD,HP,fuel,17.4736254,78.4738002
+HYDERABAD,HP,fuel,17.4367392,78.5176824
+HYDERABAD,Total,fuel,17.4424014,78.5325161
+HYDERABAD,Indian Oil,fuel,17.4411728,78.5042445
+HYDERABAD,Indian Oil,fuel,17.4087339,78.4388344
+HYDERABAD,Bharat Petroleum,fuel,17.519763,78.417629
+HYDERABAD,HP,fuel,17.4196553,78.5236464
+HYDERABAD,Essar,fuel,17.3725422,78.5438246
+HYDERABAD,Indian oil Bunk,fuel,17.4765556,78.5657658
+HYDERABAD,ioc petrolum,fuel,17.3431549,78.5454337
+HYDERABAD,Bharat Petroleum,fuel,17.4964949,78.3963715
+HYDERABAD,Indian Oil,fuel,17.4550094,78.4347957
+HYDERABAD,Bharat Petroleum,fuel,17.4544867,78.4350198
+HYDERABAD,HP,fuel,17.3780543,78.420432
+HYDERABAD,Nayara,fuel,17.3886398,78.4230294
+HYDERABAD,Indian Oil,fuel,17.3918997,78.4235621
+HYDERABAD,HP,fuel,17.4043298,78.4063492
+HYDERABAD,HP,fuel,17.5234466,78.4247523
+HYDERABAD,Bharat Petroleum,fuel,17.4373889,78.4427385
+HYDERABAD,Indian Oil,fuel,17.4270025,78.4414208
+HYDERABAD,Indian Oil,fuel,17.4299165,78.4555839
+HYDERABAD,Indian Oil,fuel,17.4378733,78.4942165
+HYDERABAD,HP,fuel,17.4298744,78.4226914
+HYDERABAD,Petrol and Gas station,fuel,17.3818492,78.4722827
+HYDERABAD,Vikram Hospitals,hospital,17.4406857,78.3916647
+HYDERABAD,Image Hospitals,hospital,17.4444337,78.3860746
+HYDERABAD,Ameerpet Government Hospital,hospital,17.4417142,78.4478775
+HYDERABAD,Sri Vijaya Hospitals,hospital,17.4422795,78.4480341
+HYDERABAD,Sree Priya Multi Speciality Hospital,hospital,17.4415414,78.4461255
+HYDERABAD,Rahmat Ali hospital,hospital,17.3672265,78.4859878
+HYDERABAD,Satya Hospital,hospital,17.407574,78.512174
+HYDERABAD,Innova Children's Heart Hospital,hospital,17.4293162,78.533452
+HYDERABAD,Apollo Clinic,hospital,17.4290954,78.5333362
+HYDERABAD,Vasavi ENT Hospital,hospital,17.40681,78.4645023
+HYDERABAD,Mahavir Hospital and Research Centre,hospital,17.4036641,78.4570626
+HYDERABAD,Old Apollo Hospital,hospital,17.3985586,78.4814113
+HYDERABAD,Krishna Children's Hospital,hospital,17.4021334,78.4625295
+HYDERABAD,Arogyasree Health care trust,hospital,17.4301742,78.3937323
+HYDERABAD,Surojini Devi Eye Hospital,hospital,17.3990359,78.4447966
+HYDERABAD,Star Hospital,hospital,17.4156911,78.4454609
+HYDERABAD,Rainbow Hospitals,hospital,17.4148145,78.4475692
+HYDERABAD,Fernandez Hospital,hospital,17.3921498,78.4793651
+HYDERABAD,Oxygen Hospital,hospital,17.4556983,78.4984034
+HYDERABAD,Remedy Hospitals,hospital,17.4636217,78.4567398
+HYDERABAD,LEAF HOSPITAL,hospital,17.4629614,78.3673949
+HYDERABAD,Ambicare Hospital,hospital,17.4535178,78.364084
+HYDERABAD,L.K. Diagnostic,hospital,17.4512881,78.5354859
+HYDERABAD,L.K. Hospitals,hospital,17.4513853,78.5352525
+HYDERABAD,Dental Hospital,hospital,17.451435,78.5311968
+HYDERABAD,Lakshmi Childrens Hospital,hospital,17.3688309,78.5301893
+HYDERABAD,Apollo Emergency Hospital,hospital,17.3993955,78.4792005
+HYDERABAD,Omni Hospital,hospital,17.3684777,78.5387483
+HYDERABAD,haritha hospitals,hospital,17.4696017,78.3660584
+HYDERABAD,Care Clinic,hospital,17.4206569,78.4481619
+HYDERABAD,Anupama Hospital,hospital,17.4856038,78.3903262
+HYDERABAD,Anu Test Tube Centre,hospital,17.4217792,78.4602059
+HYDERABAD,Hope Children's Hospital,hospital,17.4064283,78.4738814
+HYDERABAD,Swapna Health Care,hospital,17.4291646,78.4567382
+HYDERABAD,OZONE HOSPITALS,hospital,17.3594287,78.5450683
+HYDERABAD,Asian Institute of Gastroenterology,hospital,17.4211366,78.4566557
+HYDERABAD,Matpathy Clinic,hospital,17.4068493,78.3922011
+HYDERABAD,Lucid Clinic,hospital,17.4979039,78.3911608
+HYDERABAD,Yashoda Super Speciality Hospital,hospital,17.3746556,78.4998723
+HYDERABAD,Tarnaka Flyover;TGSRTC Hospital,hospital,17.4255371,78.5306786
+HYDERABAD,Nova ENT Hospital,hospital,17.4184365,78.457264
+HYDERABAD,Mamata Nursing Home,hospital,17.4888555,78.3959947
+HYDERABAD,Kirloskar Hospital,hospital,17.4036074,78.4753627
+HYDERABAD,ramesh eye care,hospital,17.4089088,78.4894972
+HYDERABAD,Tapadia Medical Centre's Eashwar Lakshmi Hospital,hospital,17.4118751,78.4888572
+HYDERABAD,K Prakash Rao (eye specialist),hospital,17.4073049,78.4816422
+HYDERABAD,Radha Rani Nursing Home,hospital,17.40696,78.4821099
+HYDERABAD,Dental Care,hospital,17.4103854,78.4852768
+HYDERABAD,Sri Bhargavi Hospital,hospital,17.4511937,78.4208721
+HYDERABAD,Jaiswal Multi Speciality Hospitals,hospital,17.4510973,78.4224934
+HYDERABAD,Government Ayurvedic Hospital,hospital,17.4480669,78.4337319
+HYDERABAD,Raghava Multi Speciality Hospital,hospital,17.4388238,78.4420946
+HYDERABAD,VCARE Hospitals,hospital,17.4385124,78.4425646
+HYDERABAD,Deepthi Diagnostics,hospital,17.4390074,78.4406383
+HYDERABAD,Healthcare Hospitals,hospital,17.345698,78.549763
+HYDERABAD,Cygnus Institute of Gastroenterology Centre,hospital,17.4976626,78.3901045
+HYDERABAD,hospital,hospital,17.3526774,78.5542584
+HYDERABAD,Carewell Diabetes and General Hospital,hospital,17.5113399,78.4469461
+HYDERABAD,Sigma Hospitals,hospital,17.5220823,78.4431753
+HYDERABAD,Meena Hospital,hospital,17.44165,78.5218514
+HYDERABAD,Life Spring Hospitals,hospital,17.4289946,78.5120703
+HYDERABAD,Malla Reddy Narayana Multispeciality Hospital,hospital,17.5439866,78.4333819
+HYDERABAD,Saraswathi Nursing Home,hospital,17.4160221,78.3916108
+HYDERABAD,Janapareddy Hospital,hospital,17.4631717,78.4904751
+HYDERABAD,Apoolo Clinic,hospital,17.4599321,78.3660837
+HYDERABAD,Childrens Hospital,hospital,17.516119,78.4388993
+HYDERABAD,ayurvedic clinic,hospital,17.398766,78.448595
+HYDERABAD,The crescent hospital,hospital,17.3985187,78.4458137
+HYDERABAD,RELIEF HOSPITAL,hospital,17.3983822,78.4161649
+HYDERABAD,Jagadamba Hospitals,hospital,17.4115391,78.4904614
+HYDERABAD,med plus,hospital,17.4045834,78.4893402
+HYDERABAD,Century hospital,hospital,17.4072675,78.4442572
+HYDERABAD,Blood Bank,hospital,17.4249205,78.4139937
+HYDERABAD,Med plus,hospital,17.4044822,78.4893121
+HYDERABAD,CENTURY SUPER SPECIALITY HOSPITAL,hospital,17.4072495,78.4447338
+HYDERABAD,"Vasan Healthcare Private Limited, Himayath Nagar",hospital,17.4009037,78.4875706
+HYDERABAD,Asian Institute of Nephrology and Urology,hospital,17.4166539,78.4534763
+HYDERABAD,Challa Hospital,hospital,17.4396192,78.450794
+HYDERABAD,Shresta Orange Hospitals,hospital,17.3451071,78.5537805
+HYDERABAD,AMMA EYE CARE HOSPITAL,hospital,17.3412305,78.5581563
+HYDERABAD,OXYGEN AND Medicity Hospital,hospital,17.3416722,78.5576405
+HYDERABAD,Pace Hospital,hospital,17.4444782,78.469498
+HYDERABAD,Rainbow children Hospital,hospital,17.3418162,78.5588085
+HYDERABAD,Vasan Eye Care Hospital,hospital,17.4955259,78.332226
+HYDERABAD,KIMS HOSPITAL,hospital,17.466147,78.3677443
+HYDERABAD,Happy Children's Hospital,hospital,17.4928587,78.327984
+HYDERABAD,Vanaja Hospital,hospital,17.4921861,78.3275773
+HYDERABAD,"Area Hospital, Vanasthalipuram",hospital,17.3289104,78.563899
+HYDERABAD,Pushpagiri Eye Institute,hospital,17.4439091,78.5043433
+HYDERABAD,Archana Hospital,hospital,17.4959755,78.337417
+HYDERABAD,Health Care Clinic,hospital,17.3448605,78.4599543
+HYDERABAD,Guru Nanak Care Hospital,hospital,17.4153976,78.4979892
+HYDERABAD,Tanvir Hospital,hospital,17.4297764,78.4340161
+HYDERABAD,Himagiri Hospital,hospital,17.4422328,78.3587144
+HYDERABAD,PANACEA MERIDIAN HOSPITAL,hospital,17.5087613,78.300147
+HYDERABAD,S.V. Pooja Hospital,hospital,17.498762,78.384027
+HYDERABAD,Sri Devi Maternity & Nursing Home,hospital,17.4227862,78.5165968
+HYDERABAD,Sri Srinivasa Hospital,hospital,17.3506727,78.5078608
+HYDERABAD,Sitara medical center,hospital,17.3497123,78.4707124
+HYDERABAD,Anukrushna Hospitals,hospital,17.446158,78.5383502
+HYDERABAD,Raja Hospital,hospital,17.4943337,78.3448275
+HYDERABAD,NIRD heatlth centre,hospital,17.3140538,78.4045957
+HYDERABAD,Malla Reddy Health City (MRHC),hospital,17.5454734,78.4326051
+HYDERABAD,Neelima - Sanath Nagar,hospital,17.4564341,78.4388653
+HYDERABAD,Poojitha Hospital,hospital,17.456281,78.4369269
+HYDERABAD,"Apollo Dental Clinic, Hitech City",hospital,17.4503845,78.3825608
+HYDERABAD,RAJUS DENTAL,hospital,17.4571109,78.5465732
+HYDERABAD,VINN Hospital,hospital,17.4379741,78.4563758
+HYDERABAD,Mahatma Sriramachandra Centenary Memorial Hospital,hospital,17.3948133,78.4525058
+HYDERABAD,Nice Hospital,hospital,17.3972385,78.4562128
+HYDERABAD,Red Cross Nature Cure Centre,hospital,17.4257981,78.4207625
+HYDERABAD,Goodwill Kidney and Surgical Centre,hospital,17.4057018,78.4508868
+HYDERABAD,Rohan Hospital,hospital,17.3946344,78.4519084
+HYDERABAD,Primary Veternary Hospital,hospital,17.3979621,78.4543414
+HYDERABAD,Sriven Hospital,hospital,17.4858906,78.3875314
+HYDERABAD,Vijaya Diagnostic Centre,hospital,17.494517,78.39876
+HYDERABAD,Medical Store,hospital,17.4949239,78.3969527
+HYDERABAD,Ankura Hospital for Women & Children,hospital,17.4729982,78.3872074
+HYDERABAD,Ankura Multispeciality clinic,hospital,17.4731914,78.3872633
+HYDERABAD,Aurobindo Nethralaya,hospital,17.491694,78.3958249
+HYDERABAD,Sri Krishna,hospital,17.4103873,78.4844653
+HYDERABAD,Krishnaveni Hospitals,hospital,17.328667,78.599351
+HYDERABAD,sri sai womens hospital,hospital,17.3709786,78.5425682
+HYDERABAD,Siva Eye Hospital,hospital,17.3703144,78.5276104
+HYDERABAD,Centre For Sight Superspecialty Eye Hospital,hospital,17.4248083,78.4225617
+HYDERABAD,Vasan Eye Care Hospital,hospital,17.3455423,78.5226305
+HYDERABAD,Pragna Hospital,hospital,17.4238105,78.449832
+HYDERABAD,Swarup Eye Centre,hospital,17.4232839,78.4505488
+HYDERABAD,Udai Omni Hospital,hospital,17.3969132,78.4722613
+HYDERABAD,Udbhava Children's Hospital,hospital,17.4911264,78.4010815
+HYDERABAD,"Rainbow Hospital for Women and Children, Secunderabad",hospital,17.4553191,78.5008281
+HYDERABAD,Apoorva Hospital,hospital,17.3913878,78.4369875
+HYDERABAD,Ankith Multi Speciality Hospital,hospital,17.3503945,78.5105337
+HYDERABAD,Lions Club of Hyderabad Sadhuram Eye Hospital,hospital,17.4077141,78.4781628
+HYDERABAD,Al-Noor Hospital,hospital,17.4033637,78.4172847
+HYDERABAD,"Lotus Children's Hospital, Lakdikapul",hospital,17.4041136,78.4611649
+HYDERABAD,Aruna Hospital,hospital,17.4760702,78.5640143
+HYDERABAD,Preeti Urology and Kidney Hospital,hospital,17.4912927,78.3969096
+HYDERABAD,Vasan Healthcare Private Limited,hospital,17.4444929,78.4662196
+HYDERABAD,ADR Hospital,hospital,17.458369,78.5378788
+HYDERABAD,Bristlecone Hospital,hospital,17.3920174,78.4961598
+HYDERABAD,Abhaya Multi Speciality Hospital,hospital,17.5007182,78.3825836
+HYDERABAD,"Care Hospital, Nampally",hospital,17.3854315,78.4747114
+HYDERABAD,Aarogya Hospital,hospital,17.3851141,78.4754102
+HYDERABAD,Arvind Eye Hospital,hospital,17.3918945,78.4378043
+HYDERABAD,Disha Children's Hospital,hospital,17.3525175,78.5551161
+HYDERABAD,Anvitha Hospital,hospital,17.4311263,78.4266108
+HYDERABAD,New Life Line Multi Specialty Hospital,hospital,17.4878467,78.5647274
+HYDERABAD,Homeocare International,hospital,17.4432007,78.4796964
+HYDERABAD,Konark Hospitals,hospital,17.5123618,78.4754596
+HYDERABAD,Sree Netralaya Eye Hospital and Laser Centre,hospital,17.3676358,78.5404511
+HYDERABAD,Leads Medical Centre,hospital,17.4252477,78.4537243
+HYDERABAD,Pranaam Hospitals,hospital,17.4966133,78.3398798
+HYDERABAD,Vignesh Nursing Home,hospital,17.4925267,78.39749
+HYDERABAD,Sridhar Multi Speciality Hospital,hospital,17.344919,78.5087555
+HYDERABAD,Geetha Multi Speciality Hospital,hospital,17.447062,78.5082445
+HYDERABAD,Amar Maternity Nursing Home,hospital,17.3987452,78.5069785
+HYDERABAD,Sai Preethi Life Line Hospital,hospital,17.3942929,78.4419228
+HYDERABAD,Prasad Hospital,hospital,17.4920608,78.4015616
+HYDERABAD,Praanadah Hospital,hospital,17.4372474,78.3942747
+HYDERABAD,Dristi Netralaya Hospital,hospital,17.4691656,78.4773293
+HYDERABAD,Geeta Clinic And Maternity Home,hospital,17.391947,78.4969578
+HYDERABAD,Vasavi Hospital,hospital,17.4064439,78.464393
+HYDERABAD,Sankhya Hospital,hospital,17.4876454,78.4000755
+HYDERABAD,Kiran Hospital,hospital,17.3452764,78.5282483
+HYDERABAD,Smt. Bhagwan Devi Hospital,hospital,17.3644409,78.4731994
+HYDERABAD,Nest Children's Hospital,hospital,17.4593374,78.5004204
+HYDERABAD,V.M.R Hospital,hospital,17.4918932,78.3972265
+HYDERABAD,Mamata Fertility Hospital,hospital,17.4396489,78.4991692
+HYDERABAD,Kishorechand Chordia Eye Centre,hospital,17.3729437,78.4673019
+HYDERABAD,Praja Sai Hospital,hospital,17.4073263,78.492862
+HYDERABAD,Ram Hospital,hospital,17.5160805,78.4476453
+HYDERABAD,Soorya Orthopaedic Hospital,hospital,17.4738034,78.5692647
+HYDERABAD,Smiline Dental Hospital,hospital,17.429802,78.4487075
+HYDERABAD,Sushma Nursing Home,hospital,17.494399,78.4020397
+HYDERABAD,Ratna Maternity and Nursing Home,hospital,17.3534936,78.5068591
+HYDERABAD,Kishan Rao Hospital,hospital,17.3942993,78.5079373
+HYDERABAD,Thatha Hospital,hospital,17.4769771,78.5627764
+HYDERABAD,Sudarshan Hospital,hospital,17.4142,78.5021076
+HYDERABAD,Kid Care Children's Hospital,hospital,17.4841162,78.4488925
+HYDERABAD,Vijaya Nursing Home,hospital,17.4956729,78.3250616
+HYDERABAD,Dangoria Maternity and Nursing Home,hospital,17.4077787,78.4975089
+HYDERABAD,Sainath Hospital,hospital,17.4390949,78.4406662
+HYDERABAD,C.C. Shroff Memorial Hospital,hospital,17.3908042,78.4965339
+HYDERABAD,Hyderabad Kidney And Laparoscopic Centre,hospital,17.3717457,78.5005935
+HYDERABAD,Sadanand Nursing Home,hospital,17.4406252,78.4242403
+HYDERABAD,Tanvi Eye Center,hospital,17.4500557,78.5115261
+HYDERABAD,Kosaraju Hospitals Private Ltd.,hospital,17.3755381,78.4190255
+HYDERABAD,Dr. Laxman's Children Hospital,hospital,17.5160364,78.4472698
+HYDERABAD,Maternal Health and Research Trust,hospital,17.4240881,78.4317076
+HYDERABAD,Meda Hospital Pvt. Ltd,hospital,17.4837017,78.5373142
+HYDERABAD,Nisha Hospital,hospital,17.3944196,78.4626817
+HYDERABAD,"Aditya Hospital, Uppal",hospital,17.4017218,78.5756557
+HYDERABAD,Medicare Hospital,hospital,17.3403283,78.5495599
+HYDERABAD,Dr.Agarwal's Eye Hospital,hospital,17.4298167,78.4506487
+HYDERABAD,Goshamahal Hospital,hospital,17.3818518,78.4727287
+HYDERABAD,Niyar Nursing Home,hospital,17.3313005,78.4879965
+HYDERABAD,Shalini Hospitals,hospital,17.3925332,78.4957641
+HYDERABAD,Vivek Hospital,hospital,17.3598544,78.504485
+HYDERABAD,Vijay Marie Hospital,hospital,17.4073909,78.4559655
+HYDERABAD,Madhava Nursing Home,hospital,17.4409578,78.5020941
+HYDERABAD,Deepa Hospital,hospital,17.3763924,78.4676445
+HYDERABAD,Vinciti Hospital,hospital,17.4767414,78.4798486
+HYDERABAD,Sandhya Nursing Home,hospital,17.4932209,78.327158
+HYDERABAD,Premier Hospital,hospital,17.3915772,78.4268716
+HYDERABAD,Vasundhara Nursing Home,hospital,17.4226373,78.4951296
+HYDERABAD,L.V. Prasad Eye Institute,hospital,17.4391256,78.3958378
+HYDERABAD,Shamshad Children's Hospital,hospital,17.3979236,78.4175335
+HYDERABAD,Curewell Hospital,hospital,17.4059206,78.4606527
+HYDERABAD,Saluja Hospital,hospital,17.4350761,78.5028817
+HYDERABAD,Vijaya Krishna Nursing Home,hospital,17.4525697,78.4444669
+HYDERABAD,Vasu Hospital,hospital,17.376004,78.4190007
+HYDERABAD,Jaferia Hospital,hospital,17.370373,78.487161
+HYDERABAD,Cure Hospitals,hospital,17.4595888,78.4780213
+HYDERABAD,Sravani Hospital,hospital,17.3503388,78.4916899
+HYDERABAD,Rishab Eye Centre,hospital,17.4810002,78.5334009
+HYDERABAD,Raghavendra Orthopaedic and Diagnostic Centre,hospital,17.4570199,78.4784049
+HYDERABAD,Micro Care Ent Hospital and Research Institute,hospital,17.4940242,78.3985448
+HYDERABAD,Anand Vitreo Retina Institute Pvt Ltd,hospital,17.4255423,78.5340929
+HYDERABAD,Vanaja Hospitals,hospital,17.4775643,78.5529341
+HYDERABAD,Geetanjali Test Tube Baby Centre,hospital,17.4812995,78.5563056
+HYDERABAD,Princess Durru Shehvar Children's And General Hospital,hospital,17.367312,78.4826575
+HYDERABAD,"SRI LAXMI MULTI SPECIALITY HOSPITAL, LAPROSCOPIC AND RESEARCH CENTRE",hospital,17.3760514,78.5569091
+HYDERABAD,Thumbay Hospital New Life,hospital,17.376873,78.490338
+HYDERABAD,Srivision Super Speciality Eye Hospital,hospital,17.4343967,78.4173229
+HYDERABAD,Anantha Lakshmi Kidney and Multi Specialty Hospital,hospital,17.3974654,78.5366464
+HYDERABAD,Susheela Hospital,hospital,17.4352974,78.4365799
+HYDERABAD,Jaya Bhushan Hospitals Pvt. Ltd,hospital,17.394618,78.4386519
+HYDERABAD,Asian E.N.T. Care Centre,hospital,17.4216154,78.4556772
+HYDERABAD,Ayodhya Nursing Home,hospital,17.3913379,78.4348029
+HYDERABAD,Sree Raghavendra Hospital,hospital,17.3178961,78.4453909
+HYDERABAD,NephroPlus Dialysis Centre,hospital,17.4502892,78.5099416
+HYDERABAD,Aware gleneagles Global Hospital;Aware Gleneagles Global Hospital's Blood Bank,hospital,17.345958,78.5399126
+HYDERABAD,Sai Siva Children’s Hospital,hospital,17.4941988,78.3240189
+HYDERABAD,Sri Tirumala Maternity and Nursing Home,hospital,17.4232391,78.5163756
+HYDERABAD,Marvel Maternity and Nursing Home,hospital,17.3292521,78.4787576
+HYDERABAD,Akira Eye Surgical Annexe,hospital,17.4034853,78.4924355
+HYDERABAD,Kadimi Nursing Home,hospital,17.4939308,78.3267166
+HYDERABAD,Jayasai Hospital For Women,hospital,17.4850586,78.4471166
+HYDERABAD,Ragi Hospital,hospital,17.4957541,78.3410724
+HYDERABAD,SRESHTA SRI KAMALA HOSPITALS,hospital,17.3682886,78.5220303
+HYDERABAD,Bhavan's Sarada Devi Hospital,hospital,17.4825166,78.5510686
+HYDERABAD,Sree Maruthi Nursing Home,hospital,17.4549634,78.5087728
+HYDERABAD,Sulochana Eye Centre,hospital,17.4019445,78.4776311
+HYDERABAD,Parvathi Multispeciality Hospital,hospital,17.4565491,78.5014417
+HYDERABAD,Muslim Maternity and Children's Hospital,hospital,17.3751644,78.4898807
+HYDERABAD,Shashi Hospital,hospital,17.3695416,78.5213698
+HYDERABAD,Sundari Maternity and General Hospital,hospital,17.5028854,78.5132843
+HYDERABAD,Bhavya Hospital,hospital,17.3771559,78.557005
+HYDERABAD,Fehmi Care Hospital,hospital,17.437122,78.4272954
+HYDERABAD,Sriya Hospital,hospital,17.4751261,78.5394748
+HYDERABAD,Mirra Multi Specialty Hospital,hospital,17.5044701,78.3564663
+HYDERABAD,Pulse Hospitals,hospital,17.421726,78.5041333
+HYDERABAD,S.V. Hospital,hospital,17.4467703,78.4504817
+HYDERABAD,Krishna Multi Speciality Hospital,hospital,17.3973433,78.5603427
+HYDERABAD,Sri Sai Kidney Centre,hospital,17.4354676,78.4514661
+HYDERABAD,Sunrise Superspeciality Children's Hospital,hospital,17.3930464,78.4890948
+HYDERABAD,Raghavendra Hospital,hospital,17.4747705,78.5678552
+HYDERABAD,GSN Hospital,hospital,17.4418419,78.4452461
+HYDERABAD,Challa Eye Care Centre,hospital,17.4281872,78.432519
+HYDERABAD,Royal Hospital For Dentistry and Facial Surgery,hospital,17.4121475,78.4569848
+HYDERABAD,Matrix Hospital,hospital,17.4002374,78.5405061
+HYDERABAD,M S Reddy Lions Eye Hospital,hospital,17.4571396,78.5631077
+HYDERABAD,Santhigiri Auyrveda and Siddha Hospital,hospital,17.4229122,78.452197
+HYDERABAD,Shree Jaya Krishna Hospital,hospital,17.397102,78.5319123
+HYDERABAD,Allwin Hospital,hospital,17.4091262,78.459209
+HYDERABAD,Sai Institute Of Arthroscopy And Sports Injury,hospital,17.4186198,78.4524223
+HYDERABAD,Sree Balaji Hospital,hospital,17.5185239,78.4822022
+HYDERABAD,Sathya Hospital,hospital,17.401288,78.5648384
+HYDERABAD,Leela Hospital,hospital,17.4554163,78.4238099
+HYDERABAD,Anusha Hospital,hospital,17.3879656,78.4397234
+HYDERABAD,RR Orthopedic Hospital,hospital,17.4954209,78.3226825
+HYDERABAD,Partha Dental Clinic,hospital,17.4059203,78.4793389
+HYDERABAD,Susrutha Hospital,hospital,17.373217,78.5032857
+HYDERABAD,Venkatesh Borgaonker Nursing Home,hospital,17.390579,78.4911588
+HYDERABAD,Harsha Hospitals,hospital,17.520925,78.484531
+HYDERABAD,Sri Sai Srinivasa Speciality Hospitals Pvt. Ltd,hospital,17.3979338,78.492064
+HYDERABAD,Sai Krishna Neuro Hospital,hospital,17.389948,78.4959277
+HYDERABAD,Sagar Lal Memorial Hospital and Matadin Goel Research Center,hospital,17.4156652,78.4988473
+HYDERABAD,Matrika Hospital,hospital,17.4274156,78.4607056
+HYDERABAD,Dr. Mohan's Diabetes Specialities Centre,hospital,17.4111077,78.482968
+HYDERABAD,Seha Hospital,hospital,17.404143,78.4622929
+HYDERABAD,Krishna Maternity And Nursing Home,hospital,17.4281006,78.5170508
+HYDERABAD,Sri Srinivasa Nursing Home,hospital,17.3646867,78.5441633
+HYDERABAD,Global Eye Hospital,hospital,17.4912076,78.4011693
+HYDERABAD,People's Hospital,hospital,17.531698,78.2650553
+HYDERABAD,Kerala Sanjeevani Ayurvedic Centre,hospital,17.417401,78.4577723
+HYDERABAD,Rajagiri Hospitals,hospital,17.410791,78.5434699
+HYDERABAD,Aravind Nursing Home,hospital,17.4364471,78.4961886
+HYDERABAD,G.N.R. Multispeciality Hospital,hospital,17.49926,78.5129283
+HYDERABAD,Ramana Maternity Nursing Home,hospital,17.3937202,78.5095339
+HYDERABAD,Surakshaka Multi Speciality Hospital,hospital,17.4932836,78.4017017
+HYDERABAD,Aries Maternity Hospital,hospital,17.3926842,78.4455183
+HYDERABAD,Ragani Children's Hospital,hospital,17.5141839,78.4470136
+HYDERABAD,Sathya Kidney Centre and Super Speciality Hospital,hospital,17.4047804,78.4821191
+HYDERABAD,Chandana Hospitals,hospital,17.4593055,78.4785913
+HYDERABAD,Pratibha Maternity Home,hospital,17.4711657,78.5050875
+HYDERABAD,Vivekananda Hospital,hospital,17.4312043,78.4553486
+HYDERABAD,Ravi Hospital,hospital,17.4936289,78.4000562
+HYDERABAD,Nightingale Hospital,hospital,17.3512003,78.5094488
+HYDERABAD,Eva Care The Every Woman's Clinic,hospital,17.4078913,78.4426578
+HYDERABAD,Habsiguda Poly Clinic and Nursing Home,hospital,17.4173069,78.5412021
+HYDERABAD,Unity Centre For Orthopaedics And Trauma,hospital,17.3962241,78.4889916
+HYDERABAD,Merit Care Hospital,hospital,17.493721,78.3983745
+HYDERABAD,SECUNDERABAD NURSING HOME,hospital,17.4458107,78.504999
+HYDERABAD,Ramantapur Hospital,hospital,17.3974917,78.5339528
+HYDERABAD,Sai Sanjeevini Hospital,hospital,17.3608928,78.5432218
+HYDERABAD,Harsha Hospitals,hospital,17.4953109,78.415377
+HYDERABAD,Sowmya Hospital,hospital,17.4097327,78.5084336
+HYDERABAD,Meds Hospital,hospital,17.3655046,78.4620085
+HYDERABAD,Sarada Nursing Home,hospital,17.494784,78.3404388
+HYDERABAD,"Vasan Healthcare Private Limited, Secunderabad",hospital,17.4404883,78.4978656
+HYDERABAD,Vatsalya Institute Of Pediatrics Hospital,hospital,17.4405861,78.4503195
+HYDERABAD,Sandeep Nursing Home,hospital,17.484821,78.3881754
+HYDERABAD,Maa Ent Institute,hospital,17.4260772,78.457375
+HYDERABAD,Sanjeevani Children and General Hospital,hospital,17.496063,78.4541865
+HYDERABAD,Hyderabad Eye Centre,hospital,17.3995642,78.4843923
+HYDERABAD,Santoshi Maternity Hospital,hospital,17.4466174,78.5360288
+HYDERABAD,Vishnu Hospital,hospital,17.4954561,78.3208955
+HYDERABAD,Sai Sharan Hospital,hospital,17.3393852,78.5572883
+HYDERABAD,Clear Vision Eye Hospital,hospital,17.39863,78.4849159
+HYDERABAD,Sai Nursing Home,hospital,17.3601882,78.5047261
+HYDERABAD,Neo Vision Eye Care and Laser Center,hospital,17.4171112,78.5440868
+HYDERABAD,Stopiles,hospital,17.4301078,78.4061931
+HYDERABAD,Centre For Sight - New Vision Laser Centers,hospital,17.40665,78.4759131
+HYDERABAD,Life Spring Maternity Hospital,hospital,17.459459,78.5576695
+HYDERABAD,Sri Rama Krishna Hospital,hospital,17.3863466,78.4942286
+HYDERABAD,Universal Superspeciality Dental Hospital,hospital,17.4825173,78.5374282
+HYDERABAD,Majestic Hospital,hospital,17.379978,78.421019
+HYDERABAD,Aruna Hospital,hospital,17.3446309,78.5546158
+HYDERABAD,Eswar Eye Hospital,hospital,17.4917263,78.3970112
+HYDERABAD,Dr.Shantabai Nursing Home,hospital,17.3913737,78.4757126
+HYDERABAD,Apollo Spectra Hospitals,hospital,17.4376427,78.4524706
+HYDERABAD,Manjary Multispeciality Hospital,hospital,17.4348983,78.5429897
+HYDERABAD,Taraporewalla Nursing Home,hospital,17.4465502,78.5133715
+HYDERABAD,Shenoy Nursing Home,hospital,17.4478066,78.508915
+HYDERABAD,Kiran Swetha Children Clinic,hospital,17.4947378,78.3225725
+HYDERABAD,Dr. Zaibunnisa's Imtiyaz Hospital,hospital,17.3737769,78.4958902
+HYDERABAD,Alpha Super Speciality Hospital,hospital,17.3586618,78.4780816
+HYDERABAD,Mythri Multi Speciality Hospital,hospital,17.4982349,78.3144481
+HYDERABAD,Vasan Healthcare,hospital,17.3692242,78.5189867
+HYDERABAD,BSR ENT & Eye Nursing Home,hospital,17.4416577,78.4908745
+HYDERABAD,Siris Hospital,hospital,17.4097647,78.5441056
+HYDERABAD,Srinivasa Hospital,hospital,17.4938323,78.5398865
+HYDERABAD,ASTER PRIME HOSPITALS (SRI SAINATHA MULTISPECIALITY HOSPITAL PVT.LTD.),hospital,17.4373484,78.4462573
+HYDERABAD,Janani Hospital,hospital,17.3937938,78.5302003
+HYDERABAD,Amrutha Diabetic Centre,hospital,17.4292454,78.4531264
+HYDERABAD,Azam Hospital,hospital,17.3648685,78.4626402
+HYDERABAD,Oarchid Hospital,hospital,17.3688485,78.5343739
+HYDERABAD,Sri Venkateswara Multi Speciality Hospital,hospital,17.3446513,78.5167946
+HYDERABAD,Sri Santosh Hospital,hospital,17.43595,78.5425988
+HYDERABAD,Dr. Sreedhar's Kidney & Infertility Hospital,hospital,17.3910723,78.4267851
+HYDERABAD,G.M.C. Multi Speciality Dental Hospital,hospital,17.3621837,78.4826327
+HYDERABAD,Nikhil Hospital,hospital,17.3682105,78.5203962
+HYDERABAD,Dr. Saxena Integrative Medicine Private Ltd.,hospital,17.4052775,78.476577
+HYDERABAD,Prerana Hospital,hospital,17.48489,78.4096652
+HYDERABAD,Shubhodaya Nursing Home,hospital,17.4381142,78.5049681
+HYDERABAD,Shekars Ent Hospital,hospital,17.4620995,78.5006364
+HYDERABAD,Shreyas Hospital,hospital,17.4779001,78.5626893
+HYDERABAD,Mythri Hospital,hospital,17.3836628,78.4292413
+HYDERABAD,Rukkus Dental Hospital & Implant Center,hospital,17.394801,78.4990337
+HYDERABAD,Hyderabad Eye Hospital,hospital,17.3942462,78.4989743
+HYDERABAD,Sai Anurag Hosptial,hospital,17.4946701,78.3268218
+HYDERABAD,Bloom Hospitals - Unit of Janapareddy Hospitals.,hospital,17.4606974,78.4904668
+HYDERABAD,Hedge Maternity and Nursing Home,hospital,17.3709739,78.5147515
+HYDERABAD,St.Theresa's Hospitals,hospital,17.4517957,78.4377721
+HYDERABAD,Sunita Children's Hospital,hospital,17.3502416,78.5121296
+HYDERABAD,Dr. Akbar Eye Hospital,hospital,17.3935545,78.4435281
+HYDERABAD,Medi Vision Eye Care Centre,hospital,17.3988488,78.4479502
+HYDERABAD,Sunrich Hospital,hospital,17.4490629,78.4317237
+HYDERABAD,Induss Hospitals,hospital,17.3674854,78.5358477
+HYDERABAD,J.J. Hospital,hospital,17.4448064,78.4324291
+HYDERABAD,Lifespring Hospital,hospital,17.4660729,78.4832785
+HYDERABAD,Ankura Children's Hospital,hospital,17.4820222,78.5525036
+HYDERABAD,SKM Multi Speciality Hospital,hospital,17.4713934,78.4849957
+HYDERABAD,Ambaa Hospitals,hospital,17.3763547,78.4203096
+HYDERABAD,S.V.K. Hospital Private Ltd.,hospital,17.5119189,78.4465805
+HYDERABAD,Mansoor Maternity And Childrens Hospital,hospital,17.393511,78.4568185
+HYDERABAD,Xenia Multi Speciality Hospital,hospital,17.4727007,78.5713568
+HYDERABAD,Avis Ankura Hospital for Women & Children,hospital,17.4116829,78.4324009
+HYDERABAD,Ammaji Childrens Hospital,hospital,17.4002489,78.5665409
+HYDERABAD,Tulasi Hospitals,hospital,17.4748831,78.5709384
+HYDERABAD,Ashok Kumar Hospital,hospital,17.3920533,78.4961564
+HYDERABAD,Banjara 12 Hospital,hospital,17.4075461,78.4496157
+HYDERABAD,Anitha Nursing Home,hospital,17.4943913,78.3232471
+HYDERABAD,Health Care Hospitals,hospital,17.3453352,78.5492826
+HYDERABAD,Sri Krishna Swathi Children's Hospital,hospital,17.3946084,78.5304907
+HYDERABAD,Manas Eye Hospital,hospital,17.4514829,78.424402
+HYDERABAD,Pavithra Hospital,hospital,17.467585,78.4819903
+HYDERABAD,Rainbow Childrens Hospital,hospital,17.4997851,78.3841534
+HYDERABAD,Shantilal Navodaya Multi Speciality Hospital,hospital,17.398678,78.5136256
+HYDERABAD,Tilaknagar ABHAYA-BBC HOSPITAL,hospital,17.3941335,78.5099286
+HYDERABAD,Sumana Hospital,hospital,17.4920026,78.4093373
+HYDERABAD,Bhavika Nursing Home,hospital,17.4407735,78.4492117
+HYDERABAD,Icon Hospital,hospital,17.4853224,78.3899282
+HYDERABAD,Sree Srinivasa ENT Care and Research Institute,hospital,17.4251451,78.4510457
+HYDERABAD,Kavya Nursing Home,hospital,17.494147,78.4053522
+HYDERABAD,Peoples Health Centre,hospital,17.4575848,78.4523016
+HYDERABAD,Shiva Sai Hospital,hospital,17.4004716,78.5666549
+HYDERABAD,Shilpa Nursing Home,hospital,17.4947648,78.3600202
+HYDERABAD,Dr. P. Siva Reddy Eye Hospital,hospital,17.3978302,78.4842937
+HYDERABAD,KIMS BIBI Hospital,hospital,17.3702559,78.5005438
+HYDERABAD,K.G.H The Family Hospital,hospital,17.3727325,78.509658
+HYDERABAD,Dr.Rao's ENT Super Speciality Hospital,hospital,17.4305671,78.4503329
+HYDERABAD,Pushpa Maternity and Nursing Home,hospital,17.3710405,78.5008154
+HYDERABAD,Ramya Nursing Home,hospital,17.4759595,78.4837787
+HYDERABAD,Care Well Hospital,hospital,17.3452876,78.4567943
+HYDERABAD,Raksha Multi Speciality Hospital,hospital,17.3398185,78.5575941
+HYDERABAD,Neo Retina Eye Care,hospital,17.3967872,78.4728447
+HYDERABAD,Spark Eye Care Hospital,hospital,17.3724317,78.5077295
+HYDERABAD,Ganga Orthopaedic and Maternity Hospital,hospital,17.3719492,78.5358806
+HYDERABAD,Varsha Hospital,hospital,17.4948223,78.4016588
+HYDERABAD,Vasan Eye Care,hospital,17.4776666,78.5630205
+HYDERABAD,Sagar Hospital,hospital,17.4858827,78.3890216
+HYDERABAD,Midas ENT Head and Neck Super Speciality Hospital,hospital,17.3689017,78.5168678
+HYDERABAD,Lions Patny Hospital,hospital,17.45035,78.5034782
+HYDERABAD,Seethal Nursing Home,hospital,17.4299337,78.4271117
+HYDERABAD,Dharani Hospital,hospital,17.3837869,78.4367287
+HYDERABAD,Desai Nursing Home,hospital,17.3982154,78.4843661
+HYDERABAD,Prashamsha Hospital,hospital,17.503255,78.5095681
+HYDERABAD,NEO BBC Childrens Hospital,hospital,17.4030515,78.5100617
+HYDERABAD,Soumya Multispeciality Hospital,hospital,17.4591328,78.5007772
+HYDERABAD,Sri Gayatri Hospital,hospital,17.3900901,78.5314
+HYDERABAD,FMS Dental Hospital,hospital,17.3855301,78.4801885
+HYDERABAD,Suraksha Childrens Hospital,hospital,17.4261322,78.5324286
+HYDERABAD,Prema Eye Care Centre,hospital,17.4811326,78.5541297
+HYDERABAD,J S Mahaveer Hospital,hospital,17.4486471,78.4849052
+HYDERABAD,The Dental Venue Multi Speciality Hospital (unit of Dr.Gowd’s),hospital,17.4422795,78.5043204
+HYDERABAD,Padmaavathi Netralaya,hospital,17.4915108,78.4013115
+HYDERABAD,Mahesh Hospital And Research Foundation,hospital,17.4004729,78.4914961
+HYDERABAD,Deccan College Of Medical Sciences,hospital,17.3403386,78.5072333
+HYDERABAD,CDR Hospitals,hospital,17.3991381,78.483151
+HYDERABAD,Moosi Maternity and Genernal Hospital,hospital,17.3758914,78.4971612
+HYDERABAD,Hyma Children's Hospital,hospital,17.3676268,78.5508728
+HYDERABAD,Shree Hospital,hospital,17.4306004,78.4388973
+HYDERABAD,Sai Jyothi Eye Institute,hospital,17.4466871,78.5027158
+HYDERABAD,Little Star Children's Hospital (A Unit Of Thirumala Child Health Services Pvt. Ltd),hospital,17.4270433,78.450353
+HYDERABAD,Basant Sahney Hospitals,hospital,17.4505451,78.5032415
+HYDERABAD,RR Hospital,hospital,17.5218368,78.4831209
+HYDERABAD,Krishna Sai Multispeciality Hospital,hospital,17.345084,78.5288881
+HYDERABAD,Lazarus Hospitals,hospital,17.3995348,78.4630345
+HYDERABAD,Sowmya Hospital,hospital,17.447338,78.437815
+HYDERABAD,Pulse Hospital,hospital,17.4900948,78.4481992
+HYDERABAD,Gupta Hospital,hospital,17.3662637,78.473135
+HYDERABAD,Maruthi Hospital,hospital,17.3497321,78.5151807
+HYDERABAD,Himabindu Multi Speciality Hospital,hospital,17.3512682,78.5092865
+HYDERABAD,Tadla Eye Hospital,hospital,17.4961817,78.4055095
+HYDERABAD,Kailash Diagnostic and Rehabilitation Center,hospital,17.3854802,78.4752171
+HYDERABAD,Lions Dundoo Eye Institute,hospital,17.4504779,78.5062201
+HYDERABAD,Image Hospital,hospital,17.4314653,78.4466797
+HYDERABAD,Lakshmi Maternity and Nursing Home,hospital,17.4002182,78.4840006
+HYDERABAD,Disneys Medi-Kid Hospitals Pvt. Ltd,hospital,17.4322118,78.4490681
+HYDERABAD,Akshaya Care Multi Speciality Hospital,hospital,17.4174357,78.5118319
+HYDERABAD,Dr.Padmaja Fertility Centre and Nursing Home,hospital,17.4150148,78.5452451
+HYDERABAD,Focus Hospital,hospital,17.3473217,78.5195889
+HYDERABAD,Geeta Multispeciality Hospital,hospital,17.370156,78.5320289
+HYDERABAD,Lakshmi Health Care Hospital,hospital,17.3320827,78.5732733
+HYDERABAD,Sri Sai Balaji Hospital,hospital,17.3617057,78.5620603
+HYDERABAD,Bapuji Maternity and Nursing Home,hospital,17.4227606,78.5469769
+HYDERABAD,Abinav Orthopedic Hospital,hospital,17.3700395,78.5278568
+HYDERABAD,Ganga Nursing Home,hospital,17.3623277,78.4685625
+HYDERABAD,Sujatha Nursing Home,hospital,17.4951345,78.4024782
+HYDERABAD,Suguna Sree Nursing Home,hospital,17.5420919,78.4335503
+HYDERABAD,SVS Hospitals,hospital,17.3891213,78.4928083
+HYDERABAD,Vishwa Medi Care and Diagnostic Centre,hospital,17.3836896,78.4897466
+HYDERABAD,Dhanunjaya Nursing Home,hospital,17.4524815,78.5685701
+HYDERABAD,Live Life Hospital,hospital,17.4383029,78.3994983
+HYDERABAD,Healing Touch Hospital,hospital,17.3903338,78.4514802
+HYDERABAD,Jain Multi Speciality Hospital,hospital,17.5019044,78.5405564
+HYDERABAD,Maxivision Eye Hospital,hospital,17.4458529,78.4663644
+HYDERABAD,Chandamama Hospital,hospital,17.4273708,78.5517687
+HYDERABAD,Avis Hospitals,hospital,17.4293887,78.4178258
+HYDERABAD,Jaya Hospital,hospital,17.3208562,78.5613281
+HYDERABAD,Bhagyalatha Hospital,hospital,17.331248,78.5882561
+HYDERABAD,Anusha Maternity and Nursing Home,hospital,17.3309842,78.5780563
+HYDERABAD,Lakshmi Children's Hospital,hospital,17.369612,78.5302386
+HYDERABAD,G.B.R. Hospital,hospital,17.3692696,78.5346776
+HYDERABAD,Sri Mahalaxmi Eye Hospital,hospital,17.3369064,78.5699487
+HYDERABAD,Chaithanya Multi Speciality Hospital,hospital,17.3362996,78.5692929
+HYDERABAD,Sri Pallavi Hospital,hospital,17.5046076,78.3088705
+HYDERABAD,Sri Rohini Hospital,hospital,17.3495087,78.5128967
+HYDERABAD,Manju Sudha Multispeciality Hospital,hospital,17.3696005,78.5292421
+HYDERABAD,Sai Venkateshwara Hospital,hospital,17.3444401,78.529845
+HYDERABAD,TKR's IKON Hospital,hospital,17.3693752,78.5209313
+HYDERABAD,Sri JRD Hospital,hospital,17.3665529,78.535367
+HYDERABAD,Sidhartha Nursing Home,hospital,17.5022005,78.3129877
+HYDERABAD,Raghava Hospital,hospital,17.3716433,78.5340057
+HYDERABAD,Harsha Neuro and General Hospital,hospital,17.3681674,78.5267378
+HYDERABAD,Padmaja Hospital,hospital,17.347104,78.5213564
+HYDERABAD,Anurag Orthopedic and Multispecial Hospital,hospital,17.3689234,78.5299851
+HYDERABAD,Rajya Lakshmi Hospital,hospital,17.3358644,78.5747552
+HYDERABAD,Sigma Hospitals,hospital,17.36803,78.5206215
+HYDERABAD,Sri Ramadevi Orthopaedic Hospital,hospital,17.3286133,78.5685231
+HYDERABAD,Goodlife Hospitals,hospital,17.3694424,78.5314201
+HYDERABAD,Aashritha Hospital,hospital,17.4455011,78.5678539
+HYDERABAD,American Oncology Institute,hospital,17.4707013,78.3109143
+HYDERABAD,Citizens Specialty Hospital,hospital,17.4707742,78.3113113
+HYDERABAD,Maruthi Hospital,hospital,17.5057043,78.3072115
+HYDERABAD,Usha Mohan Hospital,hospital,17.36424,78.4275663
+HYDERABAD,Sri Sai Orthopaedic and Multi Speciality Hospital,hospital,17.3389598,78.5226278
+HYDERABAD,Swapna Hospital Private Limited,hospital,17.3697132,78.5319766
+HYDERABAD,Ankura Kodali Hospital,hospital,17.4840637,78.4487262
+HYDERABAD,Paramitha Children's Hospital,hospital,17.3597254,78.5448767
+HYDERABAD,Padmavathi Hospital,hospital,17.344506,78.5296565
+HYDERABAD,Sai Nikith Speciality Hospital And Laproscopic Centre,hospital,17.3740649,78.5409902
+HYDERABAD,Jeevan Sai Hospitals,hospital,17.3314886,78.5721809
+HYDERABAD,MaxCare Multi Speciality Hospital,hospital,17.5311596,78.261268
+HYDERABAD,Sunrise Hospitals,hospital,17.3279207,78.6017188
+HYDERABAD,Rajitha Hospital,hospital,17.4506967,78.3640308
+HYDERABAD,Sai Ganesh Multi Speciality Hospital,hospital,17.5289972,78.2646684
+HYDERABAD,The Doctors Multi Speciality Hospital,hospital,17.3707739,78.5275
+HYDERABAD,Medi Sight Eye Care centre,hospital,17.3587987,78.5237382
+HYDERABAD,"Area Hospital, Nampally",hospital,17.3922555,78.4631672
+HYDERABAD,"Community Health Centre, Jangammet",hospital,17.3342065,78.4698338
+HYDERABAD,"Area Hospital, Golconda",hospital,17.3852587,78.4026083
+HYDERABAD,MEDISYS HOSPITALS (A UNIT OF OXYEN MEDICARE CANCER CARE PVT LTD ),hospital,17.3411496,78.557759
+HYDERABAD,Sri Aurobindo Nethralaya,hospital,17.4926185,78.3964245
+HYDERABAD,MAXCURE SUYOSHA WOMAN & CHILD HOSPITAL,hospital,17.4464363,78.3786482
+HYDERABAD,CALCIUM HOSPITAL,hospital,17.5066316,78.3842419
+HYDERABAD,MAAX LIFE HOSPITALS,hospital,17.3452377,78.5276489
+HYDERABAD,DELTA HOSPITALS,hospital,17.3253704,78.5576025
+HYDERABAD,NETHRA EYE INSTITUE,hospital,17.4391832,78.4425692
+HYDERABAD,MAYFLOWER HOSPITAL FOR WOMEN & CHILDREN,hospital,17.4832707,78.5523789
+HYDERABAD,KASTURI MULTISPECIALITY HOSPITAL,hospital,17.4389273,78.5060866
+HYDERABAD,RISE CHILDRENS HOSPITAL (A UNIT OF RISE HOSPITALS PVT. LTD.),hospital,17.3802341,78.4297081
+HYDERABAD,AVANI LASER EYE HOSPITAL,hospital,17.3658656,78.5522434
+HYDERABAD,SANJEEVANI HOSPITAL,hospital,17.3739165,78.5521227
+HYDERABAD,Kakatiya Hospital,hospital,17.4497269,78.3672388
+HYDERABAD,SOLIS EYE CARE HOSPITALS PVT LTD,hospital,17.473687,78.571436
+HYDERABAD,Shadow Hospitals,hospital,17.3270322,78.6032966
+HYDERABAD,SRISHTI EYE CENTRE,hospital,17.3949495,78.4573924
+HYDERABAD,LEGEND HOSPITAL,hospital,17.3360462,78.5762921
+HYDERABAD,SAI SURYA HOSPITAL,hospital,17.3612589,78.4280745
+HYDERABAD,Apple Multi Speciality Hospital,hospital,17.3985564,78.4143068
+HYDERABAD,SUDHA HOSPITAL,hospital,17.4657813,78.5389222
+HYDERABAD,Nakshatra Hospitals,hospital,17.3623879,78.5570419
+HYDERABAD,EVYA HOSPITALS AND DIABETIC RESERACH CENTER,hospital,17.3392197,78.570819
+HYDERABAD,"District Hospital, King Koti",hospital,17.3932243,78.481999
+HYDERABAD,Wellness Hospital,hospital,17.435904,78.4499786
+HYDERABAD,Refracto Eye Hospital,hospital,17.5072656,78.4788038
+HYDERABAD,FATIMA HOSPITAL,hospital,17.3448357,78.4590373
+HYDERABAD,JANAPAREDDY HOSPITAL PVT LTD,hospital,17.5246107,78.482795
+HYDERABAD,ENT CARE HOSPITAL,hospital,17.4951101,78.3706122
+HYDERABAD,NAIDU EYE HOSPITAL,hospital,17.4944322,78.3415653
+HYDERABAD,JEEVAN HOSPITAL,hospital,17.344755,78.5269153
+HYDERABAD,Times Hospital,hospital,17.4205712,78.4416855
+HYDERABAD,MEDIVISION SUPER SPECIALTY HOSPITAL,hospital,17.5162288,78.4472376
+HYDERABAD,HEALIX HOSPITAL,hospital,17.494321,78.3461505
+HYDERABAD,ZOI HOSPITALS,hospital,17.3632928,78.4284984
+HYDERABAD,RAJA HOSPITAL,hospital,17.4366563,78.4399192
+HYDERABAD,THE BIRTHPLACE,hospital,17.4246755,78.433091
+HYDERABAD,MANKINDD HOSPITAL,hospital,17.4055156,78.4801617
+HYDERABAD,PADMVATI MEDICAL CENTRE,hospital,17.426232,78.5322033
+HYDERABAD,IRIS EYE HOSPITAL,hospital,17.3696216,78.4273417
+HYDERABAD,Lakshmi Sailaja Hospiatal,hospital,17.5084337,78.4614305
+HYDERABAD,Oakridge Hospitals,hospital,17.4448396,78.3855052
+HYDERABAD,RAMA EYE HOSPITAL,hospital,17.3910435,78.4712635
+HYDERABAD,Sri Vijaya Hospitals,hospital,17.3893119,78.4422313
+HYDERABAD,SRIKARA HOSPITALS,hospital,17.4921363,78.348083
+HYDERABAD,Amrita ENT Head & Neck Hospital,hospital,17.4885611,78.3915214
+HYDERABAD,B.V.K. REDDY HOSPITAL,hospital,17.4185789,78.5179152
+HYDERABAD,Human Touch Hospital,hospital,17.3529175,78.4180733
+HYDERABAD,REFRACTO EYE HOSPITAL (A GROUP OF CREDIBLE HEALTH CARE PVT LTD ),hospital,17.4620023,78.3669068
+HYDERABAD,GERMANTEN HOSPITALS,hospital,17.3619565,78.4281778
+HYDERABAD,SHYAM HOSPITAL,hospital,17.3230275,78.557235
+HYDERABAD,STERLING HOSPITALS PVT LTD,hospital,17.470118,78.5086575
+HYDERABAD,ANAND EYE INSITUTE,hospital,17.4183281,78.5427846
+HYDERABAD,SRI KARA HOSPITAL,hospital,17.344508,78.5484628
+HYDERABAD,HIGH SIGHT SUPER SPECILAITY EYE HOSPITAL,hospital,17.4160331,78.4473536
+HYDERABAD,NAVJEEVAN HOSPITAL,hospital,17.45558,78.4981728
+HYDERABAD,SMART VISION EYE SPECIALITIES PRIVATE LIMITED,hospital,17.4288986,78.4398817
+HYDERABAD,KS MULTISPECIALTY HOSPITAL,hospital,17.4691425,78.4777518
+HYDERABAD,RAMESH LASIK & LASER CENTRE,hospital,17.3985583,78.4847268
+HYDERABAD,VIJAYA SREE HOSPITAL,hospital,17.4954081,78.3213112
+HYDERABAD,ORIENT EYE HOSPITAL,hospital,17.3942641,78.4307253
+HYDERABAD,SHINE CHILDREN'S HOSPITAL,hospital,17.3482504,78.5520463
+HYDERABAD,Sri Sri Holistic Hospitals,hospital,17.4887428,78.4005457
+HYDERABAD,Saptagiri Hospital,hospital,17.3690962,78.5301608
+HYDERABAD,SAFE KIDS HOSPITALS PRIVATE LIMITED,hospital,17.3753068,78.4295377
+HYDERABAD,DR RAJASHEKAR REDDY LAPAROSCOPY HOSPITAL,hospital,17.3542853,78.5470426
+HYDERABAD,ADRM HOSPITAL,hospital,17.3984982,78.536071
+HYDERABAD,Smart Vision Eye Hospitals Pvt Ltd,hospital,17.4893785,78.4008153
+HYDERABAD,SOUTHERN GEM HOSPITAL,hospital,17.4058342,78.4754223
+HYDERABAD,ARC HOSPITAL,hospital,17.4714919,78.5676406
+HYDERABAD,SHARADA EYE CARE,hospital,17.3355392,78.5708083
+HYDERABAD,SREE ROYAL HOSPITAL,hospital,17.4635323,78.4562123
+HYDERABAD,SRI SIDDESHWARA HOSPITAL,hospital,17.346624,78.5211218
+HYDERABAD,NEPHROPLUS KIDNEY CARE HOSPITALS,hospital,17.4161502,78.4338641
+HYDERABAD,METRO CURE HOSPITAL,hospital,17.3726148,78.5010025
+HYDERABAD,Green Leaf Health Centre,hospital,17.4915939,78.4096941
+HYDERABAD,RUSSH SUPER SPECIALITY HOSPITAL,hospital,17.4997723,78.477497
+HYDERABAD,SHREE POOJA HOSPITAL,hospital,17.4230318,78.5470144
+HYDERABAD,Vascular Care Center,hospital,17.4183012,78.4582441
+HYDERABAD,MCS NEURO HOSPITAL,hospital,17.4925596,78.3977428
+HYDERABAD,HAPPY HOSPITAL,hospital,17.4947571,78.3432363
+HYDERABAD,Landmark Hospital,hospital,17.4992274,78.3880024
+HYDERABAD,NETRA EYE AND MULTI SPECIALITY HOSPITAL,hospital,17.4955297,78.4541658
+HYDERABAD,SECUNDERABAD WOMENS HOSPITAL,hospital,17.4392005,78.4803766
+HYDERABAD,SBR Pulse Hospital,hospital,17.3673811,78.5358068
+HYDERABAD,CITI NEURO CENTER,hospital,17.4137266,78.4244857
+HYDERABAD,Magnas ENT Hospital,hospital,17.368126,78.530836
+HYDERABAD,EYE CARE HYDERABAD,hospital,17.3739817,78.4985831
+HYDERABAD,SREE SREYAS HOSPITAL,hospital,17.3458905,78.5292422
+HYDERABAD,SAI GURU RAGHAVENDRA ORTHOPEADIC & MULTISPECIALITY,hospital,17.4566496,78.4786342
+HYDERABAD,PACIFIC CLINICS (A Unit of Pacific Hospitals Pvt Ltd.),hospital,17.4194759,78.3715081
+HYDERABAD,STORK HOME FERNANDEZ HOSPITAL,hospital,17.4070512,78.4412871
+HYDERABAD,Baabaji Nethralaya Eye Hospital,hospital,17.4910196,78.3967075
+HYDERABAD,MOTHERHOOD FERTILITY CENTRE,hospital,17.496072,78.3452386
+HYDERABAD,SUMITHRA HOSPITALS,hospital,17.3960244,78.559704
+HYDERABAD,MedWise Hospital (A unit of Chirayu Avigna Healthcare),hospital,17.490815,78.396851
+HYDERABAD,SAI SIDDHARTHA HOSPITAL,hospital,17.5171414,78.4449886
+HYDERABAD,AREA HOSPITAL PATANCHERU,hospital,17.5301584,78.2667411
+HYDERABAD,Sai Bhavani Super Speciality Hospital,hospital,17.5162813,78.4473006
+HYDERABAD,Apollo Emergency Centre,hospital,17.3722481,78.5008469
+HYDERABAD,Amrutha Hospital For Health and Fitness,hospital,17.3918869,78.4406219
+HYDERABAD,Pavithra Nursing Home,hospital,17.4401185,78.4236932
+HYDERABAD,Osmania General Hospital's Blood Bank,hospital,17.3728426,78.4740262
+HYDERABAD,Neelima Hospital,hospital,17.4562216,78.4256515
+HYDERABAD,Nikhil Hospital,hospital,17.43034,78.4370834
+HYDERABAD,Vijaya Nursing Home - Vanasthalipuram,hospital,17.3349862,78.5706618
+HYDERABAD,Vamshi Hospital - Trimulgherry,hospital,17.4711388,78.5078877
+HYDERABAD,Dr.Agarwal's Eye Hospital - Santhosh Nagar,hospital,17.3455135,78.5081814
+HYDERABAD,Happy Children Hospital - Chintal,hospital,17.4963994,78.4523928
+HYDERABAD,Vijaya Hospital,hospital,17.4953327,78.3461183
+HYDERABAD,Sri Venkateshwara Nursing Home - Narayanguda,hospital,17.3944702,78.4889225
+HYDERABAD,Kamineni Fertility Centre,hospital,17.3929299,78.4797553
+HYDERABAD,Asha Hospital,hospital,17.483593,78.5580665
+HYDERABAD,Motherhood Clinic,hospital,17.4300284,78.3742265
+HYDERABAD,Life Spring Maternity Hospital,hospital,17.5051697,78.5071749
+HYDERABAD,Susheela Hospital - R.K Puram,hospital,17.3678054,78.5496034
+HYDERABAD,Omni Hospital - Banjara Hills,hospital,17.4074076,78.4428254
+HYDERABAD,Dr.Agarwal's Eye Hospital - Dilsukhnagar,hospital,17.3690898,78.5224923
+HYDERABAD,S.S Multi Speciality Hospital,hospital,17.3369525,78.5507843
+HYDERABAD,Jayanti Maternity and Nursing Home,hospital,17.3893491,78.4734696
+HYDERABAD,Whitus Hospital (A Unit Of Sri Shikhara Hospitals India Pvt Ltd),hospital,17.4186403,78.5420912
+HYDERABAD,SAFE CHLIDRENS HOSPITAL,hospital,17.3696696,78.5142714
+HYDERABAD,"Royal Ear, Nose and Throat (ENT) Hospital",hospital,17.385132,78.482281
+HYDERABAD,Dr.syed Ajaz hussain & Dr.syed mumtaz hussain,hospital,17.3774807,78.4996403
+HYDERABAD,Apex Hospital,hospital,17.3429186,78.541484
+HYDERABAD,Shiva Homoeo Stores and clinic,hospital,17.442029,78.440725
+HYDERABAD,Srija Hospital,hospital,17.4279239,78.3240814
+HYDERABAD,Madhusudhan Hospital,hospital,17.488394,78.39696
+HYDERABAD,Lions Club Of Hyderabad Multi Speciality Hospital,hospital,17.5198207,78.4427883
+HYDERABAD,Vijaylaxmi Maternity Hospital,hospital,17.468492,78.4576658
+HYDERABAD,Health Care General Hospital,hospital,17.539151,78.433749
+HYDERABAD,Amma Hospitals,hospital,17.372487,78.522991
+HYDERABAD,Saroornagar Hospital,hospital,17.354892,78.532407
+HYDERABAD,Srihitha Hospital,hospital,17.367644,78.529654
+HYDERABAD,Hayatt Hospital,hospital,17.4012253,78.4124091
+HYDERABAD,Gutta Eye Clinic,hospital,17.4329564,78.4461388
+HYDERABAD,"Apple Diagnostic & Medical Centre, Kukatpally",hospital,17.493087,78.4096964
+HYDERABAD,RM Hospital,hospital,17.5101637,78.2998532
+HYDERABAD,Alavi Hospital,hospital,17.492517,78.451227
+HYDERABAD,Chaitanya Hospital,hospital,17.4694418,78.4256774
+HYDERABAD,ZOI Hospital,hospital,17.4277736,78.4573355
+HYDERABAD,Nadipathy Hospital,hospital,17.321219,78.568712
+HYDERABAD,Trichos Skin Care,hospital,17.4889369,78.4006671
+HYDERABAD,Harsha Dental Dantam Network Dental Hospitals,hospital,17.4958036,78.4524391
+HYDERABAD,JBI Hospital,hospital,17.4092386,78.4007023
+HYDERABAD,J.K. Hospital,hospital,17.4933988,78.3979717
+HYDERABAD,Bakoban Hospital,hospital,17.322434,78.4801
+HYDERABAD,Sri Sai Rama Clinic,hospital,17.4452339,78.4617537
+HYDERABAD,Medicare Hospital,hospital,17.3554702,78.4636083
+HYDERABAD,Sri Lakshmi Hospital,hospital,17.3222518,78.4307242
+HYDERABAD,Suraksha Women And Children Hospital,hospital,17.517046,78.480475
+HYDERABAD,Sujatha Hospital,hospital,17.3223098,78.4305647
+HYDERABAD,Eureka Hospital,hospital,17.509869,78.299367
+HYDERABAD,Vasundhara Hospital,hospital,17.473479,78.421673
+HYDERABAD,Salamah Hospital,hospital,17.3921804,78.4264492
+HYDERABAD,Aradhya Multi Speciality Hospital,hospital,17.4691677,78.4275318
+HYDERABAD,Raman Hospital,hospital,17.4956577,78.4532466
+HYDERABAD,Skorts Multi Speciality Clinics,hospital,17.443615,78.434617
+HYDERABAD,IBM Hospital,hospital,17.3957352,78.4175241
+HYDERABAD,Al Madina General Hospital,hospital,17.3058624,78.4683878
+HYDERABAD,Shreya Hospitals,hospital,17.4795083,78.3202454
+HYDERABAD,Lakshmi Priya Nursing,hospital,17.4028303,78.5741446
+HYDERABAD,SKIMS Hospital,hospital,17.4023438,78.5670163
+HYDERABAD,బిబిఆర్ సూపర్ స్పెషలిటీ హాస్పిటల్,hospital,17.4642455,78.4571122
+HYDERABAD,Sri Nitya Hospital,hospital,17.324086,78.556886
+HYDERABAD,Sakhi Hospital,hospital,17.3293045,78.5645447
+HYDERABAD,Archana Multi Speciality Hospital,hospital,17.4934982,78.3209211
+HYDERABAD,SAI RAM MULTI SPECIALITY HOSPITAL (ARK HEALTH CARE PVT LTD),hospital,17.3659362,78.5255259
+HYDERABAD,SRU Facture & Plastic Surgery,hospital,17.4942384,78.3995332
+HYDERABAD,Gangaram Community Hall Health Sub Center,hospital,17.4944955,78.3296853
+HYDERABAD,"Community Health Centre, Panipura",hospital,17.3732371,78.446451
+HYDERABAD,SHREYA HOSPITAL,hospital,17.4509475,78.4235564
+HYDERABAD,DR NAVEEN REDDYS GENERAL HOSPITAL,hospital,17.4546149,78.4200095
+HYDERABAD,Medicure Diagnostic and Research Center(Alekhya Scanning Center),hospital,17.3953666,78.4544152
+HYDERABAD,KIMS Cruddle,hospital,17.4659669,78.3678073
+HYDERABAD,srisri holistic,hospital,17.5028997,78.3887517
+HYDERABAD,Durga prasad,hospital,17.4234633,78.5478069
+HYDERABAD,SHEKAR HOSPITAL,hospital,17.4787553,78.4816433
+HYDERABAD,Apollo,hospital,17.4594547,78.3659801
+HYDERABAD,Titan eye plus,hospital,17.4948228,78.3401789
+HYDERABAD,Mythri Clinic,hospital,17.5035172,78.4156543
+HYDERABAD,Srinivasa Hospital,hospital,17.4406949,78.3943588
+HYDERABAD,lifespan hospitals,hospital,17.44582,78.3924173
+HYDERABAD,Samanta Homeopathy,hospital,17.4413783,78.3880897
+HYDERABAD,Shresta hospital,hospital,17.4366221,78.4457432
+HYDERABAD,Ankura Children hospital,hospital,17.4947296,78.341244
+HYDERABAD,konark diagonistic center,hospital,17.3685916,78.5187388
+HYDERABAD,Dr.agarwals,hospital,17.493937,78.351628
+HYDERABAD,Dr. Moinuddin clinic,hospital,17.394532,78.4352772
+HYDERABAD,Vijaya Diagnostic Centre,hospital,17.3946369,78.4384775
+HYDERABAD,Vijaya diagnostics,hospital,17.3364058,78.569899
+HYDERABAD,saidatha homeo stores and clinic,hospital,17.4866535,78.3912724
+HYDERABAD,Govt Hospital,hospital,17.397386,78.4294337
+HYDERABAD,Bhaskara Hospital,hospital,17.51644,78.445742
+HYDERABAD,Tirumala Nursing home,hospital,17.4998816,78.3574735
+HYDERABAD,FAITH HOSIPTAL,hospital,17.3591366,78.4945773
+HYDERABAD,Raaj Hospital,hospital,17.4044163,78.4838359
+HYDERABAD,Bharati Nursing Home,hospital,17.4492625,78.4473693
+HYDERABAD,Osmania clinic,hospital,17.3713436,78.5018929
+HYDERABAD,People's health care,hospital,17.5361942,78.4362911
+HYDERABAD,VITAL'S Hospital,hospital,17.5070065,78.395168
+HYDERABAD,yashoda,hospital,17.3914914,78.5113902
+HYDERABAD,"Medicover Hospital ,Chandanagar",hospital,17.498279,78.3146178
+HYDERABAD,"Preeti Urology & Kidney Hospital ,BHEL, Lingampally",hospital,17.4943209,78.3168615
+HYDERABAD,Kamineni Hospital,hospital,17.3614317,78.5539533
+HYDERABAD,Aware Global Hospitals,hospital,17.3347442,78.5530454
+HYDERABAD,Archana Hospital,hospital,17.4940216,78.3227858
+HYDERABAD,Hegde Hospital,hospital,17.4446234,78.384659
+HYDERABAD,Rainbow Children Hospital,hospital,17.4554623,78.3720097
+HYDERABAD,"Pace Hospitals ,Madinaguda",hospital,17.4940229,78.3470745
+HYDERABAD,Uchvaas Hospital,hospital,17.4121129,78.4229918
+HYDERABAD,Bhrungi Hospitals,hospital,17.3137197,78.560974
+HYDERABAD,Health Valley Hospital,hospital,17.4644176,78.3682452
+HYDERABAD,Viswas Hospital,hospital,17.3401158,78.52185
+HYDERABAD,Tricolour Hospital,hospital,17.393868,78.5226426
+HYDERABAD,Prathima Hospitals,hospital,17.3902616,78.495225
+HYDERABAD,"Government ENT Hospital ,Koti",hospital,17.3845228,78.4820151
+HYDERABAD,SKS Hospital,hospital,17.4753103,78.4857756
+HYDERABAD,Navodaya Hospital,hospital,17.4416653,78.4860599
+HYDERABAD,Tapadia Diagnostics Centre,hospital,17.4012471,78.5636616
+HYDERABAD,Brinnova rehabilation centre,hospital,17.4109164,78.432519
+HYDERABAD,"Vijaya Diagnostic Centre, Himayatnagar",hospital,17.4041507,78.479872
+HYDERABAD,Oasis Fertility Centre,hospital,17.4419494,78.4899303
+HYDERABAD,Basant Sahney Hospital,hospital,17.4444622,78.5048595
+HYDERABAD,Oasis Fertility Centre,hospital,17.4263881,78.4204343
+HYDERABAD,Vasavi Hospital,hospital,17.3632288,78.5449317
+HYDERABAD,Partha Dental Skin Hair Clinic,hospital,17.438752,78.4505019
+HYDERABAD,S L Diagnostic Center,hospital,17.4102165,78.461228
+HYDERABAD,"Praba's VCare Health Clinic (P) Ltd, Gachibowli",hospital,17.4507108,78.3631503
+HYDERABAD,"Government Hospital, Suraj Bhan",hospital,17.3535608,78.4745425
+HYDERABAD,Mina multi speciality Hospital,hospital,17.3730487,78.4838444
+HYDERABAD,Dr Naveen Reddy Hospital,hospital,17.4535446,78.4206489
+HYDERABAD,"Railway Health Unit, Kachiguda",hospital,17.3867056,78.4950359
+HYDERABAD,Madhava Nursing Home,hospital,17.4401505,78.4936257
+HYDERABAD,MAA E.N.T. Hospitals,hospital,17.4272659,78.4143269
+HYDERABAD,OMNI Hospitals,hospital,17.4853838,78.4109567
+HYDERABAD,Rainbow Children's Medicare Pvt Ltd,hospital,17.4557195,78.4992805
+HYDERABAD,Remedy Hospitals,hospital,17.4855041,78.3908053
+HYDERABAD,"Prasad Hospitals ,Nacharam",hospital,17.4384053,78.5551261
+HYDERABAD,Sivananda Rehabilitation Home,hospital,17.48884,78.4083858
+HYDERABAD,Cosmo Derma,hospital,17.4908668,78.3970173
+HYDERABAD,Padmaja Hospital,hospital,17.4869463,78.3994145
+HYDERABAD,Pathcare Labs Pvt Ltd,hospital,17.444713,78.4691593
+HYDERABAD,Srujana Hospitals,hospital,17.5057005,78.4670243
+HYDERABAD,Paramitha Children's Hospital,hospital,17.3582035,78.5444422
+HYDERABAD,Tesla Diagnostics,hospital,17.4957164,78.4525108
+HYDERABAD,K K Reddy Hospital,hospital,17.4919994,78.3972386
+HYDERABAD,Goutam Neuro Care,hospital,17.4928129,78.397999
+HYDERABAD,Dr. Rao's ENT Super Speciality International Hospital,hospital,17.4881237,78.3949721
+HYDERABAD,Centre for DNA Fingerprinting and Diagnostics,hospital,17.3931001,78.5575394
+HYDERABAD,Nandini Hospital,hospital,17.4867461,78.5540117
+HYDERABAD,"Udbhava Hospital ,Miyapur",hospital,17.4951229,78.3574077
+HYDERABAD,Excel Hospitals,hospital,17.5079988,78.5022081
+HYDERABAD,Ananya Hospital,hospital,17.4847174,78.4129804
+HYDERABAD,People's Hospital,hospital,17.4829023,78.4134217
+HYDERABAD,Shree Healthcare Multi Specialty Hospital,hospital,17.4009873,78.5794678
+HYDERABAD,Ferticare IVF Asist,hospital,17.4274056,78.4321671
+HYDERABAD,DTC TB Unit Erragadda,hospital,17.4452155,78.4324096
+HYDERABAD,Dr.Vivek's Multispeciality Dental care,hospital,17.4472339,78.4326449
+HYDERABAD,Shakti Ayurvedic Clinic,hospital,17.4475965,78.5089418
+HYDERABAD,Rahul Meidials,hospital,17.4527375,78.5648775
+HYDERABAD,Nandini,hospital,17.4527443,78.5647251
+HYDERABAD,vijaya diagonistics,hospital,17.4632492,78.5615635
+HYDERABAD,Government uphc,hospital,17.4622327,78.5587486
+HYDERABAD,kamineni,hospital,17.3532901,78.5589741
+HYDERABAD,Chenna reddy hospital,hospital,17.4940583,78.3212245
+HYDERABAD,balaji hospital,hospital,17.5026194,78.4207649
+HYDERABAD,PRAANAA PAIN CLINIC,hospital,17.3646406,78.4286144
+HYDERABAD,sri sri holistic hospitals,hospital,17.5020423,78.3889444
+HYDERABAD,Railway hospital,hospital,17.4434504,78.5461318
+HYDERABAD,آئی کیئر حیدرآباد (سپر اسپیشلٹی آئی ہسپتال),hospital,17.3759689,78.4973599
+HYDERABAD,Mythri Hospital,hospital,17.3836203,78.4292848
+HYDERABAD,Vinayaka Nethralaya Eye Hospital,hospital,17.3932979,78.4261156
+HYDERABAD,hs,hospital,17.4359366,78.5426952
+HYDERABAD,Avinash child hospital,hospital,17.4146159,78.4539247
+HYDERABAD,Dr Agarwals Eye Hospital,hospital,17.4310175,78.3716983
+HYDERABAD,Sri rama clinic,hospital,17.4410992,78.5720791
+HYDERABAD,"Community Health Centre, Lalapet",hospital,17.4388301,78.54187
+HYDERABAD,"Community Health Centre, AMBERPET",hospital,17.3921953,78.5178213
+HYDERABAD,Area Hospital,hospital,17.3314694,78.5652052
+HYDERABAD,"Community Health Centre, Seethaphalmandi",hospital,17.4265349,78.5192979
+HYDERABAD,Sarojini Devi EYE Hospital,hospital,17.4137227,78.4911923
+HYDERABAD,AREA HOSPITAL MALKAJGIRI,hospital,17.4504805,78.5321201
+HYDERABAD,"DK Govt Homoeopathic Hospital, Ramanthapur, Hyd",hospital,17.3979133,78.5310178
+HYDERABAD,CHC KHAIRATABAD,hospital,17.4448127,78.4219109
+HYDERABAD,"Community Health Centre, AMEERPET",hospital,17.4485486,78.4248854
+HYDERABAD,Shishira hospitals,hospital,17.4317717,78.4455728
+HYDERABAD,Image Hospital,hospital,17.4314966,78.4473474
+HYDERABAD,Medkid children's hospital,hospital,17.4302495,78.4487075
+HYDERABAD,Maholla Clinic,hospital,17.4566753,78.4115501
+HYDERABAD,Mohammadi Clinic,hospital,17.4564341,78.4103806
+HYDERABAD,Susheela Hospital,hospital,17.3934464,78.5365962
+HYDERABAD,appolo medical shop1,hospital,17.3147451,78.6007159
+HYDERABAD,JNTU Hospital,hospital,17.4915484,78.3910656
+HYDERABAD,Omega Hospitals,hospital,17.4364246,78.3675806
+HYDERABAD,Amar Hospitals,hospital,17.4771569,78.4204028
+HYDERABAD,Yashoda Hospitals,hospital,17.4622687,78.384176
+HYDERABAD,Sunridge Multi-Speciality Hospital,hospital,17.4538625,78.421752
+HYDERABAD,D.K.GOVT. HOMOEO HOSPITAL,hospital,17.3841667,78.4562354
+HYDERABAD,"Government Ayurvedic Hospital, Erragadda, Hyderabad",hospital,17.4487092,78.4338427
+HYDERABAD,Community Health Centre Rajendranagar,hospital,17.3203486,78.4018045
+HYDERABAD,"Community Health Centre, BARKAS",hospital,17.3144808,78.4831721
+HYDERABAD,Niloufer Hospital,hospital,17.3986812,78.4610376
+HYDERABAD,"Area Hospital, Golconda",hospital,17.3975018,78.4293977
+HYDERABAD,Government Chest Hospital,hospital,17.4454284,78.434959
+HYDERABAD,"MG Govt Maternity Hospital, Petla Burz",hospital,17.3684615,78.4674183
+HYDERABAD,MNJ Institute of Oncology and Regional Cancer Center,hospital,17.392244,78.4601927
+HYDERABAD,Institute of Mental Health,hospital,17.4506724,78.4361121
+HYDERABAD,MK Dentistry,hospital,17.3951477,78.4556625
+HYDERABAD,SK + Diagnostics,hospital,17.4754498,78.5681603
+HYDERABAD,Revive Multispeciality Hospital,hospital,17.4865279,78.4497546
+HYDERABAD,Sai charan Children's hospital,hospital,17.3959816,78.5299056
+HYDERABAD,Janani infertility center,hospital,17.3943514,78.5299096
+HYDERABAD,Reborn Skin and Hair Clinic,hospital,17.4731157,78.3872398
+HYDERABAD,Sai Ayush Ayurveda Hospital - wellness Hyderabad,hospital,17.473193,78.3871998
+HYDERABAD,Renova Hospitals,hospital,17.3733681,78.414395
+HYDERABAD,Pi Health Hospital,hospital,17.4482414,78.3605759
+HYDERABAD,Oneders Clinics,hospital,17.4090636,78.3999909
+HYDERABAD,Medicare Hospitals,hospital,17.349695,78.5483858
+HYDERABAD,Arete Hospitals,hospital,17.4276743,78.3749073
+HYDERABAD,Dental clinic,hospital,17.3968148,78.5014822
+HYDERABAD,eyes specalist,hospital,17.4126071,78.4901536
+HYDERABAD,Medicover,hospital,17.4552142,78.37756
+HYDERABAD,Govt street Hospital,hospital,17.3327926,78.5367482
+HYDERABAD,Eye Hospital centre,hospital,17.3731304,78.4672542
+HYDERABAD,Chanda Nursing homes,hospital,17.3747716,78.4691254
+HYDERABAD,Pilies Clinic,hospital,17.3750071,78.4690221
+HYDERABAD,childern hospital,hospital,17.5030699,78.4262632
+HYDERABAD,Taj Tristar,hotel,17.4414402,78.4935002
+HYDERABAD,Aditya Hometel,hotel,17.4381698,78.4484662
+HYDERABAD,Taj Banjara,hotel,17.4096457,78.4488565
+HYDERABAD,Amrutha Castle,hotel,17.4075442,78.4688643
+HYDERABAD,Hotel Golkonda,hotel,17.404432,78.4536723
+HYDERABAD,Surya Residency,hotel,17.4412748,78.4484934
+HYDERABAD,Taj Belson,hotel,17.4423612,78.4936495
+HYDERABAD,Sri Krishna Residency,hotel,17.4419662,78.4460383
+HYDERABAD,Taj Mahal,hotel,17.3994045,78.4925404
+HYDERABAD,Quality Inn,hotel,17.4303895,78.3749902
+HYDERABAD,Green Casserole,hotel,17.3937827,78.4704939
+HYDERABAD,Fortune Select Manohar,hotel,17.4444673,78.4711656
+HYDERABAD,Casa Luxurio,hotel,17.4207186,78.4437788
+HYDERABAD,Raj Comfort Inn,hotel,17.4419957,78.485717
+HYDERABAD,Baseraa,hotel,17.4413193,78.5001715
+HYDERABAD,Swagath de Royal,hotel,17.4598195,78.3660069
+HYDERABAD,Karan Hotel,hotel,17.4422286,78.4909625
+HYDERABAD,Ohri's Baseraa Inn,hotel,17.4050875,78.4765247
+HYDERABAD,Hotel Kens,hotel,17.4286758,78.4387661
+HYDERABAD,Swagath Residency,hotel,17.463513,78.3674855
+HYDERABAD,Taj Vivanta,hotel,17.4433694,78.4607584
+HYDERABAD,Hotel Katriya Fortune,hotel,17.4247273,78.4595863
+HYDERABAD,Vinflora,hotel,17.4295786,78.4295853
+HYDERABAD,Swagath Grand Hotel,hotel,17.3386334,78.5667455
+HYDERABAD,swagath grand,hotel,17.4767261,78.5638259
+HYDERABAD,Kinara Grand,hotel,17.4189945,78.5409396
+HYDERABAD,Blue Petal,hotel,17.4980909,78.3910072
+HYDERABAD,Fairfield by Marriot,hotel,17.4237766,78.3474286
+HYDERABAD,bheemas hotel,hotel,17.4833669,78.4141613
+HYDERABAD,My Place Hotel,hotel,17.4691004,78.3679467
+HYDERABAD,Hotel balaji residency,hotel,17.4002376,78.489839
+HYDERABAD,New Asian Lodge,hotel,17.3934221,78.4700066
+HYDERABAD,Hotel Udipi,hotel,17.3915447,78.4687256
+HYDERABAD,Asian Rest Home,hotel,17.391091,78.4678009
+HYDERABAD,OYO Pariwar Inn Hotel,hotel,17.3727596,78.4754734
+HYDERABAD,Hotel Tanisha Jubilee,hotel,17.4299116,78.4180789
+HYDERABAD,Purple Leaf,hotel,17.458973,78.5003286
+HYDERABAD,Surabhi Elite,hotel,17.3590256,78.5452907
+HYDERABAD,mohinis,hotel,17.402872,78.4764075
+HYDERABAD,Hotel sai pariwer,hotel,17.3914523,78.4937783
+HYDERABAD,Sherton hotel.,hotel,17.3912153,78.5113885
+HYDERABAD,Abhinand Grand Hotel and Restaurant,hotel,17.3530904,78.5553419
+HYDERABAD,Suhail,hotel,17.3868773,78.4773576
+HYDERABAD,Hotel Swagath Residency,hotel,17.4954309,78.3265777
+HYDERABAD,Hotel Royal Plaza,hotel,17.3902956,78.4644485
+HYDERABAD,Royal Plaza Hotel,hotel,17.3913246,78.4654418
+HYDERABAD,Paradise,hotel,17.4931834,78.4044261
+HYDERABAD,الحوش,hotel,17.4043579,78.4558895
+HYDERABAD,OYO 9707 Sravya Resdiency,hotel,17.4303869,78.370841
+HYDERABAD,Hotel Hill Park Inn,hotel,17.4024961,78.4620102
+HYDERABAD,Hotel ambassador,hotel,17.4420158,78.4868778
+HYDERABAD,Sri brindavan hotel,hotel,17.3887013,78.4758551
+HYDERABAD,Hotel Caspia Pro Banjara Hills,hotel,17.417216,78.4538643
+HYDERABAD,MAHARAJA HOTEL,hotel,17.4387593,78.364244
+HYDERABAD,POT POURRI,hotel,17.442993,78.3547748
+HYDERABAD,Aditya Inn,hotel,17.4431294,78.354436
+HYDERABAD,Dinner's pavilion,hotel,17.4427388,78.3553139
+HYDERABAD,Radisson,hotel,17.4474048,78.3629944
+HYDERABAD,Aditya inn,hotel,17.443152,78.3545533
+HYDERABAD,Hotel Serenity Elite,hotel,17.4352453,78.4072971
+HYDERABAD,Hotel Hyderabad heights lodging,hotel,17.4037334,78.4531059
+HYDERABAD,Kodali Suites,hotel,17.4624195,78.4927234
+HYDERABAD,Santoshamma Jonna Roti,hotel,17.3726487,78.5107021
+HYDERABAD,Animals Hotel,hotel,17.4063853,78.4650434
+HYDERABAD,Hotel Nakshrata Inn,hotel,17.3679549,78.5399627
+HYDERABAD,Meredian Orchid,hotel,17.4026776,78.4611445
+HYDERABAD,Oyo Hotel Rainbow Saphire,hotel,17.4025597,78.4624669
+HYDERABAD,Hotel Alekhya Residency,hotel,17.4065018,78.4651073
+HYDERABAD,Park Continental Hotel,hotel,17.3992892,78.4487276
+HYDERABAD,Sri Venkateshwara Hotel,hotel,17.4047646,78.4645005
+HYDERABAD,OYO 18968 Lorgan Residency,hotel,17.3933429,78.4714261
+HYDERABAD,Gandhi Bhavan Hotel,hotel,17.3791827,78.4747354
+HYDERABAD,Jewel Residency Lodge,hotel,17.3802824,78.4752348
+HYDERABAD,Oyo Town House,hotel,17.4028242,78.4630434
+HYDERABAD,OYO 7707 Corp,hotel,17.4416045,78.3903299
+HYDERABAD,OYO,hotel,17.3922429,78.4638036
+HYDERABAD,Royal Rev Hotel,hotel,17.4412733,78.5004222
+HYDERABAD,Dolphin Curries,hotel,17.4944322,78.3213661
+HYDERABAD,Maruthi Hotel,hotel,17.5292776,78.2672574
+HYDERABAD,Hotel Grandeur,hotel,17.432476,78.445994
+HYDERABAD,Jethani And Sons,hotel,17.4251608,78.5181431
+HYDERABAD,trend Hotels treebo Fort Club,hotel,17.3704572,78.4243723
+HYDERABAD,Saptagiri,hotel,17.4380623,78.5001289
+HYDERABAD,Spot On,hotel,17.4386388,78.5005838
+HYDERABAD,OYO The City Park,hotel,17.3917113,78.47438
+HYDERABAD,srilakshmi carry point,hotel,17.4079586,78.3931031
+HYDERABAD,Devi Homes,hotel,17.4408229,78.3879918
+HYDERABAD,Treebo Hitec City,hotel,17.4381049,78.3889895
+HYDERABAD,OYO 1117 near Jubilee Hills,hotel,17.43401,78.3928138
+HYDERABAD,Hotel Supreme Parkview,hotel,17.4416093,78.3903002
+HYDERABAD,Treebo Tryst Metropolis Hyderabad,hotel,17.438784,78.4998985
+HYDERABAD,ITC Kohenur,hotel,17.432179,78.3849981
+HYDERABAD,Marriot Executive Apartments,hotel,17.4524815,78.3631704
+HYDERABAD,OYO Townhouse,hotel,17.4691086,78.4272833
+HYDERABAD,Hotel Siddhartha,hotel,17.3858176,78.4786033
+HYDERABAD,sri sai womens hostel,hotel,17.4882482,78.3963055
+HYDERABAD,feel home hostel for womens,hotel,17.4910076,78.3999625
+HYDERABAD,oyo hotel,hotel,17.4843184,78.3992101
+HYDERABAD,Anand Hotel,hotel,17.5290797,78.2651326
+HYDERABAD,OYO Hotel,hotel,17.3361067,78.5757443
+HYDERABAD,Rajadhani Hotel,hotel,17.3364968,78.5796796
+HYDERABAD,sankranthi,hotel,17.4970879,78.3619851
+HYDERABAD,oyo-hotel,hotel,17.4829067,78.3929238
+HYDERABAD,OYO Flagship,hotel,17.392179,78.4372621
+HYDERABAD,Time to time my cafe,hotel,17.394889,78.4353477
+HYDERABAD,Pallavi hotel,hotel,17.3944984,78.4392655
+HYDERABAD,Swathi tiffins,hotel,17.3943045,78.4404687
+HYDERABAD,Apoorva mess,hotel,17.3946565,78.437719
+HYDERABAD,Gayathri Hotel,hotel,17.4013223,78.5624786
+HYDERABAD,Dibbarotti,hotel,17.4093603,78.3946139
+HYDERABAD,RS Grand,hotel,17.4970711,78.3608414
+HYDERABAD,Masthana hotel,hotel,17.4567421,78.4900777
+HYDERABAD,Sherton hotel,hotel,17.3914841,78.5127906
+HYDERABAD,Tiffens center,hotel,17.4494832,78.4466095
+HYDERABAD,Tiffen center,hotel,17.449447,78.4463215
+HYDERABAD,Madhusudhan Reddy Hotel,hotel,17.4053075,78.5579815
+HYDERABAD,Club View,hotel,17.4540351,78.4988165
+HYDERABAD,Brundavanam Hotel,hotel,17.4839186,78.3164631
+HYDERABAD,Pista House,hotel,17.4059506,78.5558757
+HYDERABAD,Tasty Tiffens,hotel,17.3500982,78.4732277
+HYDERABAD,Imran Hotel,hotel,17.516611,78.4376166
+HYDERABAD,Sohail Hotel,hotel,17.516983,78.4370421
+HYDERABAD,Sana Bawarchi,hotel,17.5150668,78.4469297
+HYDERABAD,Hotel Sri Rghavendra udipi veg,hotel,17.3327036,78.5889126
+HYDERABAD,Taaza Bhojanam,hotel,17.3319068,78.5902619
+HYDERABAD,Oyo 72504 Dunes inn,hotel,17.4605321,78.3542333
+HYDERABAD,Raju Gari Vantillu,hotel,17.4473882,78.3919999
+HYDERABAD,Abhi tiffins,hotel,17.4921401,78.4088075
+HYDERABAD,Hotel Madhura Tiffins,hotel,17.424558,78.4548908
+HYDERABAD,Hotel A-1 Biryani,hotel,17.4245763,78.4542203
+HYDERABAD,Hotel Agra Sweets and Tiffins,hotel,17.4245522,78.4540853
+HYDERABAD,Meridian Restuarant,hotel,17.4274254,78.4522893
+HYDERABAD,Kakatiya Mess,hotel,17.4335498,78.4468549
+HYDERABAD,Ram-Ki-Bandi TIffins,hotel,17.4407917,78.4484446
+HYDERABAD,Raghavendra Hotel,hotel,17.3397315,78.5649814
+HYDERABAD,Jagavi's Kritunga Restuarant,hotel,17.4238231,78.4536295
+HYDERABAD,Hotel Harsha Mess,hotel,17.4384028,78.4428706
+HYDERABAD,Oyo Townhouse Ameerpet,hotel,17.4388665,78.4418022
+HYDERABAD,Sri Raghavendra Tiffins,hotel,17.4385284,78.4419527
+HYDERABAD,Sri Raghavendra TIffins,hotel,17.4370667,78.444047
+HYDERABAD,Raghavendra Hotel,hotel,17.3309848,78.5701323
+HYDERABAD,Imran hotel,hotel,17.3780001,78.4501876
+HYDERABAD,Lemon Tree,hotel,17.4428902,78.3766998
+HYDERABAD,SVM Grand hotel,hotel,17.4017806,78.5453266
+HYDERABAD,Vara lakshmi,hotel,17.4412177,78.5720904
+HYDERABAD,kankarao,hotel,17.4437407,78.5721636
+HYDERABAD,RCC Hotels Majestic - LB Nagar,hotel,17.3408922,78.5211651
+HYDERABAD,Shaghouse Cafe,hotel,17.3480136,78.4708349
+HYDERABAD,Maruthi Residence,hotel,17.352762,78.5561168
+HYDERABAD,Swan suites,hotel,17.4355292,78.3668371
+HYDERABAD,Royal Residency,hotel,17.402932,78.4629554
+HYDERABAD,OYO,hotel,17.3585767,78.5457706
+HYDERABAD,vaishnavi hotel,hotel,17.3609019,78.5449042
+HYDERABAD,Apsara hotel,hotel,17.3894012,78.4726316
+HYDERABAD,New D Light lodge,hotel,17.5142924,78.4474983
+HYDERABAD,Itsy Hotels Arastu Inn,hotel,17.3978868,78.4628501
+HYDERABAD,Clarion Hotel,hotel,17.4480952,78.3610457
+HYDERABAD,Hotel Taar Tangerine,hotel,17.4477447,78.362415
+HYDERABAD,Bloom Hotel DLF Road,hotel,17.4476532,78.3625937
+HYDERABAD,Treebo Pride Inn Raidurg,hotel,17.4200773,78.379656
+HYDERABAD,OSSR TIFFINS AND SNACKS HOTEL,hotel,17.3263154,78.6050023
+HYDERABAD,Lemon Tree Hotel Banjara Hills,hotel,17.4119227,78.4504172
+HYDERABAD,Hotel Sri Sai Dwaraka,hotel,17.4366028,78.5039031
+HYDERABAD,Luxor Park,hotel,17.4382146,78.3897767
+HYDERABAD,Treebo Sapphire Bliss,hotel,17.4476459,78.3792605
+HYDERABAD,Rajdhani hotel,hotel,17.3777137,78.4749284
+HYDERABAD,Ambika hotel,hotel,17.3614856,78.5449959
+HYDERABAD,subba ram reddy,viewpoint,17.3780711,78.5489979
+HYDERABAD,Sunset Viewpoint,viewpoint,17.4148975,78.4790511
+HYDERABAD,Shilpa Kala Vedika,attraction,17.4513921,78.3792883
+HYDERABAD,Shilparamam Crafts Village,attraction,17.4526547,78.3779737
+HYDERABAD,alawa bibi,attraction,17.365647,78.4858885
+HYDERABAD,Exhibition Grounds,attraction,17.38675,78.4704712
+HYDERABAD,Snow world,attraction,17.4143801,78.4808321
+HYDERABAD,shilparamam,attraction,17.4529378,78.3794936
+HYDERABAD,Kanjerla Laxmi Narayan Yadav Park,attraction,17.4496173,78.4411282
+HYDERABAD,Ayyappa Temple,attraction,17.4470344,78.4478418
+HYDERABAD,park,attraction,17.4060296,78.4898232
+HYDERABAD,old admin bldg opp ladies hostel,attraction,17.4117776,78.5218416
+HYDERABAD,Taramati Baradari,attraction,17.3761241,78.3781632
+HYDERABAD,Muslim Graveyard,attraction,17.3700458,78.4747728
+HYDERABAD,"B-91, HAL Township",attraction,17.4701107,78.4521072
+HYDERABAD,Rolex,attraction,17.4310473,78.4074614
+HYDERABAD,Neelima Greens Park Club house,attraction,17.5016683,78.356651
+KOCHI,Dr. Joys Hospital,hospital,9.9585788,76.3192419
+KOCHI,PNVM Hospital and Research Centre,hospital,9.9859833,76.2814393
+KOCHI,Al Shifa Hospital,hospital,9.9787245,76.2867126
+KOCHI,Sree Sudheendra Medical Mission Hospital,hospital,9.9849328,76.2832964
+KOCHI,MAJ Hospital,hospital,10.0213004,76.3080439
+KOCHI,Gautham Hospital,hospital,9.9468667,76.2560419
+KOCHI,Laxmi Hospital,hospital,9.9478979,76.2558553
+KOCHI,City Hospital,hospital,9.9812391,76.2834857
+KOCHI,The Touch Aesthetic Medical Clinic,hospital,9.9770906,76.3170085
+KOCHI,Akshaya Hospital,hospital,9.9690057,76.299672
+KOCHI,Dr Raju's Eye Hospital,hospital,9.9647734,76.3191089
+KOCHI,Westend Eye Hospitals,hospital,9.9880943,76.2827224
+KOCHI,Govt Homeo Dispensary,hospital,10.0160984,76.2888545
+KOCHI,Giridhar Eye Institute,hospital,9.9641496,76.3050675
+KOCHI,Ephphatha Softech എഫഥാ സ്പീച്ച് ആന്റ് ഹിയറിങ് സെന്റർ,hospital,10.006847,76.3052486
+KOCHI,Jesus Hospital,hospital,9.9428842,76.2606941
+KOCHI,Vijaya Institute of Medical Sciences,hospital,9.9700978,76.2991192
+KOCHI,Jishy Hospital,hospital,9.9244655,76.2558179
+KOCHI,Silverline Hospital,hospital,9.9653574,76.3003696
+KOCHI,Cimar Cochin Hospital,hospital,10.0515389,76.296743
+KOCHI,"Vasan Eye Care Hospital, Palarivattom",hospital,10.0099874,76.3126431
+KOCHI,Paul's Hospital,hospital,9.9883115,76.2957781
+KOCHI,Focus Eye Hospital,hospital,9.9942959,76.2954314
+KOCHI,Dr. Noushad's ENT Hospital and Research Centre,hospital,9.9869551,76.3167563
+KOCHI,Specialists' Hospital,hospital,9.9905344,76.2860182
+KOCHI,Punarnava Ayurveda Hospital,hospital,10.0441967,76.2977904
+KOCHI,Chaitanya Eye Hospital,hospital,9.9599096,76.2903858
+KOCHI,Fatima Hospital,hospital,9.9014932,76.275571
+KOCHI,Evershine Hospital,hospital,10.0192427,76.3045053
+KOCHI,Naivedya Ayurvedic Hospital and Research Centre,hospital,9.9809006,76.313999
+KOCHI,Alpha ENT Head and Neck Hospital,hospital,10.0032624,76.2953791
+KOCHI,Ayurvaid Hospital,hospital,9.9634535,76.3010952
+KOCHI,Ayyamppilly Government Hospital,hospital,10.1209511,76.1990261
+KOCHI,Nature Life Hospital,hospital,9.9544308,76.3276624
+KOCHI,Jeevaniyam,hospital,9.9883939,76.3091576
+KOCHI,primary health centre,hospital,10.0982562,76.2058893
+KOCHI,cimar mom's hospital,hospital,10.0512687,76.2962954
+KOCHI,cimar infertility hospital cheranalloor,hospital,10.0517171,76.2968834
+KOCHI,Lotus Eye Hospital,hospital,9.9674326,76.3012127
+KOCHI,Vathakat Orthopaedic Hospital,hospital,9.986819,76.285434
+KOCHI,Dr. Elzas Ayurveda Hospital,hospital,9.965001,76.241904
+KOCHI,Evershine Hospital,hospital,10.0196125,76.3046442
+KOCHI,Cortina Hospital,hospital,9.827676,76.271747
+KOCHI,"Urban Primary Health Centre, Chalikkavattom",hospital,9.9824178,76.3241707
+KOCHI,Vypeen Hospital,hospital,9.9997548,76.2350221
+KOCHI,Dr. Hassan Ayurveda Brain and Spine Super Speciality Hospital,hospital,9.978757,76.286691
+KOCHI,Alife Ayurvedam,hospital,10.0146072,76.2933848
+KOCHI,Futureace Hospital,hospital,10.0320122,76.304213
+KOCHI,Ahalia Foundation Eye Hospital,hospital,9.9932055,76.3146743
+KOCHI,Focus Eye Hospital,hospital,9.9689594,76.2932547
+KOCHI,Navabharath Medical Hospital,hospital,10.171629,76.178222
+KOCHI,Santhigiri Ayurveda & Siddha Hospital,hospital,9.9730963,76.2860427
+KOCHI,St. Joseph's Hospital,hospital,9.874805,76.265615
+KOCHI,Palluruthy Government Hospital,hospital,9.9172926,76.2792219
+KOCHI,Medall Healthcare,hospital,9.9651653,76.3156016
+KOCHI,Arc Fertility Hospitals,hospital,10.0090884,76.3034525
+KOCHI,Njarakkal Govt. Homoeo Dispensary,hospital,10.0438538,76.217612
+KOCHI,Government Homoeo Model Dispensary Edakochi,hospital,9.9062493,76.2950036
+KOCHI,chambakkara primary health centre,hospital,9.9542828,76.3289044
+KOCHI,Government Dispensary High Court Ernakulam,hospital,10.0061874,76.2849195
+KOCHI,Sub Center Kovikathumkadavu,hospital,10.1623196,76.1872162
+KOCHI,"East Block, Medical Trust Hospital",hospital,9.9642981,76.288373
+KOCHI,Ahalia Eye Hospital,hospital,9.9933803,76.3144506
+KOCHI,Nayarambalam Primary Health Center,hospital,10.0572971,76.2181225
+KOCHI,Susrutha Eye Hospital,hospital,10.0558672,76.2151066
+KOCHI,ESI Dispensary,hospital,10.0479327,76.2202664
+KOCHI,Jacobs Hospital,hospital,9.9364863,76.2555454
+KOCHI,Mattancherry Government Hospital,hospital,9.9597832,76.2598371
+KOCHI,"Urban Primary Health Centre, Kuthapady",hospital,9.9835441,76.3139575
+KOCHI,"Urban Primary Health Centre, Ponnurunni",hospital,9.979997,76.320338
+KOCHI,"Urban Primary Health Centre, Kaloor",hospital,9.9935425,76.2883583
+KOCHI,"Urban primary Health Centre, Thammanam",hospital,9.989758,76.3065874
+KOCHI,"Urban Primary Health Cenre, Pandikudy",hospital,9.9509907,76.2494468
+KOCHI,"Urban Primary Health Centre, Chambakkara",hospital,9.954131,76.3287701
+KOCHI,"Urban Primary Health Centre, Moolamkuzhi",hospital,9.9360022,76.2549759
+KOCHI,"Urban Primary Health Centre, Mangattumukku",hospital,9.9538492,76.2547957
+KOCHI,AMJ Hospital,hospital,9.9294302,76.2702904
+KOCHI,"Primary Health Centre, Thammanam",hospital,9.9896091,76.3067297
+KOCHI,Cochin Corporation Homeo Dispensery,hospital,9.9807774,76.3201955
+KOCHI,Renai Medicity,hospital,10.0079415,76.3035506
+KOCHI,"Oncology, Renal & Ophthalmology Block, Medical Trust Hospital",hospital,9.9643974,76.2885344
+KOCHI,Urban Community Health Centre,hospital,9.9292264,76.3017447
+KOCHI,Skinsecrets,hospital,10.0169457,76.303057
+KOCHI,Lisie Cancer Centre,hospital,9.9891832,76.2886971
+KOCHI,Old Harbour Hotel,hotel,9.967342,76.2424837
+KOCHI,Chack Inn Home Stay,hotel,9.963152,76.2452975
+KOCHI,Grand Hotel,hotel,9.9705348,76.2852866
+KOCHI,The Old Courtyard Hotel,hotel,9.966651,76.2425038
+KOCHI,Fort Castle Hotel,hotel,9.9670025,76.2421726
+KOCHI,Caza Maria,hotel,9.9586771,76.2595398
+KOCHI,Gokulam Park Inn,hotel,9.9935551,76.2905144
+KOCHI,Costa Gama Homestay,hotel,9.9591478,76.2440784
+KOCHI,Bharat Hotel,hotel,9.96737,76.281612
+KOCHI,Alappat Regency,hotel,10.0018035,76.3054396
+KOCHI,The International,hotel,9.9837722,76.2829885
+KOCHI,Hotel Luciya,hotel,9.9779671,76.2879727
+KOCHI,Adam's Old Inn,hotel,9.9662088,76.2427734
+KOCHI,Princess Inn,hotel,9.9670562,76.2429463
+KOCHI,Raintree Lodge,hotel,9.9644416,76.2415742
+KOCHI,Toms Old Mansion,hotel,9.9664,76.24235
+KOCHI,Hotel Arches,hotel,9.96617,76.24155
+KOCHI,Chiramel Residency,hotel,9.96426,76.23988
+KOCHI,Bernard Bungalow,hotel,9.9644474,76.2398189
+KOCHI,The Poovath Heritage,hotel,9.9644269,76.238549
+KOCHI,Ballard Bungalow Heritage Hotel,hotel,9.9679439,76.2462368
+KOCHI,Fort House Hotel,hotel,9.9687067,76.2496238
+KOCHI,Fort Inn,hotel,9.9684149,76.2483259
+KOCHI,Hotel Fort Manor,hotel,9.967404,76.2449612
+KOCHI,Saj Home Stay,hotel,9.9630747,76.2454919
+KOCHI,SM Regency,hotel,9.9670689,76.2870528
+KOCHI,Gama Heritage Residency,hotel,9.9618099,76.2403852
+KOCHI,Johns Residency,hotel,9.9746088,76.2821647
+KOCHI,Royal Lakshadweep,hotel,9.9727975,76.2813935
+KOCHI,Sapphire Tourist Home,hotel,9.9736045,76.2804291
+KOCHI,Casa Linda,hotel,9.9666362,76.2455327
+KOCHI,Eighth Bastion,hotel,9.964637,76.2389273
+KOCHI,Les 3 Éléphants,hotel,10.158036,76.1741439
+KOCHI,The Bungalow Heritage Homestay,hotel,9.9751576,76.2424341
+KOCHI,Saas Tower,hotel,9.9738827,76.2808458
+KOCHI,Bjiu Tourist Home,hotel,9.9740077,76.2807616
+KOCHI,Shaziya,hotel,9.9684875,76.2892018
+KOCHI,Hotel Broad Bean,hotel,9.962727,76.3181721
+KOCHI,Seagull,hotel,9.968794,76.2499495
+KOCHI,Tea Bungalow,hotel,9.9629101,76.2456243
+KOCHI,Koder House,hotel,9.9673038,76.2426018
+KOCHI,Forte Kochi,hotel,9.9668273,76.2426211
+KOCHI,Villa Grace,hotel,9.9506914,76.2506634
+KOCHI,Sea Hut Homestay,hotel,9.9395786,76.2447311
+KOCHI,JJ Inn,hotel,9.9743937,76.3152964
+KOCHI,Bright Heritage,hotel,9.9668303,76.2449462
+KOCHI,Aldos Ark Home Stay,hotel,9.9621929,76.2422395
+KOCHI,Cherai Beach Ressorts,hotel,10.136164,76.1804475
+KOCHI,Beach Valley,hotel,10.1378878,76.1799079
+KOCHI,al maray,hotel,10.0009683,76.2942938
+KOCHI,XL Homestay,hotel,9.9668747,76.2418748
+KOCHI,Tibet Homestay,hotel,9.9658699,76.244181
+KOCHI,Vintage Inn,hotel,9.9628773,76.2437851
+KOCHI,Michaela Homestay,hotel,9.962116,76.242435
+KOCHI,Puthumana,hotel,9.962803,76.2432739
+KOCHI,Pleasant Inn,hotel,10.0067003,76.3158303
+KOCHI,Cherai Tourist Home,hotel,10.1391971,76.1950338
+KOCHI,Rajnagari,hotel,10.0269923,76.306131
+KOCHI,Beaumonde The Fern,hotel,9.9698377,76.289952
+KOCHI,Accardia Residency,hotel,9.9919265,76.2874817
+KOCHI,Hotel Sea View In,hotel,9.9732495,76.2439946
+KOCHI,Beena Homestay,hotel,9.9545254,76.2415767
+KOCHI,Sreelakam Residency,hotel,10.0137522,76.2922636
+KOCHI,Hotel Abhirami,hotel,9.9948286,76.2914451
+KOCHI,Hotel Presidency,hotel,9.9904332,76.2852982
+KOCHI,The Taste of India,hotel,9.9644672,76.2383865
+KOCHI,Madaparambil,hotel,9.9713472,76.286802
+KOCHI,Nichoos Inn (annex),hotel,9.9633835,76.2442323
+KOCHI,Coral Isle hotel,hotel,9.9918756,76.2855506
+KOCHI,Hotel Prayana,hotel,9.9931199,76.2856849
+KOCHI,Elixir Villa,hotel,9.9633884,76.2403442
+KOCHI,Steamers House (Homestay),hotel,9.9554414,76.2407424
+KOCHI,Cochin park,hotel,9.981461,76.2843312
+KOCHI,Hotel Imperial Regency,hotel,9.9829056,76.2820151
+KOCHI,Hotel York,hotel,9.9633444,76.2877424
+KOCHI,The Qasr,hotel,9.9742899,76.2807797
+KOCHI,Moidus Heritage,hotel,9.9686903,76.2513246
+KOCHI,Cochin Palace,hotel,9.963397,76.3001729
+KOCHI,K K B Restarunt,hotel,9.9197481,76.2744282
+KOCHI,OYO 13577 TKR Metro Residency,hotel,10.0156133,76.3015101
+KOCHI,Hotel Kochi Caprice,hotel,9.9658203,76.2941592
+KOCHI,Hotel AJ Residency,hotel,9.9965945,76.2930205
+KOCHI,TCS Suites,hotel,10.030782,76.3043512
+KOCHI,Kottayil Lodge,hotel,9.9445895,76.2938511
+KOCHI,SNM Lodge,hotel,9.9442695,76.2942934
+KOCHI,Hotel Priyadarshini,hotel,9.8949653,76.2959343
+KOCHI,Rappai's Kitchen,hotel,10.0128096,76.2761324
+KOCHI,Hotel Durga,hotel,10.0159575,76.2762696
+KOCHI,Thattukada,hotel,9.9456204,76.2548751
+KOCHI,Icecream Parlour,hotel,9.9450581,76.2559019
+KOCHI,Hotel Pee pee,hotel,9.9447673,76.2558765
+KOCHI,Shawarma Shop,hotel,9.9449806,76.2560389
+KOCHI,Abad westwood,hotel,9.9450428,76.258565
+KOCHI,Al Zafir,hotel,9.9450694,76.2589169
+KOCHI,Fathimas fast food,hotel,9.947913,76.2560028
+KOCHI,Ifthar Hotel,hotel,9.935222,76.2636101
+KOCHI,Svastlie,hotel,10.0056724,76.2788862
+KOCHI,Nila,hotel,10.0250224,76.3080399
+KOCHI,Hotel Chakkys,hotel,10.0248098,76.308545
+KOCHI,Broadway lodge,hotel,9.9784508,76.2782684
+KOCHI,Kovil Inn Homestay,hotel,9.944042,76.3020812
+KOCHI,Tissa's Inn,hotel,9.9634619,76.2455309
+KOCHI,Hotel seaking,hotel,9.9376037,76.2607652
+KOCHI,Kebab shak,hotel,9.9451451,76.2584943
+KOCHI,Ente monte hotel,hotel,9.9394784,76.2585433
+KOCHI,Arctic Hotel,hotel,9.9702933,76.318591
+KOCHI,Hotel Orange,hotel,10.0022208,76.3064685
+KOCHI,Sunset Bay,hotel,9.9668431,76.2418304
+KOCHI,Camper by the bay,hotel,10.1475881,76.1766005
+KOCHI,Cherai Beach Residency,hotel,10.1325007,76.1814416
+KOCHI,Fort Inn Stay,hotel,9.9672525,76.2416473
+KOCHI,Niko Hotel,hotel,9.9579718,76.3017703
+KOCHI,Park Royal,hotel,9.964552,76.2869071
+KOCHI,Polakulath Regency,hotel,9.9697778,76.2861
+KOCHI,The Woods Manor,hotel,9.9701441,76.285282
+KOCHI,Good Shepherd Tourist Hone,hotel,9.9694974,76.2856207
+KOCHI,Hotel Udupi Anantha Bhavan,hotel,9.9691197,76.2854789
+KOCHI,New Woodlands,hotel,9.9699061,76.2854426
+KOCHI,Palakappily Lodge,hotel,9.9448942,76.2940157
+KOCHI,Arameka,hotel,9.9594699,76.2940124
+KOCHI,Volga Tourist Home,hotel,9.9698894,76.2991624
+KOCHI,Baywatch Beach Homes,hotel,10.142873,76.1781153
+KOCHI,Melvet Residency,hotel,9.9520564,76.3018137
+KOCHI,The Mercy,hotel,9.9584744,76.2886597
+KOCHI,Hotel Yuvraj,hotel,9.949759,76.2922215
+KOCHI,Hotel Crown Suites,hotel,9.9659899,76.2940442
+KOCHI,John's Lodge,hotel,9.9685398,76.304586
+KOCHI,The Neighbourhood,hotel,9.9671914,76.2833992
+KOCHI,York Hotel,hotel,9.9632969,76.2877979
+KOCHI,Dreamcatcher homestay,hotel,9.9584814,76.2433734
+KOCHI,Le Petit Elephant,hotel,10.1541393,76.1745002
+KOCHI,Hotel Central Inn,hotel,9.9681071,76.31906
+KOCHI,Springfield Billets,hotel,9.9915946,76.2851586
+KOCHI,Buraimi Apartment,hotel,9.9731731,76.2826138
+KOCHI,Mareena Regency,hotel,9.9716483,76.2832304
+KOCHI,Illam Heritage,hotel,9.9858631,76.2838114
+KOCHI,Mubarak Lodge,hotel,9.9772017,76.2877688
+KOCHI,Malaysia Tourist Home,hotel,9.9773054,76.2874673
+KOCHI,Surya Lodge,hotel,9.9770209,76.287914
+KOCHI,St George Lodge,hotel,9.9772326,76.2879697
+KOCHI,Rose Garden Tourist Home,hotel,9.9770225,76.2879861
+KOCHI,Trinity Lodge,hotel,9.9772738,76.2879406
+KOCHI,Indeo Tourist Home,hotel,9.9770162,76.2878259
+KOCHI,Priya Lodge,hotel,9.9767989,76.287308
+KOCHI,Yuvarani Residency,hotel,9.9690535,76.28623
+KOCHI,JK Regency,hotel,9.9679178,76.2866806
+KOCHI,Hotel Malabar Plaza,hotel,9.9648096,76.288399
+KOCHI,GK Residency,hotel,9.9647044,76.2879098
+KOCHI,Niyati,hotel,9.9653993,76.2417804
+KOCHI,Diwans Court,hotel,9.9640723,76.2845376
+KOCHI,ATS Willingdon,hotel,9.9374851,76.2720735
+KOCHI,Executive Residency,hotel,9.968031,76.2894082
+KOCHI,The Edappally Homes,hotel,10.0181861,76.3055442
+KOCHI,Tajmahal rooms,hotel,9.9590482,76.2388928
+KOCHI,Rossitta Wood Castle,hotel,9.9667244,76.2418101
+KOCHI,Fort Kochi Beach Inn,hotel,9.9642822,76.2390455
+KOCHI,Roses Inn,hotel,9.9669831,76.24182
+KOCHI,Park Avenue,hotel,9.9657103,76.2420038
+KOCHI,Orion Skywings,hotel,9.9628529,76.2425535
+KOCHI,Hotel Fort Queen,hotel,9.9524054,76.2488059
+KOCHI,dutch manor,hotel,9.956875,76.2554083
+KOCHI,SNM Lodge,hotel,9.9440598,76.2945081
+KOCHI,Maple Regency,hotel,9.9734608,76.2805676
+KOCHI,AS Stay Inn,hotel,10.0263227,76.306787
+KOCHI,Guest Inn Rooms,hotel,10.026455,76.3066935
+KOCHI,Sand Dune,hotel,10.0284633,76.3053041
+KOCHI,Royal Casa Cochin,hotel,9.97077,76.2884621
+KOCHI,Sunset View,viewpoint,9.9686055,76.2438934
+KOCHI,Valappu Wetland Viewpoint,viewpoint,10.0078367,76.217234
+KOCHI,Vasco da Gama Square,attraction,9.9679554,76.2424324
+KOCHI,Spot on the rocks,attraction,9.9173243,76.2850335
+KOCHI,Ernakulam Terminus,attraction,9.9882128,76.2742703
+KOCHI,Dhobi Khana,attraction,9.9515138,76.2440729
+KOCHI,Kadavumbhagam Ernakulam Synagogue,attraction,9.9801962,76.2784041
+KOCHI,Veeran Puzha,attraction,10.0729486,76.2276195
+KOCHI,"Marine Drive, Kochi",attraction,9.9784782,76.2757727
+KOCHI,Munambam Pulimuttu,attraction,10.1763674,76.1636338
+KOCHI,എം.ജി. റോഡ്,attraction,9.9764656,76.2843941
+KOCHI,Kochi Tourist Boating Centre,attraction,9.9582917,76.2605235
+KOCHI,Pearl of Kochi - Lourdes,attraction,9.9930732,76.2701646
+KOCHI,Cherrai Beach,attraction,10.1403441,76.1787624
+KOCHI,Mangalavanam Bird Sanctuary,attraction,9.9885575,76.2727607

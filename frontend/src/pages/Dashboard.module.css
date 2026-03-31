@@ -1,0 +1,595 @@
+/* ============================================
+   Dashboard — Module CSS
+   All colors via global CSS variables
+   ============================================ */
+
+/* ── Page shell ── */
+.page {
+  min-height: 100vh;
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ────────────────────────────────────────────
+   NAVBAR
+──────────────────────────────────────────── */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 40px;
+  height: 62px;
+  background: rgba(13, 13, 13, 0.85);
+  border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(12px);
+}
+
+.navBrand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-tan);
+  flex-shrink: 0;
+}
+
+.navBrandName {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: 0.01em;
+}
+
+.navCenter {
+  flex: 1;
+  text-align: center;
+}
+
+.navGreeting {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.navGreeting strong {
+  color: var(--color-sand);
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.planNavBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: var(--color-tan);
+  color: var(--color-black);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.planNavBtn:hover {
+  background: var(--color-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(170, 147, 113, 0.3);
+}
+
+.logoutBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.logoutBtn:hover {
+  border-color: var(--color-tan);
+  color: var(--color-tan);
+  background: var(--color-accent-light);
+}
+
+/* ────────────────────────────────────────────
+   HERO + ROAD ANIMATION
+──────────────────────────────────────────── */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 40px 32px;
+  gap: 40px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-border);
+  background: linear-gradient(180deg, rgba(170,147,113,0.04) 0%, transparent 100%);
+}
+
+.heroText {
+  flex: 1;
+  min-width: 0;
+}
+
+.heroHeading {
+  font-family: var(--font-heading);
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.heroAccent {
+  color: var(--color-tan);
+}
+
+.heroSub {
+  margin-top: 14px;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+/* Road animation */
+.roadScene {
+  flex-shrink: 0;
+  width: 340px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.roadScenery {
+  position: absolute;
+  bottom: 36px;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+/* Mountains */
+.mountain {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: solid transparent;
+  border-right: solid transparent;
+  border-bottom: solid;
+}
+
+.mtn1 {
+  border-left-width: 55px;
+  border-right-width: 55px;
+  border-bottom-width: 55px;
+  border-bottom-color: #1a1a1a;
+  left: 30px;
+}
+
+.mtn2 {
+  border-left-width: 70px;
+  border-right-width: 70px;
+  border-bottom-width: 65px;
+  border-bottom-color: #141414;
+  left: 130px;
+}
+
+/* Trees */
+.tree {
+  position: absolute;
+  bottom: 0;
+  width: 3px;
+  background: #2a2a2a;
+}
+
+.tree::before {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 20px solid #2f3a2f;
+}
+
+.tree1 { height: 22px; left: 16px;  }
+.tree2 { height: 28px; left: 300px; }
+.tree3 { height: 18px; left: 240px; }
+
+/* Road */
+.road {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 36px;
+  background: #111;
+  border-top: 2px solid #2a2a2a;
+  overflow: hidden;
+}
+
+/* Dashed center lines (moving) */
+.roadLine {
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  width: 200%;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-tan) 0px,
+    var(--color-tan) 24px,
+    transparent 24px,
+    transparent 48px
+  );
+  animation: roadMove 2s linear infinite;
+}
+
+.roadLine:nth-child(2) {
+  top: calc(50% + 10px);
+  opacity: 0.4;
+  animation-duration: 2.8s;
+}
+
+@keyframes roadMove {
+  from { transform: translateX(0); }
+  to   { transform: translateX(96px); }
+}
+
+/* Car */
+.carTrack {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  animation: carDrive 4s ease-in-out infinite alternate;
+}
+
+@keyframes carDrive {
+  0%   { transform: translateX(-20px); }
+  100% { transform: translateX(20px); }
+}
+
+.car {
+  width: 44px;
+  height: 16px;
+  background: var(--color-tan);
+  border-radius: 4px 8px 4px 4px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 12px rgba(170,147,113,0.5);
+}
+
+.car::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 8px;
+  width: 22px;
+  height: 10px;
+  background: var(--color-sand);
+  border-radius: 4px 6px 0 0;
+}
+
+.car::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  background: var(--color-slate);
+  border-radius: 50%;
+  box-shadow: 22px 0 0 var(--color-slate);
+}
+
+/* ────────────────────────────────────────────
+   MAIN CONTENT GRID
+──────────────────────────────────────────── */
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+  padding: 28px 40px 48px;
+  flex: 1;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ────────────────────────────────────────────
+   CARD BASE
+──────────────────────────────────────────── */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  transition: border-color var(--transition-normal);
+}
+
+.card:hover {
+  border-color: rgba(170, 147, 113, 0.2);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cardTitle {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: 0.01em;
+}
+
+.addTripBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  background: var(--color-accent-light);
+  border: 1px solid rgba(170, 147, 113, 0.3);
+  border-radius: var(--radius-md);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-tan);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.addTripBtn:hover {
+  background: var(--color-tan);
+  color: var(--color-black);
+  border-color: var(--color-tan);
+}
+
+/* ────────────────────────────────────────────
+   UPCOMING TRIPS
+──────────────────────────────────────────── */
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 16px;
+  gap: 8px;
+  text-align: center;
+}
+
+.emptyIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  display: grid;
+  place-items: center;
+  color: var(--color-tan);
+  margin-bottom: 4px;
+}
+
+.emptyText {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.emptyHint {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.emptyHint strong {
+  color: var(--color-tan);
+}
+
+.tripList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tripItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: border-color var(--transition-fast), transform var(--transition-fast);
+  gap: 12px;
+}
+
+.tripItem:hover {
+  border-color: var(--color-tan);
+  transform: translateX(2px);
+}
+
+.tripRoute {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tripCity {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.tripArrow {
+  color: var(--color-tan);
+  display: flex;
+  align-items: center;
+}
+
+.tripMeta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.tripBadge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-tan);
+  background: var(--color-accent-light);
+  border: 1px solid rgba(170, 147, 113, 0.2);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.tripDate, .tripPeople {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+/* ────────────────────────────────────────────
+   FEATURES GRID
+──────────────────────────────────────────── */
+.featureGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.featureCard {
+  padding: 18px;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: border-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.featureCard:hover {
+  border-color: var(--color-tan);
+  transform: translateY(-2px);
+}
+
+.featureIconWrap {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background: var(--color-accent-light);
+  display: grid;
+  place-items: center;
+  color: var(--color-tan);
+}
+
+.featureTitle {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.featureDesc {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+/* ────────────────────────────────────────────
+   STATS LIST
+──────────────────────────────────────────── */
+.statsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.statRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.statRow:last-child {
+  border-bottom: none;
+}
+
+.statLabel {
+  font-size: 0.83rem;
+  color: var(--color-text-muted);
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+}
+
+/* ────────────────────────────────────────────
+   RESPONSIVE
+──────────────────────────────────────────── */
+@media (max-width: 960px) {
+  .mainGrid {
+    grid-template-columns: 1fr;
+    padding: 20px 24px 40px;
+  }
+  .rightCol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .navbar { padding: 0 20px; }
+  .navCenter { display: none; }
+  .hero { padding: 28px 20px 24px; flex-direction: column; }
+  .roadScene { width: 100%; max-width: 340px; }
+  .heroHeading { font-size: 1.9rem; }
+  .featureGrid { grid-template-columns: 1fr; }
+  .rightCol { grid-template-columns: 1fr; }
+  .tripItem { flex-direction: column; align-items: flex-start; }
+}
