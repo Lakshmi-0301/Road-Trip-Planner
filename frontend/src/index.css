@@ -1,0 +1,104 @@
+/* ============================================
+   ROAD TRIP PLANNER — GLOBAL DESIGN SYSTEM
+   Color Palette Variables
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap');
+
+:root {
+  /* ---- Core Palette ---- */
+  --color-black:   #000000;
+  --color-cream:   #fef4e3;
+  --color-tan:     #aa9371;
+  --color-slate:   #494d54;
+  --color-sand:    #d6c6ac;
+
+  /* ---- Derived / Semantic ---- */
+  --color-bg:           var(--color-black);
+  --color-surface:      #0d0d0d;
+  --color-surface-2:    #161616;
+  --color-border:       #2a2a2a;
+  --color-border-focus: var(--color-tan);
+
+  --color-text-primary:   var(--color-cream);
+  --color-text-secondary: var(--color-sand);
+  --color-text-muted:     var(--color-slate);
+
+  --color-accent:         var(--color-tan);
+  --color-accent-hover:   #c4ab8a;
+  --color-accent-light:   rgba(170, 147, 113, 0.15);
+
+  --color-error:          #e05c5c;
+  --color-error-bg:       rgba(224, 92, 92, 0.1);
+  --color-success:        #6dbf8a;
+  --color-success-bg:     rgba(109, 191, 138, 0.1);
+
+  /* ---- Password Strength ---- */
+  --strength-weak:       #e05c5c;
+  --strength-fair:       #e09a4a;
+  --strength-good:       #e0cc4a;
+  --strength-strong:     #6dbf8a;
+  --strength-very-strong:#3fd6a3;
+
+  /* ---- Spacing & Radius ---- */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-full: 999px;
+
+  /* ---- Typography ---- */
+  --font-sans:    'Inter', system-ui, sans-serif;
+  --font-heading: 'Outfit', system-ui, sans-serif;
+
+  /* ---- Transitions ---- */
+  --transition-fast:   150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow:   400ms ease;
+}
+
+/* ---- Reset ---- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: var(--font-sans);
+}
+
+input {
+  font-family: var(--font-sans);
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-surface); }
+::-webkit-scrollbar-thumb { background: var(--color-slate); border-radius: var(--radius-full); }
+::-webkit-scrollbar-thumb:hover { background: var(--color-tan); }

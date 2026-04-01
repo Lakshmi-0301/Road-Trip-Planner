@@ -1,0 +1,76 @@
+location,tourist_spot,temperature,humidity,condition,timestamp
+CHENNAI,Marina Beach,30,75,Sunny,2026-03-25 06:00:00
+CHENNAI,Marina Beach,33,70,Sunny,2026-03-25 12:00:00
+CHENNAI,Marina Beach,31,72,Cloudy,2026-03-25 18:00:00
+BANGALORE,Lalbagh Botanical Garden,26,70,Cloudy,2026-03-25 06:00:00
+BANGALORE,Lalbagh Botanical Garden,29,65,Rain,2026-03-25 12:00:00
+BANGALORE,Lalbagh Botanical Garden,27,68,Cloudy,2026-03-25 18:00:00
+HYDERABAD,Charminar,28,65,Clear,2026-03-25 06:00:00
+HYDERABAD,Charminar,34,60,Sunny,2026-03-25 12:00:00
+HYDERABAD,Charminar,30,62,Clear,2026-03-25 18:00:00
+MUMBAI,Gateway of India,29,80,Humid,2026-03-25 06:00:00
+MUMBAI,Gateway of India,32,75,Humid,2026-03-25 12:00:00
+MUMBAI,Gateway of India,30,78,Cloudy,2026-03-25 18:00:00
+DELHI,India Gate,24,50,Clear,2026-03-25 06:00:00
+DELHI,India Gate,30,45,Sunny,2026-03-25 12:00:00
+DELHI,India Gate,27,48,Clear,2026-03-25 18:00:00
+KOLKATA,Victoria Memorial,27,85,Cloudy,2026-03-25 06:00:00
+KOLKATA,Victoria Memorial,30,80,Rain,2026-03-25 12:00:00
+KOLKATA,Victoria Memorial,28,82,Cloudy,2026-03-25 18:00:00
+JAIPUR,Hawa Mahal,25,40,Clear,2026-03-25 06:00:00
+JAIPUR,Hawa Mahal,33,35,Sunny,2026-03-25 12:00:00
+JAIPUR,Hawa Mahal,29,38,Clear,2026-03-25 18:00:00
+UDAIPUR,City Palace,24,45,Clear,2026-03-25 06:00:00
+UDAIPUR,City Palace,31,40,Sunny,2026-03-25 12:00:00
+UDAIPUR,City Palace,28,42,Clear,2026-03-25 18:00:00
+AGRA,Taj Mahal,23,55,Clear,2026-03-25 06:00:00
+AGRA,Taj Mahal,30,50,Sunny,2026-03-25 12:00:00
+AGRA,Taj Mahal,27,52,Clear,2026-03-25 18:00:00
+VARANASI,Kashi Vishwanath Temple,25,60,Sunny,2026-03-25 06:00:00
+VARANASI,Kashi Vishwanath Temple,32,55,Sunny,2026-03-25 12:00:00
+VARANASI,Kashi Vishwanath Temple,29,58,Clear,2026-03-25 18:00:00
+GOA,Baga Beach,27,88,Humid,2026-03-25 06:00:00
+GOA,Baga Beach,30,85,Humid,2026-03-25 12:00:00
+GOA,Baga Beach,29,87,Cloudy,2026-03-25 18:00:00
+KOCHI,Fort Kochi,26,92,Rain,2026-03-25 06:00:00
+KOCHI,Fort Kochi,29,90,Rain,2026-03-25 12:00:00
+KOCHI,Fort Kochi,27,91,Cloudy,2026-03-25 18:00:00
+MYSORE,Mysore Palace,24,78,Cloudy,2026-03-25 06:00:00
+MYSORE,Mysore Palace,27,75,Rain,2026-03-25 12:00:00
+MYSORE,Mysore Palace,25,77,Cloudy,2026-03-25 18:00:00
+COIMBATORE,Marudamalai Temple,25,70,Cloudy,2026-03-25 06:00:00
+COIMBATORE,Marudamalai Temple,30,68,Sunny,2026-03-25 12:00:00
+COIMBATORE,Marudamalai Temple,28,69,Cloudy,2026-03-25 18:00:00
+MADURAI,Meenakshi Temple,28,65,Sunny,2026-03-25 06:00:00
+MADURAI,Meenakshi Temple,35,60,Sunny,2026-03-25 12:00:00
+MADURAI,Meenakshi Temple,32,62,Clear,2026-03-25 18:00:00
+PONDICHERRY,Promenade Beach,27,75,Sunny,2026-03-25 06:00:00
+PONDICHERRY,Promenade Beach,31,72,Sunny,2026-03-25 12:00:00
+PONDICHERRY,Promenade Beach,29,74,Cloudy,2026-03-25 18:00:00
+TRICHY,Rockfort Temple,28,68,Clear,2026-03-25 06:00:00
+TRICHY,Rockfort Temple,33,66,Sunny,2026-03-25 12:00:00
+TRICHY,Rockfort Temple,30,67,Clear,2026-03-25 18:00:00
+AMRITSAR,Golden Temple,22,60,Clear,2026-03-25 06:00:00
+AMRITSAR,Golden Temple,28,55,Sunny,2026-03-25 12:00:00
+AMRITSAR,Golden Temple,25,58,Clear,2026-03-25 18:00:00
+SHIMLA,The Ridge,12,70,Cold,2026-03-25 06:00:00
+SHIMLA,The Ridge,18,65,Cold,2026-03-25 12:00:00
+SHIMLA,The Ridge,15,68,Cold,2026-03-25 18:00:00
+MANALI,Solang Valley,10,75,Cold,2026-03-25 06:00:00
+MANALI,Solang Valley,15,70,Cold,2026-03-25 12:00:00
+MANALI,Solang Valley,12,72,Cold,2026-03-25 18:00:00
+SRINAGAR,Dal Lake,8,80,Cold,2026-03-25 06:00:00
+SRINAGAR,Dal Lake,12,75,Cold,2026-03-25 12:00:00
+SRINAGAR,Dal Lake,10,78,Cold,2026-03-25 18:00:00
+LEH,Pangong Lake,2,40,Clear,2026-03-25 06:00:00
+LEH,Pangong Lake,8,35,Clear,2026-03-25 12:00:00
+LEH,Pangong Lake,5,38,Clear,2026-03-25 18:00:00
+RISHIKESH,Laxman Jhula,20,65,Clear,2026-03-25 06:00:00
+RISHIKESH,Laxman Jhula,25,60,Sunny,2026-03-25 12:00:00
+RISHIKESH,Laxman Jhula,23,62,Clear,2026-03-25 18:00:00
+NAINITAL,Naini Lake,15,70,Cloudy,2026-03-25 06:00:00
+NAINITAL,Naini Lake,20,65,Cloudy,2026-03-25 12:00:00
+NAINITAL,Naini Lake,18,68,Cloudy,2026-03-25 18:00:00
+PUNE,Shaniwar Wada,22,60,Clear,2026-03-25 06:00:00
+PUNE,Shaniwar Wada,29,55,Sunny,2026-03-25 12:00:00
+PUNE,Shaniwar Wada,26,58,Clear,2026-03-25 18:00:00
