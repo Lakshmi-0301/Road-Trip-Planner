@@ -5,3 +5,5 @@ pymysql
 passlib[bcrypt]
 python-jose[cryptography]
 python-dotenv
+cassandra-driver
+requests

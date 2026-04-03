@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './PlanTripModal.module.css';
 
-const CITIES = ['Chennai', 'Coimbatore', 'Hyderabad', 'Kochi', 'Puducherry'];
+const CITIES = ['Bangalore', 'Chennai', 'Coimbatore', 'Hyderabad', 'Kochi', 'Mysore', 'Puducherry'];
 
 const ROUTE_OPTIONS = [
   { value: 'scenic',   label: 'Scenic',   desc: 'Picturesque routes through landscapes' },
@@ -13,6 +14,7 @@ const ROUTE_OPTIONS = [
 const today = new Date().toISOString().split('T')[0];
 
 export default function PlanTripModal({ onClose, onSubmit }) {
+  const navigate = useNavigate();
   const [form, setForm] = useState({
     source: '',
     destination: '',
@@ -22,6 +24,8 @@ export default function PlanTripModal({ onClose, onSubmit }) {
   });
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [apiError, setApiError] = useState(null);
 
   // Close on Escape
   useEffect(() => {
@@ -51,16 +55,24 @@ export default function PlanTripModal({ onClose, onSubmit }) {
     return errs;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const errs = validate();
     setErrors(errs);
     if (Object.keys(errs).length > 0) return;
+
+    setApiError(null);
+    setLoading(true);
     setSubmitted(true);
+
+    // Save trip to local list optimistically
+    onSubmit(form);
+
+    // Navigate to result page — TripResult will call the API
     setTimeout(() => {
-      onSubmit(form);
       onClose();
-    }, 1200);
+      navigate('/trip-result', { state: { formData: form } });
+    }, 600);
   };
 
   const destCities = CITIES.filter((c) => c !== form.source);
@@ -85,7 +97,7 @@ export default function PlanTripModal({ onClose, onSubmit }) {
             <div className={styles.checkCircle}>
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
             </div>
-            <p className={styles.successText}>Trip planned successfully!</p>
+            <p className={styles.successText}>Launching trip planner...</p>
             <p className={styles.successSub}>{form.source} → {form.destination}</p>
           </div>
         ) : (
@@ -192,10 +204,27 @@ export default function PlanTripModal({ onClose, onSubmit }) {
               </div>
             </div>
 
+            {/* API error */}
+            {apiError && <p className={styles.err} style={{textAlign:'center'}}>{apiError}</p>}
+
             {/* Submit */}
-            <button id="plan-trip-submit-btn" type="submit" className={styles.planBtn}>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
-              Plan Trip
+            <button
+              id="plan-trip-submit-btn"
+              type="submit"
+              className={styles.planBtn}
+              disabled={loading}
+            >
+              {loading ? (
+                <span style={{display:'flex',alignItems:'center',gap:'8px'}}>
+                  <span style={{width:'14px',height:'14px',border:'2px solid rgba(0,0,0,0.3)',borderTopColor:'#000',borderRadius:'50%',animation:'spin 0.7s linear infinite',display:'inline-block'}} />
+                  Planning...
+                </span>
+              ) : (
+                <>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                  Plan Trip
+                </>
+              )}
             </button>
           </form>
         )}
