@@ -3,14 +3,15 @@ from fastapi.middleware.cors import CORSMiddleware
 from backend.database import engine
 import backend.models as models
 from backend.routes import auth as auth_router
+from backend.routes import trip as trip_router
 
 # Create all tables
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Road Trip Planner API",
-    description="Authentication API for Road Trip Planner",
-    version="1.0.0"
+    description="Road Trip Planner — Auth + Trip Planning API",
+    version="2.0.0",
 )
 
 # CORS configuration — allow Vite dev server
@@ -23,6 +24,7 @@ app.add_middleware(
 )
 
 app.include_router(auth_router.router)
+app.include_router(trip_router.router)
 
 
 @app.get("/", tags=["health"])

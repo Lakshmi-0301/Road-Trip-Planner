@@ -49,3 +49,7 @@ Thumbs.db
 
 # Large datasets (optional, but keep CSVs for now if small)
 # datasets/*.csv
+
+# Spark
+checkpoints/
+
