@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.database import engine
-import backend.models as models
-from backend.routes import auth as auth_router
-from backend.routes import trip as trip_router
+from .database import engine
+from . import models
+from .routes import auth as auth_router
+from .routes import trip as trip_router
 
 # Create all tables
 models.Base.metadata.create_all(bind=engine)
