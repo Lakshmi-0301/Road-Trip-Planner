@@ -10,13 +10,13 @@ import axios from 'axios';
 const API_BASE = 'http://localhost:8000';
 
 /**
- * @param {{ source: string, destination: string, date: string, passengers: number }} params
+ * @param {{ source: string, destination: string, date: string, passengers: number, route?: string }} params
  * @returns {Promise<object>} Full trip response JSON
  */
-export async function planTrip({ source, destination, date, passengers }) {
+export async function planTrip({ source, destination, date, passengers, route = 'balanced' }) {
   try {
     const response = await axios.get(`${API_BASE}/api/plan_trip`, {
-      params: { source, destination, date, passengers },
+      params: { source, destination, date, passengers, route },
     });
     return response.data;
   } catch (error) {

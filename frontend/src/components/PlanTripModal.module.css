@@ -382,6 +382,70 @@
   font-weight: 500;
 }
 
+/* Time format buttons */
+.timeFormatGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.timeFormatBtn {
+  padding: 10px 14px;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.timeFormatBtn:hover {
+  border-color: var(--color-tan);
+  background: var(--color-accent-light);
+}
+
+.timeFormatActive {
+  border-color: var(--color-tan) !important;
+  background: var(--color-accent-light) !important;
+  color: var(--color-tan) !important;
+  font-weight: 600;
+}
+
+/* Time suggestion box */
+.timeSuggestion {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 12px 14px;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--color-tan);
+}
+
+.suggestionIcon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.suggestionTitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-tan);
+  margin: 0;
+}
+
+.suggestionReason {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin: 2px 0 0 0;
+  line-height: 1.3;
+}
+
 /* Responsive */
 @media (max-width: 560px) {
   .grid2 { grid-template-columns: 1fr; }

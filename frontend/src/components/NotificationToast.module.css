@@ -1,0 +1,141 @@
+/* ============================================
+   NotificationToast — Module CSS
+   Matches app dark/tan palette
+   ============================================ */
+
+.stack {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 340px;
+  width: calc(100vw - 56px);
+  pointer-events: none;
+}
+
+.toast {
+  pointer-events: all;
+  position: relative;
+  background: var(--color-surface, #141414);
+  border: 1px solid var(--toast-border, rgba(170,147,113,0.25));
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    0 2px 8px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255,255,255,0.04);
+  animation: slideIn 0.28s cubic-bezier(0.34, 1.36, 0.64, 1);
+  background-image: linear-gradient(
+    135deg,
+    var(--toast-bg, rgba(170,147,113,0.06)) 0%,
+    transparent 60%
+  );
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(32px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* Progress bar at top */
+.progressBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(255,255,255,0.05);
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--toast-color, #aa9371);
+  border-radius: 0 2px 2px 0;
+  transition: width 0.1s linear;
+  opacity: 0.8;
+}
+
+/* Inner layout */
+.toastInner {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 14px 14px 14px;
+}
+
+/* Icon circle */
+.toastIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: var(--toast-bg, rgba(170,147,113,0.1));
+  border: 1px solid var(--toast-border, rgba(170,147,113,0.2));
+  display: grid;
+  place-items: center;
+  color: var(--toast-color, #aa9371);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* Text */
+.toastText {
+  flex: 1;
+  min-width: 0;
+}
+
+.toastTitle {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-text-primary, #f0ebe3);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.toastDesc {
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #666);
+  margin-top: 3px;
+  line-height: 1.4;
+}
+
+/* Dismiss button */
+.dismissBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-muted, #555);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  transition: background 0.15s, color 0.15s;
+  padding: 0;
+  margin-top: 2px;
+}
+.dismissBtn:hover {
+  background: rgba(255,255,255,0.07);
+  color: var(--color-text-primary, #f0ebe3);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .stack {
+    bottom: 16px;
+    right: 12px;
+    left: 12px;
+    width: auto;
+    max-width: none;
+  }
+}

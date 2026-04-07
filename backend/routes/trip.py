@@ -20,13 +20,15 @@ from datetime import date as DateType
 
 from fastapi import APIRouter, HTTPException, Query
 
-from backend.services.cassandra_service import (
+from services.cassandra_service import (
     CITIES_COORDS,
     get_route_segments,
     get_ordered_route,
 )
-from backend.services.routing_service import get_polyline
-from backend.services.weather_service import get_weather
+from services.routing_service import get_polyline
+from services.weather_service import get_weather
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
 
 logger = logging.getLogger(__name__)
 
@@ -42,13 +44,13 @@ RESTAURANT_STOP_MIN = 20
 MAX_FUEL_COUNTED = 3
 MAX_RESTAURANT_COUNTED = 2
 
-
 @router.get("/plan_trip")
 async def plan_trip(
     source: str = Query(..., description="Source city"),
     destination: str = Query(..., description="Destination city"),
     date: str = Query(..., description="Travel date YYYY-MM-DD"),
     passengers: int = Query(..., ge=1, le=50, description="Number of passengers"),
+    route: str = Query("balanced", description="Route type: scenic, quick, balanced, offroad"),
 ):
     # ── 1. Validate cities ────────────────────────────────────────────────
     if source not in SUPPORTED_CITIES:
@@ -75,8 +77,8 @@ async def plan_trip(
 
     # ── 3. Get ordered route and segment data ─────────────────────────────
     try:
-        ordered_cities = get_ordered_route(source, destination)
-        segments_raw = get_route_segments(source, destination)
+        ordered_cities = get_ordered_route(source, destination, route)
+        segments_raw = get_route_segments(source, destination, route)
     except Exception as exc:
         logger.error("Route segment fetch failed: %s", exc)
         raise HTTPException(status_code=500, detail="Failed to retrieve route data.")
@@ -134,23 +136,21 @@ async def plan_trip(
     stop_time = (counted_fuel * FUEL_STOP_MIN) + (counted_rests * RESTAURANT_STOP_MIN)
     total_trip_time = round(total_travel_time + stop_time, 1)
 
-    # ── 6. Get route polyline ─────────────────────────────────────────────
+    # ── 6. Get route polyline and weather ─────────────────────────────────
+    waypoints = [CITIES_COORDS[city] for city in ordered_cities if city in CITIES_COORDS]
+
     try:
-        waypoints = [CITIES_COORDS[city] for city in ordered_cities if city in CITIES_COORDS]
-        polyline = get_polyline(waypoints)
+        with ThreadPoolExecutor() as pool:
+            future_poly    = pool.submit(get_polyline, waypoints)
+            future_weather = pool.submit(get_weather, ordered_cities, CITIES_COORDS, date)
+            polyline = future_poly.result()
+            weather  = future_weather.result()
     except Exception as exc:
-        logger.error("Polyline fetch failed: %s", exc)
-        # Non-fatal — return empty polyline, map can still show markers
+        logger.error("Parallel fetch failed: %s", exc)
         polyline = []
+        weather  = []
 
-    # ── 7. Get weather ────────────────────────────────────────────────────
-    try:
-        weather = get_weather(ordered_cities, CITIES_COORDS, date)
-    except Exception as exc:
-        logger.error("Weather fetch failed: %s", exc)
-        weather = []
-
-    # ── 8. Build city info list (coords for markers) ──────────────────────
+    # ── 7. Build city info list (coords for markers) ──────────────────────
     cities_info = [
         {
             "name": city,
@@ -171,6 +171,7 @@ async def plan_trip(
             "cities": cities_info,
             "polyline": polyline,
             "total_distance_km": total_distance,
+            "type": route,
         },
         "segments": segments_out,
         "summary": {
@@ -182,3 +183,32 @@ async def plan_trip(
         },
         "weather": weather,
     }
+
+
+@router.get("/debug_route")
+def debug_route(route_type: str = Query("balanced", description="Route type to test")):
+    try:
+        from services.cassandra_service import get_route_segments, get_ordered_route
+        route_balanced = get_ordered_route("Chennai", "Bangalore", "balanced")
+        route_quick = get_ordered_route("Chennai", "Bangalore", "quick")
+        route_scenic = get_ordered_route("Chennai", "Bangalore", "scenic")
+        
+        segs_balanced = get_route_segments("Chennai", "Bangalore", "balanced")
+        segs_quick = get_route_segments("Chennai", "Bangalore", "quick")
+        segs_scenic = get_route_segments("Chennai", "Bangalore", "scenic")
+        
+        return {
+            "routes": {
+                "balanced": route_balanced,
+                "quick": route_quick,
+                "scenic": route_scenic,
+            },
+            "segments": {
+                "balanced": [{"start": s["segment_start"], "end": s["segment_end"], "time": s["travel_time_min"]} for s in segs_balanced],
+                "quick": [{"start": s["segment_start"], "end": s["segment_end"], "time": s["travel_time_min"]} for s in segs_quick],
+                "scenic": [{"start": s["segment_start"], "end": s["segment_end"], "time": s["travel_time_min"]} for s in segs_scenic],
+            }
+        }
+    except Exception as e:
+        import traceback
+        return {"error": str(e), "trace": traceback.format_exc()}

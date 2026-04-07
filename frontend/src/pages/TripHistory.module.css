@@ -1,0 +1,731 @@
+/* ============================================
+   TripHistory — Module CSS
+   Matches Dashboard palette & design system
+   ============================================ */
+
+/* ── Page shell ── */
+.page {
+  min-height: 100vh;
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ────────────────────────────────────────────
+   NAVBAR
+──────────────────────────────────────────── */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 62px;
+  background: rgba(13, 13, 13, 0.85);
+  border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(12px);
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.backBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.backBtn:hover {
+  border-color: var(--color-tan);
+  color: var(--color-tan);
+  background: var(--color-accent-light);
+}
+
+.navDivider {
+  width: 1px;
+  height: 22px;
+  background: var(--color-border);
+}
+
+.navBrand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-tan);
+}
+
+.navBrandName {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: 0.01em;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.planBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: var(--color-tan);
+  color: var(--color-black);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+.planBtn:hover {
+  background: var(--color-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(170, 147, 113, 0.3);
+}
+
+.logoutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.logoutBtn:hover {
+  border-color: var(--color-tan);
+  color: var(--color-tan);
+  background: var(--color-accent-light);
+}
+
+/* ────────────────────────────────────────────
+   PAGE HEADER
+──────────────────────────────────────────── */
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 36px 40px 28px;
+  border-bottom: 1px solid var(--color-border);
+  background: linear-gradient(180deg, rgba(170,147,113,0.04) 0%, transparent 100%);
+}
+
+.pageTitle {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.pageTitleAccent {
+  color: var(--color-tan);
+}
+
+.pageSub {
+  margin-top: 6px;
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+}
+
+.headerStats {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.headerStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 24px;
+  gap: 2px;
+}
+
+.headerStatVal {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--color-tan);
+  line-height: 1;
+}
+
+.headerStatLabel {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.headerStatDivider {
+  width: 1px;
+  height: 36px;
+  background: var(--color-border);
+}
+
+/* ────────────────────────────────────────────
+   MAIN GRID
+──────────────────────────────────────────── */
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 24px;
+  padding: 28px 40px 48px;
+  flex: 1;
+  align-items: start;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 78px;
+}
+
+/* ────────────────────────────────────────────
+   TOOLBAR
+──────────────────────────────────────────── */
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.searchWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+  height: 38px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  flex: 1;
+  min-width: 180px;
+  transition: border-color var(--transition-fast);
+}
+.searchWrap:focus-within {
+  border-color: var(--color-tan);
+}
+
+.searchInput {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 0.84rem;
+  color: var(--color-text-primary);
+}
+.searchInput::placeholder {
+  color: var(--color-text-muted);
+}
+
+.filterTabs {
+  display: flex;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.filterTab {
+  padding: 0 14px;
+  height: 38px;
+  background: transparent;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+  border-right: 1px solid var(--color-border);
+}
+.filterTab:last-child { border-right: none; }
+.filterTab:hover { color: var(--color-text-primary); background: var(--color-surface-2); }
+
+.filterTabActive {
+  background: var(--color-accent-light);
+  color: var(--color-tan);
+  font-weight: 600;
+}
+
+.sortWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  height: 38px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  transition: border-color var(--transition-fast);
+}
+.sortWrap:focus-within { border-color: var(--color-tan); }
+
+.sortSelect {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 0.82rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+
+/* ────────────────────────────────────────────
+   TRIP CARDS
+──────────────────────────────────────────── */
+.tripList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tripCard {
+  display: flex;
+  align-items: stretch;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast), opacity 0.3s ease;
+}
+.tripCard:hover {
+  border-color: var(--route-color, var(--color-tan));
+  transform: translateX(3px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+.tripCardDeleting {
+  opacity: 0;
+  transform: translateX(20px) scale(0.97);
+}
+
+.tripStripe {
+  width: 4px;
+  flex-shrink: 0;
+  background: var(--route-color, var(--color-tan));
+  opacity: 0.7;
+}
+
+.tripCardBody {
+  flex: 1;
+  padding: 14px 16px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tripRouteRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tripCityPair {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tripCity {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.tripArrow {
+  display: flex;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.tripBadges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.routeBadge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.statusBadge {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: var(--radius-full);
+}
+.statusDone {
+  background: rgba(109,191,138,0.1);
+  color: #6dbf8a;
+  border: 1px solid rgba(109,191,138,0.25);
+}
+.statusUpcoming {
+  background: rgba(106,159,216,0.1);
+  color: #6a9fd8;
+  border: 1px solid rgba(106,159,216,0.25);
+}
+.statusDraft {
+  background: rgba(60,60,60,0.2);
+  color: #555;
+  border: 1px solid #222;
+}
+
+.tripMetaRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tripMetaItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.tripCardActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 14px;
+  border-left: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.openBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1.5px solid rgba(170,147,113,0.4);
+  background: linear-gradient(135deg, rgba(170,147,113,0.15), rgba(170,147,113,0.06));
+  color: var(--color-tan);
+  cursor: pointer;
+  transition: all 0.18s ease;
+  white-space: nowrap;
+}
+.openBtn:hover {
+  background: var(--color-tan);
+  color: var(--color-black);
+  border-color: var(--color-tan);
+  transform: translateY(-1px);
+}
+
+.deleteBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: #3a3a3a;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.deleteBtn:hover {
+  border-color: rgba(224,92,92,0.4);
+  background: rgba(224,92,92,0.08);
+  color: #e05c5c;
+}
+
+.countLine {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: 4px 0;
+}
+.countLine strong { color: var(--color-text-secondary); }
+
+/* ────────────────────────────────────────────
+   EMPTY STATE
+──────────────────────────────────────────── */
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  gap: 10px;
+  text-align: center;
+}
+
+.emptyIcon {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  display: grid;
+  place-items: center;
+  color: var(--color-tan);
+  margin-bottom: 8px;
+}
+
+.emptyTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.emptyHint {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  max-width: 320px;
+  line-height: 1.5;
+}
+
+.emptyBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 9px 18px;
+  background: var(--color-tan);
+  color: var(--color-black);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+.emptyBtn:hover {
+  background: var(--color-accent-hover);
+  transform: translateY(-1px);
+}
+
+/* ────────────────────────────────────────────
+   ANALYTICS CARDS (right col)
+──────────────────────────────────────────── */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  transition: border-color var(--transition-normal);
+}
+.card:hover { border-color: rgba(170,147,113,0.18); }
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.cardTitle {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+}
+.cardHeader .cardTitle { margin-bottom: 0; }
+
+.cardSubtitle {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Stats 2x2 grid */
+.statGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.statCell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 10px;
+  background: var(--color-surface-2);
+  gap: 4px;
+  text-align: center;
+}
+
+.statCellVal {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.statCellLabel {
+  font-size: 0.68rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Bar chart wrapper */
+.chartWrap {
+  padding: 8px 4px 0;
+  min-height: 80px;
+}
+
+/* Insight line */
+.insightLine {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+.insightLine strong { font-weight: 700; }
+
+/* Top destinations */
+.destList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.destRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.destRank {
+  width: 18px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.destName {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.destBar {
+  flex: 1;
+  height: 5px;
+  background: var(--color-surface-2);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.destBarFill {
+  height: 100%;
+  background: var(--color-tan);
+  border-radius: 99px;
+  opacity: 0.7;
+  transition: width 0.6s ease;
+}
+
+.destCount {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-tan);
+  min-width: 18px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* ────────────────────────────────────────────
+   RESPONSIVE
+──────────────────────────────────────────── */
+@media (max-width: 960px) {
+  .mainGrid {
+    grid-template-columns: 1fr;
+    padding: 20px 24px 40px;
+  }
+  .rightCol {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .navbar { padding: 0 20px; }
+  .navBrand { display: none; }
+  .pageHeader { flex-direction: column; align-items: flex-start; padding: 24px 20px 20px; }
+  .headerStats { width: 100%; }
+  .mainGrid { padding: 16px 20px 32px; }
+  .toolbar { flex-wrap: wrap; }
+  .filterTabs { display: none; }
+  .tripRouteRow { flex-direction: column; align-items: flex-start; }
+  .tripCardActions { flex-direction: row; border-left: none; border-top: 1px solid var(--color-border); justify-content: flex-end; padding: 10px 14px; }
+  .tripCard { flex-direction: column; }
+  .rightCol { grid-template-columns: 1fr; }
+}

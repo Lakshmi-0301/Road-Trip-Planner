@@ -1,0 +1,453 @@
+/* ── Keyframes ──────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,500&family=Outfit:wght@400;500;600;700&display=swap');
+
+@keyframes fadeUp    { from { opacity:0; transform:translateY(22px); } to { opacity:1; transform:translateY(0); } }
+@keyframes fadeIn    { from { opacity:0; } to { opacity:1; } }
+@keyframes floatY    { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-8px); } }
+@keyframes floatChip { 0%,100% { transform:translateY(0) rotate(-1deg); } 50% { transform:translateY(-5px) rotate(-1deg); } }
+@keyframes glowPulse { 0%,100% { opacity:.4; transform:scale(1); } 50% { opacity:.7; transform:scale(1.04); } }
+@keyframes roadMove  { from { transform:translateX(0); } to { transform:translateX(80px); } }
+@keyframes carBob    { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-2px); } }
+@keyframes wheelR    { to { transform:rotate(360deg); } }
+@keyframes exhaust   { 0% { opacity:.5; transform:scaleX(1); } 100% { opacity:0; transform:scaleX(2.5) translateX(-5px); } }
+@keyframes treeSway  { 0%,100% { transform:rotate(0); } 50% { transform:rotate(1.5deg); } }
+@keyframes dotFlow   { 0%,100% { opacity:.2; } 50% { opacity:1; } }
+@keyframes barGrow   { from { width:0; } }
+@keyframes slideIn   { from { opacity:0; transform:translateX(-12px); } to { opacity:1; transform:translateX(0); } }
+@keyframes spin      { to { transform:rotate(360deg); } }
+
+/* ── Base ───────────────────────────────────────────────────────────────────── */
+.page {
+  min-height: 100vh;
+  background: #0a0a0a;
+  color: #e8e0d5;
+  font-family: 'Outfit', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* ── Navbar ─────────────────────────────────────────────────────────────────── */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 48px; height: 60px;
+  background: rgba(8,8,8,.88);
+  border-bottom: 1px solid rgba(255,255,255,.05);
+  backdrop-filter: blur(18px);
+}
+.navBrand {
+  display: flex; align-items: center; gap: 9px;
+  font-family: 'Fraunces', Georgia, serif; font-size: .9rem; font-weight: 700;
+  color: #aa9371; letter-spacing: .02em;
+}
+.navLinks { display: flex; align-items: center; gap: 28px; }
+.navLink {
+  font-size: .8rem; color: #555; text-decoration: none; cursor: pointer;
+  transition: color .15s; font-weight: 500;
+}
+.navLink:hover { color: #c8c0b5; }
+.navActions { display: flex; align-items: center; gap: 8px; }
+.ghostBtn {
+  padding: 6px 14px; background: transparent; border: 1px solid #222;
+  border-radius: 7px; color: #777; font-size: .78rem; font-weight: 500;
+  cursor: pointer; transition: all .15s; font-family: inherit;
+}
+.ghostBtn:hover { border-color: #aa9371; color: #aa9371; }
+.fillBtn {
+  padding: 6px 14px; background: #aa9371; border: none;
+  border-radius: 7px; color: #000; font-size: .78rem; font-weight: 700;
+  cursor: pointer; transition: all .15s; font-family: inherit;
+}
+.fillBtn:hover { background: #c4aa86; transform: translateY(-1px); box-shadow: 0 4px 14px rgba(170,147,113,.3); }
+
+/* ── Hero ───────────────────────────────────────────────────────────────────── */
+.hero {
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 48px; padding: 90px 48px 60px;
+  position: relative; overflow: hidden;
+}
+.heroBg { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
+.heroBgGlow1 {
+  position: absolute; top: -10%; left: -15%; width: 65%; height: 80%;
+  background: radial-gradient(ellipse, rgba(170,147,113,.07) 0%, transparent 65%);
+  animation: glowPulse 7s ease-in-out infinite;
+}
+.heroBgGlow2 {
+  position: absolute; bottom: 5%; right: -10%; width: 55%; height: 70%;
+  background: radial-gradient(ellipse, rgba(91,196,196,.04) 0%, transparent 65%);
+  animation: glowPulse 9s ease-in-out infinite reverse;
+}
+.heroBgGrid {
+  position: absolute; inset: 0;
+  background-image: linear-gradient(rgba(255,255,255,.016) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.016) 1px,transparent 1px);
+  background-size: 52px 52px;
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 50%, black 20%, transparent 100%);
+}
+
+.heroContent {
+  flex: 1; max-width: 540px; position: relative; z-index: 2;
+  animation: fadeUp .7s ease both;
+}
+.heroBadge {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 5px 11px; margin-bottom: 24px;
+  background: rgba(170,147,113,.08); border: 1px solid rgba(170,147,113,.2);
+  border-radius: 20px; font-size: .68rem; font-weight: 600; color: #aa9371;
+  letter-spacing: .06em; text-transform: uppercase;
+}
+.heroBadgeDot {
+  width: 6px; height: 6px; border-radius: 50%; background: #6dbf8a;
+  box-shadow: 0 0 6px #6dbf8a; animation: glowPulse 2s infinite;
+}
+.heroH1 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 3.9rem; font-weight: 500; line-height: 1.18;
+  letter-spacing: -.01em; color: #ede5da; margin-bottom: 20px;
+  font-style: italic;
+}
+.heroAccent { color: #aa9371; }
+.heroSub {
+  font-size: .95rem; color: #5a5550; line-height: 1.75;
+  margin-bottom: 32px; max-width: 430px;
+}
+.heroBtns { display: flex; align-items: center; gap: 10px; margin-bottom: 24px; }
+.heroPrimary {
+  display: flex; align-items: center; gap: 8px;
+  padding: 12px 22px; background: #aa9371; border: none;
+  border-radius: 10px; color: #000; font-size: .88rem; font-weight: 700;
+  cursor: pointer; transition: all .18s; font-family: inherit;
+}
+.heroPrimary:hover { background: #c4aa86; transform: translateY(-2px); box-shadow: 0 6px 22px rgba(170,147,113,.38); }
+.heroSecondary {
+  padding: 12px 20px; background: transparent;
+  border: 1px solid #1e1e1e; border-radius: 10px; color: #666;
+  font-size: .84rem; font-weight: 500; cursor: pointer; transition: all .18s; font-family: inherit;
+}
+.heroSecondary:hover { border-color: #333; color: #aaa; }
+.heroMeta {
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  font-size: .72rem; color: #3a3530;
+}
+.heroMeta span { display: flex; align-items: center; gap: 5px; }
+
+/* Hero visual */
+.heroVisual {
+  flex: 1; max-width: 460px; position: relative; z-index: 2;
+  display: flex; justify-content: center;
+  animation: fadeUp .7s .18s ease both;
+}
+.heroMapCard {
+  width: 100%; max-width: 380px;
+  background: #111; border: 1px solid #1e1e1e; border-radius: 16px;
+  padding: 20px; position: relative;
+  box-shadow: 0 24px 60px rgba(0,0,0,.5);
+  animation: floatY 5s ease-in-out infinite;
+}
+.heroMapTop {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.heroMapDot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.heroMapCity { font-family: 'Fraunces', Georgia, serif; font-size: .88rem; font-weight: 700; color: #d6c6ac; }
+.heroMapLine { flex: 1; height: 1px; background: linear-gradient(90deg, #252525, transparent); min-width: 20px; }
+.heroMapStats {
+  display: flex; align-items: center;
+  background: #0e0e0e; border: 1px solid #1a1a1a;
+  border-radius: 10px; padding: 12px; margin-bottom: 12px;
+}
+.heroMapStat { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.heroMapStatVal { font-family: 'Fraunces', Georgia, serif; font-size: .95rem; font-weight: 700; color: #e8e0d5; }
+.heroMapStatLbl { font-size: .62rem; color: #555; text-transform: uppercase; letter-spacing: .05em; }
+.heroMapStatDiv { width: 1px; height: 28px; background: #1e1e1e; margin: 0 4px; }
+.heroMapWeather {
+  display: flex; align-items: center; gap: 6px;
+  font-size: .72rem; color: #666; margin-bottom: 12px;
+}
+.heroMapSegments { display: flex; gap: 4px; height: 4px; }
+.heroMapSeg { flex: 1; border-radius: 2px; }
+
+/* Floating chips */
+.floatChip {
+  position: absolute;
+  display: flex; align-items: center; gap: 5px;
+  padding: 5px 9px; background: #0e0e0e;
+  border: 1px solid #1e1e1e; border-radius: 20px;
+  font-size: .65rem; font-weight: 600; color: #888;
+  animation: floatChip 4s ease-in-out infinite;
+  white-space: nowrap;
+}
+
+/* ── Road strip ─────────────────────────────────────────────────────────────── */
+.roadStrip {
+  position: relative; height: 56px;
+  background: #0c0c0c; border-top: 1px solid #141414; border-bottom: 1px solid #141414;
+  overflow: hidden;
+}
+.roadSurface { position: absolute; inset: 0; }
+.roadDash {
+  position: absolute; top: 47%; left: -100%; width: 300%; height: 2px;
+  background: repeating-linear-gradient(90deg, rgba(170,147,113,.35) 0px, rgba(170,147,113,.35) 20px, transparent 20px, transparent 44px);
+  animation: roadMove 1.3s linear infinite;
+}
+
+/* Car */
+.stripCarWrap { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); animation: carBob 2.4s ease-in-out infinite; }
+.stripCar {
+  width: 50px; height: 18px; background: #aa9371; border-radius: 3px 9px 3px 3px;
+  position: relative; box-shadow: 0 0 16px rgba(170,147,113,.4);
+}
+.stripCarRoof { position: absolute; top: -9px; left: 11px; width: 22px; height: 12px; background: #c4aa86; border-radius: 3px 5px 0 0; }
+.stripCarWin { position: absolute; top: -8px; left: 12px; width: 9px; height: 9px; background: rgba(100,180,255,.25); border-radius: 2px 3px 0 0; }
+.stripCarLight { position: absolute; top: 4px; right: 2px; width: 5px; height: 5px; background: #fff8c0; border-radius: 1px; box-shadow: 0 0 7px #fff8c0; }
+.stripCarWheel {
+  position: absolute; bottom: -5px; width: 10px; height: 10px;
+  background: #1a1a1a; border: 2px solid #3a3a3a; border-radius: 50%;
+  animation: wheelR .35s linear infinite;
+}
+.stripCarWheel::after { content:''; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:3px; height:3px; background:#555; border-radius:50%; }
+.stripCarExhaust { position: absolute; left: -9px; top: 8px; width: 9px; height: 3px; background: rgba(200,200,200,.25); border-radius: 2px; animation: exhaust .9s ease-out infinite; }
+
+/* Trees on road strip */
+.stripTree {
+  position: absolute; bottom: 14px; width: 3px; background: #1a2a14; border-radius: 1px;
+  animation: treeSway 3s ease-in-out infinite;
+}
+.stripTree::before { content:''; position:absolute; bottom:100%; left:50%; transform:translateX(-50%); width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:16px solid #172210; }
+.stripTree::after  { content:''; position:absolute; bottom:calc(100% + 9px); left:50%; transform:translateX(-50%); width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-bottom:13px solid #1e2e16; }
+
+/* ── Stats row ──────────────────────────────────────────────────────────────── */
+.statsRow {
+  display: grid; grid-template-columns: repeat(4,1fr);
+  background: #090909; border-bottom: 1px solid #141414;
+}
+.statBox {
+  display: flex; flex-direction: column; align-items: center;
+  padding: 28px 16px; gap: 4px;
+  border-right: 1px solid #141414; transition: background .2s;
+}
+.statBox:last-child { border-right: none; }
+.statBox:hover { background: #0e0e0e; }
+.statNum {
+  font-family: 'Fraunces', Georgia, serif; font-size: 1.9rem; font-weight: 800;
+  color: #aa9371; letter-spacing: -.02em;
+}
+.statLbl { font-size: .7rem; color: #444; font-weight: 500; text-align: center; }
+
+/* ── Sections ───────────────────────────────────────────────────────────────── */
+.section { padding: 80px 48px; }
+.sectionHead { text-align: center; margin-bottom: 52px; }
+.pill {
+  display: inline-block; padding: 4px 11px; margin-bottom: 14px;
+  background: rgba(170,147,113,.07); border: 1px solid rgba(170,147,113,.18);
+  border-radius: 20px; font-size: .66rem; font-weight: 700; color: #aa9371;
+  letter-spacing: .08em; text-transform: uppercase;
+}
+.sectionTitle {
+  font-family: 'Fraunces', Georgia, serif; font-size: 1.9rem; font-weight: 500;
+  font-style: italic; color: #ede5da; letter-spacing: -.01em; margin-bottom: 10px;
+}
+.sectionSub { font-size: .86rem; color: #4a4540; max-width: 440px; margin: 0 auto; line-height: 1.7; }
+
+/* ── Features ───────────────────────────────────────────────────────────────── */
+.featGrid {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 14px; max-width: 960px; margin: 0 auto;
+}
+.featCard {
+  padding: 22px; background: #0e0e0e; border: 1px solid #161616;
+  border-radius: 12px; display: flex; flex-direction: column; gap: 10px;
+  transition: border-color .2s, transform .2s;
+  animation: fadeUp .5s ease both;
+}
+.featCard:hover { border-color: #252525; transform: translateY(-3px); }
+.featIcon {
+  width: 42px; height: 42px; border-radius: 11px;
+  display: flex; align-items: center; justify-content: center;
+}
+.featTitle { font-family: 'Fraunces', Georgia, serif; font-size: .86rem; font-weight: 700; color: #d6c6ac; }
+.featDesc { font-size: .76rem; color: #4a4540; line-height: 1.65; }
+
+/* ── How it works ────────────────────────────────────────────────────────────── */
+.howSection {
+  padding: 80px 48px;
+  background: #080808; border-top: 1px solid #111; border-bottom: 1px solid #111;
+}
+.howGrid {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 20px; max-width: 900px; margin: 0 auto;
+}
+.howCard {
+  padding: 24px; background: #0c0c0c; border: 1px solid #161616;
+  border-radius: 14px; display: flex; flex-direction: column; gap: 12px;
+  transition: border-color .2s; animation: fadeUp .5s ease both;
+}
+.howCard:hover { border-color: #222; }
+.howNum {
+  font-family: 'Fraunces', Georgia, serif; font-size: .62rem; font-weight: 800;
+  color: #aa9371; letter-spacing: .12em; text-transform: uppercase;
+}
+.howTitle { font-family: 'Fraunces', Georgia, serif; font-size: .9rem; font-weight: 700; color: #d6c6ac; }
+.howDesc { font-size: .76rem; color: #4a4540; line-height: 1.65; }
+
+/* How visuals */
+.howVisual {
+  background: #0a0a0a; border: 1px solid #161616;
+  border-radius: 10px; padding: 16px; min-height: 80px;
+  display: flex; align-items: center; justify-content: center;
+}
+.howCityPill {
+  display: flex; align-items: center; gap: 5px;
+  padding: 5px 10px; border: 1px solid; border-radius: 20px;
+  font-size: .72rem; font-weight: 600; white-space: nowrap;
+}
+.howDotLine { display: flex; align-items: center; gap: 4px; flex: 1; justify-content: center; }
+.howDot {
+  width: 5px; height: 5px; border-radius: 50%; background: #aa9371;
+  animation: dotFlow 1.2s ease-in-out infinite;
+}
+.howBarsWrap { display: flex; flex-direction: column; gap: 7px; width: 100%; }
+.howBar { display: flex; align-items: center; gap: 8px; }
+.howBarLbl { font-size: .62rem; color: #555; width: 44px; flex-shrink: 0; text-align: right; }
+.howBarTrack { flex: 1; height: 4px; background: #1a1a1a; border-radius: 2px; overflow: hidden; }
+.howBarFill { height: 100%; border-radius: 2px; animation: barGrow .8s ease both; }
+.howMapMini { width: 100%; border-radius: 8px; overflow: hidden; }
+
+/* ── Route slider ────────────────────────────────────────────────────────────── */
+.sliderWrap {
+  display: flex; align-items: center; gap: 12px;
+  max-width: 1100px; margin: 0 auto; overflow: hidden;
+}
+.sliderBtn {
+  width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
+  background: #111; border: 1px solid #1e1e1e; color: #666;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; transition: all .15s; font-family: inherit;
+}
+.sliderBtn:hover:not(:disabled) { background: #1a1a1a; border-color: #aa9371; color: #aa9371; }
+.sliderBtn:disabled { opacity: .3; cursor: default; }
+
+.slider {
+  flex: 1; overflow: hidden; cursor: grab;
+}
+.slider:active { cursor: grabbing; }
+.sliderTrack {
+  display: flex; gap: 14px;
+  transition: transform .4s cubic-bezier(.25,.46,.45,.94);
+  will-change: transform;
+}
+
+/* Route cards */
+.routeCard {
+  flex: 0 0 calc(33.333% - 10px);
+  background: #0e0e0e; border: 1px solid #161616;
+  border-radius: 14px; overflow: hidden; cursor: pointer;
+  transition: border-color .2s, transform .2s, box-shadow .2s;
+  position: relative; user-select: none;
+}
+.routeCard:hover { border-color: #252525; transform: translateY(-4px); box-shadow: 0 12px 36px rgba(0,0,0,.4); }
+
+.routeCardImg { position: relative; height: 130px; overflow: hidden; }
+.cardIllustration { width: 100%; height: 100%; display: block; transition: transform .4s ease; }
+.routeCard:hover .cardIllustration { transform: scale(1.03); }
+.routeCardTag {
+  position: absolute; top: 10px; left: 10px;
+  padding: 3px 8px; border: 1px solid; border-radius: 20px;
+  font-size: .6rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+}
+
+.routeCardBody { padding: 14px 16px 16px; }
+.routeCardMood { font-size: .65rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; margin-bottom: 8px; }
+.routeCardRoute { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.routeCardCity { font-family: 'Fraunces', Georgia, serif; font-size: .9rem; font-weight: 700; color: #d6c6ac; }
+.routeCardArrow {
+  width: 22px; height: 22px; border-radius: 6px;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.routeCardMeta { display: flex; align-items: center; gap: 6px; font-size: .72rem; color: #3a3530; }
+.routeMetaDot { width: 3px; height: 3px; border-radius: 50%; background: #333; }
+
+.routeCardBar { position: absolute; bottom: 0; left: 0; right: 0; height: 2px; opacity: .6; transition: opacity .2s; }
+.routeCard:hover .routeCardBar { opacity: 1; }
+
+/* Dots */
+.sliderDots { display: flex; justify-content: center; gap: 6px; margin-top: 20px; }
+.sliderDot {
+  width: 6px; height: 6px; border-radius: 50%; background: #222; border: none;
+  cursor: pointer; transition: all .2s; padding: 0;
+}
+.sliderDotActive { background: #aa9371; width: 18px; border-radius: 3px; }
+
+/* ── CTA section ─────────────────────────────────────────────────────────────── */
+.ctaSection {
+  position: relative; padding: 80px 48px 112px;
+  text-align: center; overflow: hidden;
+  border-top: 1px solid #111;
+}
+.ctaGlow {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+  width: 60%; height: 200%;
+  background: radial-gradient(ellipse, rgba(170,147,113,.07) 0%, transparent 65%);
+  pointer-events: none;
+  animation: glowPulse 6s ease-in-out infinite;
+}
+.ctaContent { position: relative; z-index: 2; }
+.ctaTitle {
+  font-family: 'Fraunces', Georgia, serif; font-size: 2rem; font-weight: 500;
+  font-style: italic; color: #ede5da; letter-spacing: -.01em; margin-bottom: 12px;
+}
+.ctaSub { font-size: .88rem; color: #4a4540; margin-bottom: 28px; }
+.ctaBtns { display: flex; align-items: center; justify-content: center; gap: 10px; }
+.ctaPrimary {
+  padding: 12px 26px; background: #aa9371; border: none; border-radius: 10px;
+  color: #000; font-size: .88rem; font-weight: 700; cursor: pointer;
+  transition: all .18s; font-family: inherit;
+}
+.ctaPrimary:hover { background: #c4aa86; transform: translateY(-2px); box-shadow: 0 6px 22px rgba(170,147,113,.35); }
+.ctaGhost {
+  padding: 12px 20px; background: transparent;
+  border: 1px solid #1e1e1e; border-radius: 10px; color: #555;
+  font-size: .82rem; cursor: pointer; transition: all .18s; font-family: inherit;
+}
+.ctaGhost:hover { border-color: #333; color: #aaa; }
+
+/* Road strip in CTA sits at bottom */
+.ctaSection .roadStrip {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  border-top: 1px solid #141414; border-bottom: none;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────────────────── */
+.footer {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px 48px; background: #060606; border-top: 1px solid #101010;
+  flex-wrap: wrap; gap: 10px;
+}
+.footerBrand { display: flex; align-items: center; gap: 7px; font-size: .78rem; font-weight: 600; color: #aa9371; font-family: 'Fraunces', Georgia, serif; }
+.footerStack { font-size: .68rem; color: #2a2a2a; }
+.footerLinks { display: flex; gap: 14px; }
+.footerLink { font-size: .72rem; color: #333; cursor: pointer; transition: color .15s; }
+.footerLink:hover { color: #aa9371; }
+
+/* ── Responsive ──────────────────────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .hero { padding: 90px 28px 52px; }
+  .featGrid { grid-template-columns: 1fr 1fr; }
+  .howGrid { grid-template-columns: 1fr; gap: 14px; max-width: 480px; }
+  .routeCard { flex: 0 0 calc(50% - 8px); }
+  .statsRow { grid-template-columns: 1fr 1fr; }
+  .statBox:nth-child(2) { border-right: none; }
+}
+@media (max-width: 768px) {
+  .hero { flex-direction: column; padding: 80px 20px 40px; min-height: auto; }
+  .heroVisual { max-width: 100%; width: 100%; }
+  .heroH1 { font-size: 2.4rem; }
+  .nav { padding: 0 20px; }
+  .navLinks { display: none; }
+  .section { padding: 52px 20px; }
+  .howSection { padding: 52px 20px; }
+  .featGrid { grid-template-columns: 1fr; }
+  .routeCard { flex: 0 0 calc(100% - 2px); }
+  .footer { flex-direction: column; text-align: center; padding: 16px 20px; }
+  .ctaSection { padding: 60px 20px 100px; }
+  .ctaTitle { font-size: 1.7rem; }
+}

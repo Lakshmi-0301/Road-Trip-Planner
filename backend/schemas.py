@@ -41,6 +41,7 @@ class UserOut(BaseModel):
     id: int
     username: str
     email: str
+    role: str          # ← added
     created_at: datetime
 
     class Config:
@@ -55,3 +56,9 @@ class Token(BaseModel):
 
 class TokenData(BaseModel):
     email: Optional[str] = None
+
+
+# ── Admin ─────────────────────────────────────────────────────────────────────
+class PromoteRequest(BaseModel):
+    email: str
+    role: str          # "admin" | "user"
