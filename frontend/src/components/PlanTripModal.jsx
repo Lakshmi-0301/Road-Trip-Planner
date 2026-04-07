@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './PlanTripModal.module.css';
+import { Lightbulb } from 'lucide-react';
 
 const CITIES = ['Bangalore', 'Chennai', 'Coimbatore', 'Hyderabad', 'Kochi', 'Mysore', 'Puducherry'];
 
@@ -288,7 +289,7 @@ export default function PlanTripModal({ onClose, onSubmit }) {
               
               {/* Smart Suggestion */}
               <div className={styles.timeSuggestion}>
-                <span className={styles.suggestionIcon}>💡</span>
+                <span className={styles.suggestionIcon}><Lightbulb size={20} /></span>
                 <div>
                   <p className={styles.suggestionTitle}>Suggested: {suggestedTime}</p>
                   <p className={styles.suggestionReason}>{suggestion.reason}</p>

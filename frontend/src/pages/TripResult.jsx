@@ -7,6 +7,13 @@ import {
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { planTrip } from '../api/tripApi';
+import { 
+  CloudRain, CloudSun, Wind, Sun, 
+  Phone, Globe, CreditCard, Clock, MapPin, 
+  Zap, Mountain, Scale, Map, 
+  Fuel, Thermometer,
+  Utensils, PlusCircle
+} from 'lucide-react';
 import styles from './TripResult.module.css';
 import {
   fmt, closestIdx, interpolate, fetchOverpass, fetchElevation,
@@ -158,10 +165,10 @@ function CItem({ text }) {
 }
 
 function WeatherIcon({ rain, wind }) {
-  if (rain > 60) return <span className={styles.wxEmoji}>🌧️</span>;
-  if (rain > 30) return <span className={styles.wxEmoji}>⛅</span>;
-  if (wind > 40) return <span className={styles.wxEmoji}>💨</span>;
-  return <span className={styles.wxEmoji}>☀️</span>;
+  if (rain > 60) return <CloudRain size={16} className={styles.wxEmoji} />;
+  if (rain > 30) return <CloudSun size={16} className={styles.wxEmoji} />;
+  if (wind > 40) return <Wind size={16} className={styles.wxEmoji} />;
+  return <Sun size={16} className={styles.wxEmoji} />;
 }
 
 // ════════════════════════════════════════════════════════════════════════════
@@ -606,19 +613,19 @@ export default function TripResult() {
                       </div>
                       {m.phone && (
                         <div className={styles.poiContact}>
-                          <span className={styles.poiContactLabel}>📞</span>
+                          <Phone size={14} className={styles.poiContactLabel} />
                           <a href={`tel:${m.phone}`} className={styles.poiContactLink}>{m.phone}</a>
                         </div>
                       )}
                       {m.website && (
                         <div className={styles.poiContact}>
-                          <span className={styles.poiContactLabel}>🌐</span>
+                          <Globe size={14} className={styles.poiContactLabel} />
                           <a href={m.website} target="_blank" rel="noreferrer" className={styles.poiContactLink}>{m.website}</a>
                         </div>
                       )}
-                      {m.fee && <div className={styles.poiFee}>💳 Fee: {m.fee}</div>}
-                      {m.hours && <div className={styles.poiHours}>🕐 {m.hours}</div>}
-                      <div className={styles.poiCity}>📍 Near {m.city}</div>
+                      {m.fee && <div className={styles.poiFee}><CreditCard size={14}/> Fee: {m.fee}</div>}
+                      {m.hours && <div className={styles.poiHours}><Clock size={14}/> {m.hours}</div>}
+                      <div className={styles.poiCity}><MapPin size={14}/> Near {m.city}</div>
                       <div className={styles.poiCoords}>Lat: {m.pos[0].toFixed(4)}, Lon: {m.pos[1].toFixed(4)}</div>
                       <div className={styles.poiActions}>
                         <a className={styles.poiBtnP} href={`https://www.google.com/maps/search/${encodeURIComponent(m.name)}/@${m.pos[0]},${m.pos[1]},15z`} target="_blank" rel="noreferrer">Search on Maps</a>
@@ -709,10 +716,10 @@ export default function TripResult() {
                     <div className={styles.routeTypeLabel}>Selected Route Type</div>
                     <div className={styles.routeTypeValue}>{route.type?.charAt(0).toUpperCase() + route.type?.slice(1) || 'Balanced'}</div>
                     <div className={styles.routeTypeDesc}>
-                      {route.type === 'quick' && '⚡ Direct route with minimal stops. Fastest option.'}
-                      {route.type === 'scenic' && '🏞️ Scenic route with more stops. Enjoy the journey.'}
-                      {route.type === 'balanced' && '⚖️ Balanced between speed and scenery.'}
-                      {route.type === 'offroad' && '🛣️ Off-road adventure route. Rough terrain.'}
+                      {route.type === 'quick' && <span style={{display:'flex',gap:4,alignItems:'center'}}><Zap size={14}/> Direct route with minimal stops. Fastest option.</span>}
+                      {route.type === 'scenic' && <span style={{display:'flex',gap:4,alignItems:'center'}}><Mountain size={14}/> Scenic route with more stops. Enjoy the journey.</span>}
+                      {route.type === 'balanced' && <span style={{display:'flex',gap:4,alignItems:'center'}}><Scale size={14}/> Balanced between speed and scenery.</span>}
+                      {route.type === 'offroad' && <span style={{display:'flex',gap:4,alignItems:'center'}}><Map size={14}/> Off-road adventure route. Rough terrain.</span>}
                     </div>
                   </div>
                   <div className={styles.routeTypeStats}>
@@ -746,7 +753,7 @@ export default function TripResult() {
 
               <Panel icon={<CarIcon />} title="Vehicle & Fuel">
                 <div className={styles.vRow}>
-                  {[['car', '🚗 Car'], ['suv', '🚙 SUV'], ['bike', '🏍 Bike'], ['bus', '🚌 Bus']].map(([v, label]) => (
+                  {[['car', 'Car'], ['suv', 'SUV'], ['bike', 'Bike'], ['bus', 'Bus']].map(([v, label]) => (
                     <button key={v} className={`${styles.vBtn} ${vehicle === v ? styles.vOn : ''}`} onClick={() => setVehicle(v)}>{label}</button>
                   ))}
                 </div>
@@ -771,19 +778,19 @@ export default function TripResult() {
               <Panel icon={<CostIcon />} title="Trip Cost">
                 <div className={styles.costGrid}>
                   <div className={styles.costBlock}>
-                    <div className={styles.costEmoji}>⛽</div>
+                    <div className={styles.costEmoji}><Fuel size={24}/></div>
                     <div className={styles.costAmt}>₹{fuel.cost.toLocaleString()}</div>
                     <div className={styles.costLbl}>Fuel</div>
                     <div className={styles.costSub}>{fuel.litres}L</div>
                   </div>
                   <div className={styles.costBlock}>
-                    <div className={styles.costEmoji}>🛣️</div>
+                    <div className={styles.costEmoji}><Map size={24}/></div>
                     <div className={styles.costAmt}>₹{toll.toLocaleString()}</div>
                     <div className={styles.costLbl}>Tolls</div>
                     <div className={styles.costSub}>{vehicle.toUpperCase()}</div>
                   </div>
                   <div className={`${styles.costBlock} ${styles.costBlockTotal}`}>
-                    <div className={styles.costEmoji}>💳</div>
+                    <div className={styles.costEmoji}><CreditCard size={24}/></div>
                     <div className={styles.costTotalAmt}>₹{totalCost.toLocaleString()}</div>
                     <div className={styles.costLbl}>Total</div>
                     {pax > 1 && <div className={styles.costSub}>₹{perPerson.toLocaleString()} / person</div>}
@@ -878,9 +885,9 @@ export default function TripResult() {
                           {seg.data_source?.includes('ml') && <span className={styles.tagML}>ML</span>}
                         </div>
                         <div className={styles.stopRow}>
-                          <span className={styles.stopChip}>⛽ {seg.stops?.fuel || 0} fuel</span>
-                          <span className={styles.stopChip}>🍽 {seg.stops?.restaurants || 0} food</span>
-                          {(seg.stops?.hospitals || 0) > 0 && <span className={`${styles.stopChip} ${styles.stopHosp}`}>🏥 {seg.stops.hospitals}</span>}
+                          <span className={styles.stopChip}><Fuel size={14}/> {seg.stops?.fuel || 0} fuel</span>
+                          <span className={styles.stopChip}><Utensils size={14}/> {seg.stops?.restaurants || 0} food</span>
+                          {(seg.stops?.hospitals || 0) > 0 && <span className={`${styles.stopChip} ${styles.stopHosp}`}><PlusCircle size={14}/> {seg.stops.hospitals}</span>}
                         </div>
                       </div>
                     </div>
@@ -891,7 +898,7 @@ export default function TripResult() {
               {stay && (
                 <Panel icon={<HotelIcon />} title="Overnight Stay Suggestion">
                   <div className={styles.stayCard}>
-                    <div className={styles.stayCity}>📍 {stay.city}</div>
+                    <div className={styles.stayCity}><MapPin size={14} style={{ marginRight: 4 }}/> {stay.city}</div>
                     <p className={styles.stayNote}>{stay.note}</p>
                     <a className={styles.stayLink} href={`https://www.google.com/maps/search/hotels+in+${encodeURIComponent(stay.city)}`} target="_blank" rel="noreferrer">Find hotels in {stay.city} →</a>
                   </div>
@@ -917,11 +924,11 @@ export default function TripResult() {
                             <div className={styles.weatherTemp}>{w.temperature}°C</div>
                             <div className={styles.weatherStats}>
                               <span className={styles.weatherStat}>
-                                <span className={styles.weatherStatIcon}>💧</span>
+                                <Droplets size={14} className={styles.weatherStatIcon} />
                                 <span>{w.precipitation_probability}%</span>
                               </span>
                               <span className={styles.weatherStat}>
-                                <span className={styles.weatherStatIcon}>💨</span>
+                                <Wind size={14} className={styles.weatherStatIcon} />
                                 <span>{w.windspeed} km/h</span>
                               </span>
                             </div>
@@ -947,10 +954,10 @@ export default function TripResult() {
                                 {alerts.map((alert, i) => (
                                   <div key={i} className={`${styles.weatherAlert} ${styles[`alert${alert.type}`]}`}>
                                     <span className={styles.alertIcon}>
-                                      {alert.type === 'rain' && '🌧️'}
-                                      {alert.type === 'wind' && '💨'}
-                                      {alert.type === 'cold' && '❄️'}
-                                      {alert.type === 'heat' && '🔥'}
+                                      {alert.type === 'rain' && <CloudRain size={16}/>}
+                                      {alert.type === 'wind' && <Wind size={16}/>}
+                                      {alert.type === 'cold' && <Thermometer size={16}/>}
+                                      {alert.type === 'heat' && <Sun size={16}/>}
                                     </span>
                                     <span className={styles.alertMsg}>{alert.msg}</span>
                                   </div>

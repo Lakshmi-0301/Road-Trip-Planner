@@ -116,7 +116,7 @@ export default function Dashboard() {
       sessionStorage.setItem('notif_feature_shown', '1');
       setTimeout(() => {
         notify('notifyNewFeatures', {
-          title: "What's new 🎉",
+          title: "What's new",
           desc: 'Trip History & Profile pages are now live. Check them out!',
           type: 'info',
         });
@@ -135,7 +135,7 @@ export default function Dashboard() {
       ];
       setTimeout(() => {
         notify('notifyTips', {
-          title: '💡 Travel Tip',
+          title: 'Travel Tip',
           desc: tips[Math.floor(Math.random() * tips.length)],
           type: 'tip',
         });
@@ -170,7 +170,7 @@ export default function Dashboard() {
     if (isTomorrow) {
       setTimeout(() => {
         notify('notifyReminder', {
-          title: '⏰ Trip tomorrow!',
+          title: 'Trip tomorrow!',
           desc: `Your ${form.source} → ${form.destination} trip is tomorrow. All set?`,
           type: 'reminder',
         });

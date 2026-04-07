@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './FormInput.module.css';
+import { Eye, EyeOff } from 'lucide-react';
 
 export default function FormInput({
   id,
@@ -44,7 +45,7 @@ export default function FormInput({
             onClick={() => setShowPwd(!showPwd)}
             aria-label={showPwd ? 'Hide password' : 'Show password'}
           >
-            {showPwd ? '🙈' : '👁️'}
+            {showPwd ? <EyeOff size={16} /> : <Eye size={16} />}
           </button>
         )}
       </div>

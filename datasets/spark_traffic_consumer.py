@@ -1,20 +1,3 @@
-# =============================================================================
-# Road Trip Planner — Spark Structured Streaming Consumer v3.2
-# =============================================================================
-# Pipeline Architecture:
-#   Kafka Stream
-#     → Parse & Clean (ETL)
-#     → Window-based Aggregation (30s window, speeds stability)
-#     → Join live Weather 
-#     → Join aggregated POI Counts 
-#     → Feature Engineering (safe_speed, traffic_level, weather_risk)
-#     → foreachBatch handler (append mode):
-#           ├── Build Route Segments (source → destination pairs per window)
-#           ├── Compute physics-based Travel Time (safe_speed clamped)
-#           ├── Write to Console
-#           └── Write to Cassandra
-# =============================================================================
-
 import os
 import shutil
 import requests
@@ -337,7 +320,7 @@ def process_batch(batch_df, batch_id):
 # SECTION 9: Start Streaming Query
 # =============================================================================
 
-print(f"\n  🚀 Streaming started | Kafka: {KAFKA_BOOTSTRAP_SERVERS}")
+print(f"\n   Streaming started | Kafka: {KAFKA_BOOTSTRAP_SERVERS}")
 print(f"     Route      : {' → '.join(TARGET_ROUTE)}")
 print(f"     Segments   : {' | '.join([f'{TARGET_ROUTE[i]}→{TARGET_ROUTE[i+1]}' for i in range(len(TARGET_ROUTE)-1)])}")
 print(f"     Output Mode: Append (Emits only on complete safe windows)\n")

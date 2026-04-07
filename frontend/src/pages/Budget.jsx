@@ -2,6 +2,7 @@ import { useEffect, useState, useMemo, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './Budget.module.css';
 import { calcFuelCost, estimateToll, calcCarbon } from './tripUtils';
+import { Leaf, AlertTriangle } from 'lucide-react';
 
 // ── Icons ─────────────────────────────────────────────────────────────────────
 const Icon = {
@@ -447,8 +448,8 @@ export default function Budget() {
               <div className={styles.tripStripMeta}>
                 <span className={styles.metaChip}><Icon.Calendar />{formatDate(selectedTrip.startDate)}</span>
                 <span className={styles.metaChip}><Icon.Users />{pax} {pax === 1 ? 'person' : 'people'}</span>
-                {planned && <span className={styles.metaChip}>⛽ {planned.dist} km</span>}
-                {planned && <span className={styles.metaChip}>🌿 {planned.carbon}</span>}
+                {planned && <span className={styles.metaChip}><Icon.Fuel /> {planned.dist} km</span>}
+                {planned && <span className={styles.metaChip}><Leaf size={14} style={{ marginRight: 4 }} /> {planned.carbon}</span>}
               </div>
             </div>
 
@@ -476,7 +477,7 @@ export default function Budget() {
                 {
                   label: 'Remaining',
                   value: planned ? rupee(Math.max(0, planned.fuel + planned.toll - totalActual)) : '—',
-                  sub: totalActual > (planned?.fuel + planned?.toll || 0) ? '⚠ Over budget' : 'Within estimate',
+                  sub: totalActual > (planned?.fuel + planned?.toll || 0) ? <span style={{display:'flex', alignItems:'center', gap:4}}><AlertTriangle size={14}/> Over budget</span> : 'Within estimate',
                   color: totalActual > (planned?.fuel + planned?.toll || 0) ? '#e05c5c' : '#6dbf8a',
                 },
               ].map(s => (

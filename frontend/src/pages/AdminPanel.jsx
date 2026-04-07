@@ -2,6 +2,7 @@ import { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './AdminPanel.module.css';
 import axios from 'axios';
+import { Sparkles, User } from 'lucide-react';
 
 const API = 'http://localhost:8000';
 
@@ -286,10 +287,10 @@ export default function AdminPanel() {
 
           {/* Stat cards */}
           {[
-            { label: 'Total Users',   value: stats.total,    color: '#aa9371', icon: '👥' },
-            { label: 'Admins',        value: stats.admins,   color: '#6a9fd8', icon: '🛡' },
-            { label: 'Regular Users', value: stats.regular,  color: '#6dbf8a', icon: '👤' },
-            { label: 'Joined Today',  value: stats.newToday, color: '#e09a4a', icon: '✨' },
+            { label: 'Total Users',   value: stats.total,    color: '#aa9371', icon: <Icon.Users /> },
+            { label: 'Admins',        value: stats.admins,   color: '#6a9fd8', icon: <Icon.Shield /> },
+            { label: 'Regular Users', value: stats.regular,  color: '#6dbf8a', icon: <User size={18} /> },
+            { label: 'Joined Today',  value: stats.newToday, color: '#e09a4a', icon: <Sparkles size={18} /> },
           ].map(s => (
             <div key={s.label} className={styles.statCard}>
               <div className={styles.statCardTop}>

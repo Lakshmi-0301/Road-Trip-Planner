@@ -500,10 +500,10 @@ export default function TripHistory() {
             <h2 className={styles.cardTitle}>Overview</h2>
             <div className={styles.statGrid}>
               {[
-                { label: 'Completed Plans', value: analytics.completedTrips, icon: '✓', color: '#6dbf8a' },
-                { label: 'Upcoming',        value: analytics.upcomingTrips,  icon: '→', color: '#6a9fd8' },
-                { label: 'Destinations',    value: analytics.uniqueDests,    icon: '📍', color: '#aa9371' },
-                { label: 'Travellers',      value: analytics.totalTravellers, icon: '👥', color: '#d4845a' },
+                { label: 'Completed Plans', value: analytics.completedTrips, color: '#6dbf8a' },
+                { label: 'Upcoming',        value: analytics.upcomingTrips,  color: '#6a9fd8' },
+                { label: 'Destinations',    value: analytics.uniqueDests,    color: '#aa9371' },
+                { label: 'Travellers',      value: analytics.totalTravellers, color: '#d4845a' },
               ].map(s => (
                 <div key={s.label} className={styles.statCell}>
                   <span className={styles.statCellVal} style={{ color: s.color }}>{s.value}</span>
