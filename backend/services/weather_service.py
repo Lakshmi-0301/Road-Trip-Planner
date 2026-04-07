@@ -73,32 +73,39 @@ def _fetch_city_weather(city: str, lat: float, lon: float, travel_date: str) -> 
         }
 
 
-def get_weather(
-    cities: list[str],
-    city_coords: dict[str, tuple[float, float]],
-    travel_date: str,
-) -> list[dict]:
-    """
-    Fetch weather for each city in the list for the given travel_date (YYYY-MM-DD).
+import asyncio
+import httpx  # pip install httpx
 
-    Args:
-        cities:       Ordered list of city names (source → ... → destination).
-        city_coords:  Dict mapping city name to (lat, lon).
-        travel_date:  ISO date string e.g. "2026-04-10".
+async def _fetch_city_weather_async(client, city, lat, lon, travel_date):
+    params = {
+        "latitude": lat, "longitude": lon,
+        "daily": "temperature_2m_max,precipitation_probability_max,windspeed_10m_max",
+        "timezone": "Asia/Kolkata", "forecast_days": 14,
+    }
+    try:
+        resp = await client.get(OPEN_METEO_BASE, params=params, timeout=TIMEOUT)
+        data = resp.json()
+        daily = data.get("daily", {})
+        dates = daily.get("time", [])
+        if travel_date in dates:
+            idx = dates.index(travel_date)
+            return {
+                "city": city,
+                "temperature": round(float(daily["temperature_2m_max"][idx] or 28), 1),
+                "precipitation_probability": int(daily["precipitation_probability_max"][idx] or 20),
+                "windspeed": round(float(daily["windspeed_10m_max"][idx] or 12), 1),
+            }
+    except Exception as exc:
+        logger.warning("Weather failed for %s: %s", city, exc)
+    return {"city": city, **_DEFAULTS}
 
-    Returns:
-        List of weather dicts, one per city.
-    """
-    results = []
-    seen: set[str] = set()
-    for city in cities:
-        if city in seen:
-            continue
-        seen.add(city)
-        coords = city_coords.get(city)
-        if not coords:
-            logger.warning("No coords for city: %s", city)
-            continue
-        lat, lon = coords
-        results.append(_fetch_city_weather(city, lat, lon, travel_date))
-    return results
+def get_weather(cities, city_coords, travel_date):
+    async def _run():
+        async with httpx.AsyncClient() as client:
+            tasks = [
+                _fetch_city_weather_async(client, city, *city_coords[city], travel_date)
+                for city in dict.fromkeys(cities)  # dedupe, preserve order
+                if city in city_coords
+            ]
+            return await asyncio.gather(*tasks)
+    return asyncio.run(_run())

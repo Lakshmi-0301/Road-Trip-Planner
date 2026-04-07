@@ -593,3 +593,103 @@
   .rightCol { grid-template-columns: 1fr; }
   .tripItem { flex-direction: column; align-items: flex-start; }
 }
+
+/* ── Trip action buttons ────────────────────────────────────────────────────── */
+.tripActions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.tripOpenBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 13px;
+  border-radius: 8px;
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  border: 1.5px solid rgba(170,147,113,.5);
+  background: linear-gradient(135deg, rgba(170,147,113,.18), rgba(170,147,113,.08));
+  color: #c8a97e;
+  cursor: pointer;
+  transition: all .18s ease;
+  white-space: nowrap;
+}
+.tripOpenBtn:hover {
+  background: linear-gradient(135deg, rgba(170,147,113,.32), rgba(170,147,113,.16));
+  border-color: #aa9371;
+  color: #e0c49a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(170,147,113,.2);
+}
+
+.tripDeleteBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  border: 1px solid #1e1e1e;
+  background: transparent;
+  color: #3a3a3a;
+  cursor: pointer;
+  transition: all .18s ease;
+  flex-shrink: 0;
+}
+.tripDeleteBtn:hover {
+  border-color: rgba(224,92,92,.35);
+  background: rgba(224,92,92,.08);
+  color: #e05c5c;
+}
+
+.tripStatus {
+  font-size: .6rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 20px;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.tripStatusDone {
+  background: rgba(170,147,113,.12);
+  color: #aa9371;
+  border: 1px solid rgba(170,147,113,.22);
+}
+.tripStatusPending {
+  background: rgba(60,60,60,.2);
+  color: #484848;
+  border: 1px solid #222;
+}
+
+.tripBtnSpinner {
+  width: 11px;
+  height: 11px;
+  border: 2px solid rgba(200,169,126,.25);
+  border-top-color: #c8a97e;
+  border-radius: 50%;
+  animation: btnSpin .7s linear infinite;
+  display: inline-block;
+}
+@keyframes btnSpin { to { transform: rotate(360deg); } }
+
+.adminShieldBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background: rgba(106,159,216,0.1);
+  border: 1px solid rgba(106,159,216,0.3);
+  border-radius: var(--radius-md);
+  color: #6a9fd8;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.adminShieldBtn:hover {
+  background: rgba(106,159,216,0.2);
+  border-color: #6a9fd8;
+}

@@ -11,7 +11,34 @@ const ROUTE_OPTIONS = [
   { value: 'offroad',  label: 'Off-road', desc: 'Adventurous, less-traveled paths' },
 ];
 
+// Smart departure time suggestions based on route type
+const DEPARTURE_SUGGESTIONS = {
+  scenic: { time: '06:00', reason: 'Early start to enjoy scenic views in daylight' },
+  quick: { time: '07:00', reason: 'Beat morning traffic, reach faster' },
+  balanced: { time: '08:00', reason: 'Good balance of daylight and traffic' },
+  offroad: { time: '05:30', reason: 'Early start for adventure, avoid night driving' },
+};
+
 const today = new Date().toISOString().split('T')[0];
+
+// Convert 24h to 12h format
+const to12Hour = (time24) => {
+  const [h, m] = time24.split(':');
+  const hour = parseInt(h);
+  const ampm = hour >= 12 ? 'PM' : 'AM';
+  const hour12 = hour % 12 || 12;
+  return `${String(hour12).padStart(2, '0')}:${m} ${ampm}`;
+};
+
+// Convert 12h to 24h format
+const to24Hour = (time12) => {
+  const [time, ampm] = time12.split(' ');
+  let [h, m] = time.split(':');
+  h = parseInt(h);
+  if (ampm === 'PM' && h !== 12) h += 12;
+  if (ampm === 'AM' && h === 12) h = 0;
+  return `${String(h).padStart(2, '0')}:${m}`;
+};
 
 export default function PlanTripModal({ onClose, onSubmit }) {
   const navigate = useNavigate();
@@ -19,6 +46,8 @@ export default function PlanTripModal({ onClose, onSubmit }) {
     source: '',
     destination: '',
     startDate: '',
+    departureTime: '08:00',
+    timeFormat: '24h', // '24h' or '12h'
     people: 1,
     route: 'balanced',
   });
@@ -43,6 +72,32 @@ export default function PlanTripModal({ onClose, onSubmit }) {
   const set = (field) => (e) =>
     setForm((p) => ({ ...p, [field]: e.target.value }));
 
+  // Handle time format change
+  const handleTimeFormatChange = (newFormat) => {
+    if (newFormat === form.timeFormat) return;
+    
+    let newTime = form.departureTime;
+    if (newFormat === '12h') {
+      newTime = to12Hour(form.departureTime);
+    } else {
+      newTime = to24Hour(form.departureTime);
+    }
+    
+    setForm(p => ({ ...p, timeFormat: newFormat, departureTime: newTime }));
+  };
+
+  // Handle time input change
+  const handleTimeChange = (e) => {
+    let value = e.target.value;
+    
+    if (form.timeFormat === '12h') {
+      // Validate 12h format
+      if (!/^\d{1,2}:\d{2}\s(AM|PM)$/.test(value)) return;
+    }
+    
+    setForm(p => ({ ...p, departureTime: value }));
+  };
+
   const validate = () => {
     const errs = {};
     if (!form.source) errs.source = 'Select a source city';
@@ -50,6 +105,7 @@ export default function PlanTripModal({ onClose, onSubmit }) {
     if (form.source && form.destination && form.source === form.destination)
       errs.destination = 'Destination must differ from source';
     if (!form.startDate) errs.startDate = 'Pick a start date';
+    if (!form.departureTime) errs.departureTime = 'Select departure time';
     if (!form.people || form.people < 1) errs.people = 'At least 1 person required';
     if (form.people > 20) errs.people = 'Maximum 20 people';
     return errs;
@@ -65,18 +121,26 @@ export default function PlanTripModal({ onClose, onSubmit }) {
     setLoading(true);
     setSubmitted(true);
 
+    // Convert to 24h format for backend
+    const departureTime24h = form.timeFormat === '12h' ? to24Hour(form.departureTime) : form.departureTime;
+
     // Save trip to local list optimistically
-    onSubmit(form);
+    onSubmit({ ...form, departureTime: departureTime24h });
 
     // Navigate to result page — TripResult will call the API
     setTimeout(() => {
       onClose();
-      navigate('/trip-result', { state: { formData: form } });
+      navigate('/trip-result', { state: { formData: { ...form, departureTime: departureTime24h } } });
     }, 600);
   };
 
   const destCities = CITIES.filter((c) => c !== form.source);
   const srcCities = CITIES.filter((c) => c !== form.destination);
+  
+  const suggestion = DEPARTURE_SUGGESTIONS[form.route];
+  const suggestedTime24h = suggestion.time;
+  const suggestedTime12h = to12Hour(suggestedTime24h);
+  const suggestedTime = form.timeFormat === '24h' ? suggestedTime24h : suggestedTime12h;
 
   return (
     <div className={styles.overlay} onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
@@ -175,6 +239,60 @@ export default function PlanTripModal({ onClose, onSubmit }) {
                   className={`${styles.input} ${errors.people ? styles.fieldError : ''}`}
                 />
                 {errors.people && <p className={styles.err}>{errors.people}</p>}
+              </div>
+            </div>
+
+            {/* Time Format Selection */}
+            <div className={styles.field}>
+              <span className={styles.label}>Time Format</span>
+              <div className={styles.timeFormatGrid}>
+                <button
+                  type="button"
+                  className={`${styles.timeFormatBtn} ${form.timeFormat === '24h' ? styles.timeFormatActive : ''}`}
+                  onClick={() => handleTimeFormatChange('24h')}
+                >
+                  24-Hour
+                </button>
+                <button
+                  type="button"
+                  className={`${styles.timeFormatBtn} ${form.timeFormat === '12h' ? styles.timeFormatActive : ''}`}
+                  onClick={() => handleTimeFormatChange('12h')}
+                >
+                  12-Hour (AM/PM)
+                </button>
+              </div>
+            </div>
+
+            {/* Departure Time */}
+            <div className={styles.field}>
+              <label htmlFor="trip-time" className={styles.label}>Departure Time</label>
+              {form.timeFormat === '24h' ? (
+                <input
+                  id="trip-time"
+                  type="time"
+                  value={form.departureTime}
+                  onChange={set('departureTime')}
+                  className={`${styles.input} ${errors.departureTime ? styles.fieldError : ''}`}
+                />
+              ) : (
+                <input
+                  id="trip-time"
+                  type="text"
+                  placeholder="HH:MM AM/PM"
+                  value={form.departureTime}
+                  onChange={handleTimeChange}
+                  className={`${styles.input} ${errors.departureTime ? styles.fieldError : ''}`}
+                />
+              )}
+              {errors.departureTime && <p className={styles.err}>{errors.departureTime}</p>}
+              
+              {/* Smart Suggestion */}
+              <div className={styles.timeSuggestion}>
+                <span className={styles.suggestionIcon}>💡</span>
+                <div>
+                  <p className={styles.suggestionTitle}>Suggested: {suggestedTime}</p>
+                  <p className={styles.suggestionReason}>{suggestion.reason}</p>
+                </div>
               </div>
             </div>
 

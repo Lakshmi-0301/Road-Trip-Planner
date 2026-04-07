@@ -1,9 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .database import engine
-from . import models
-from .routes import auth as auth_router
-from .routes import trip as trip_router
+from database import engine
+from models import Base
+import models
+from routes import auth as auth_router
+from routes import trip as trip_router
+from routes import ml as ml_router      
 
 # Create all tables
 models.Base.metadata.create_all(bind=engine)
@@ -25,6 +27,7 @@ app.add_middleware(
 
 app.include_router(auth_router.router)
 app.include_router(trip_router.router)
+app.include_router(ml_router.router)
 
 
 @app.get("/", tags=["health"])

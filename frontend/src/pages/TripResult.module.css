@@ -1,27 +1,46 @@
-/* ============================================
-   TripResult Page — Module CSS
-   Uses the Road Trip Planner design system
-   ============================================ */
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+@keyframes pulseRing {
+  0%   { transform: scale(1);   opacity: .5; }
+  100% { transform: scale(2.4); opacity: 0;  }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes dotPulse {
+  0%, 100% { opacity: .3; }
+  50%       { opacity: 1;  }
+}
+@keyframes stepFadeIn {
+  from { opacity: 0; transform: translateX(-8px); }
+  to   { opacity: 1; transform: translateX(0);    }
+}
+@keyframes confFill {
+  from { width: 0; }
+}
 
-/* ── Full-page shell ─────────────────────────────────────────── */
 .page {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background: #0e0e0e;
+  color: #e8e0d5;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   overflow: hidden;
-  background: var(--color-bg);
-  color: var(--color-text-primary);
-  font-family: var(--font-sans);
 }
 
-/* ── Top bar ─────────────────────────────────────────────────── */
+/* ── Top bar ────────────────────────────────────────────────────────────────── */
 .topBar {
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 12px 20px;
-  background: var(--color-surface);
-  border-bottom: 1px solid var(--color-border);
+  gap: 14px;
+  padding: 0 18px;
+  height: 52px;
+  background: #131313;
+  border-bottom: 1px solid #1e1e1e;
   flex-shrink: 0;
   z-index: 10;
 }
@@ -30,487 +49,805 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  background: transparent;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  color: var(--color-text-secondary);
-  font-size: 0.8rem;
-  font-weight: 500;
   padding: 6px 12px;
+  background: transparent;
+  border: 1px solid #2a2a2a;
+  border-radius: 7px;
+  color: #888;
+  font-size: .78rem;
+  font-weight: 500;
   cursor: pointer;
-  transition: all var(--transition-fast);
+  transition: all .15s;
   white-space: nowrap;
 }
-.backBtn:hover {
-  border-color: var(--color-tan);
-  color: var(--color-tan);
-}
+.backBtn:hover { background: #1c1c1c; color: #ccc; border-color: #333; }
 
 .routeHeading {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   flex: 1;
   justify-content: center;
-  color: var(--color-text-secondary);
 }
-
-.cityName {
-  font-family: var(--font-heading);
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--color-text-primary);
-}
-
-.dateChip {
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: var(--color-tan);
-  background: var(--color-accent-light);
-  border: 1px solid rgba(170,147,113,0.2);
-  border-radius: var(--radius-full);
-  padding: 4px 12px;
-  white-space: nowrap;
-}
-
-/* ── Split layout ─────────────────────────────────────────────── */
-.splitLayout {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  flex: 1;
-  overflow: hidden;
-}
-
-/* ── Map pane ─────────────────────────────────────────────────── */
-.mapPane {
-  position: relative;
-  height: 100%;
-}
-
-.leafletMap {
-  width: 100%;
-  height: 100%;
-}
-
-/* Override Leaflet tile layer for dark theme readability */
-.leafletMap .leaflet-tile {
-  filter: brightness(0.85) saturate(0.8);
-}
-
-.mapLegend {
-  position: absolute;
-  bottom: 24px;
-  left: 16px;
-  background: rgba(13,13,13,0.88);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 8px 14px;
-  display: flex;
-  gap: 14px;
-  z-index: 999;
-}
-
-.legendItem {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.72rem;
-  color: var(--color-text-secondary);
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  border: 1.5px solid rgba(255,255,255,0.4);
-}
-
-.tooltipLabel {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #0d0d0d;
-}
-
-/* ── Detail pane ─────────────────────────────────────────────── */
-.detailPane {
-  border-left: 1px solid var(--color-border);
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-.detailScroll {
-  overflow-y: auto;
-  padding: 20px 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  flex: 1;
-}
-
-/* ── Cards ───────────────────────────────────────────────────── */
-.card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 16px 18px;
-  animation: fadeIn var(--transition-normal);
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-.cardTitle {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-family: var(--font-heading);
-  font-size: 0.88rem;
-  font-weight: 700;
-  color: var(--color-tan);
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  margin-bottom: 14px;
-}
-
-/* ── Route summary grid ──────────────────────────────────────── */
-.summaryGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-
-.summaryItem {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  background: var(--color-surface-2);
-  border-radius: var(--radius-sm);
-  padding: 10px 12px;
-}
-
-.summaryLabel {
-  font-size: 0.68rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: var(--color-text-muted);
-}
-
-.summaryValue {
-  font-size: 0.92rem;
-  font-weight: 600;
-  color: var(--color-text-primary);
+.routePin {
   display: flex;
   align-items: center;
   gap: 5px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+.routeArrow { color: #444; display: flex; }
+
+.topBarRight {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.metaChip {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 9px;
+  background: #1a1a1a;
+  border: 1px solid #252525;
+  border-radius: 20px;
+  font-size: .74rem;
+  color: #888;
+  white-space: nowrap;
 }
 
-/* ── Time breakdown ──────────────────────────────────────────── */
-.timeList {
+/* ── Split layout ───────────────────────────────────────────────────────────── */
+.splitLayout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* ── Map pane ───────────────────────────────────────────────────────────────── */
+.mapPane {
+  position: relative;
+  overflow: hidden;
+  min-height: 0;
+}
+.leafletMap {
+  width: 100%;
+  height: 100%;
+  background: #111;
+}
+
+/* Map tooltip */
+.ttWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 2px 0;
+}
+.ttRoute { font-size: .78rem; font-weight: 600; color: #e8e0d5; }
+.ttStatus { font-size: .72rem; font-weight: 500; }
+
+/* City popup */
+.cityPopup .leaflet-popup-content-wrapper {
+  background: #161616;
+  border: 1px solid #252525;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.6);
+  padding: 0;
+}
+.cityPopup .leaflet-popup-tip { background: #161616; }
+.cityCard { padding: 12px 14px; }
+.cityTop { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.cityCardName { font-size: .88rem; font-weight: 700; color: #e8e0d5; }
+.cityBadge { font-size: .68rem; font-weight: 600; padding: 2px 7px; border-radius: 20px; }
+.cityWeather { font-size: .72rem; color: #888; display: flex; align-items: center; gap: 5px; margin-bottom: 8px; }
+.cityChips { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+.cityChip { font-size: .66rem; padding: 2px 6px; border-radius: 4px; border: 1px solid; }
+.cityLink { font-size: .72rem; color: #aa9371; text-decoration: none; }
+.cityLink:hover { text-decoration: underline; }
+
+/* POI popup */
+.poiPopup .leaflet-popup-content-wrapper {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.8);
+  padding: 0;
+}
+.poiPopup .leaflet-popup-tip { background: #1a1a1a; }
+.poiCard { padding: 12px 14px; }
+.poiHead { display: flex; align-items: flex-start; gap: 10px; padding-bottom: 9px; margin-bottom: 9px; border-bottom: 1.5px solid; }
+.poiIconBox { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.poiName { font-size: .82rem; font-weight: 700; color: #e8e0d5; margin-bottom: 1px; }
+.poiBrand { font-size: .7rem; color: #888; }
+.poiType { font-size: .68rem; font-weight: 600; margin-top: 2px; }
+.poiContact { display: flex; align-items: center; gap: 6px; margin-bottom: 5px; font-size: .7rem; }
+.poiContactLabel { font-size: .8rem; }
+.poiContactLink { color: #6DBFBF; text-decoration: none; word-break: break-all; }
+.poiContactLink:hover { text-decoration: underline; }
+.poiFee { font-size: .7rem; color: #D9A85C; margin-bottom: 4px; }
+.poiHours { font-size: .7rem; color: #7FD87F; margin-bottom: 4px; }
+.poiCity { font-size: .7rem; color: #888; margin-bottom: 3px; }
+.poiCoords { font-size: .65rem; color: #555; margin-bottom: 8px; font-family: monospace; }
+.poiActions { display: flex; gap: 6px; }
+.poiBtnP, .poiBtnS {
+  flex: 1; padding: 5px 0; border-radius: 6px; font-size: .72rem;
+  font-weight: 600; text-align: center; text-decoration: none; transition: opacity .15s;
+}
+.poiBtnP { background: #6DBFBF; color: #000; }
+.poiBtnS { background: #2a2a2a; color: #6DBFBF; border: 1px solid #3a3a3a; }
+.poiBtnP:hover, .poiBtnS:hover { opacity: .85; }
+
+/* Toll popup */
+.tollPopup .leaflet-popup-content-wrapper {
+  background: #161616; border: 1px solid #252525; border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.6); padding: 0;
+}
+.tollCard { padding: 10px 12px; }
+.tollTitle { font-size: .78rem; font-weight: 700; color: #e09a4a; margin-bottom: 7px; }
+.tollRow { display: flex; justify-content: space-between; font-size: .74rem; color: #aaa; padding: 3px 0; }
+.tollRow span:last-child { color: #e8e0d5; font-weight: 600; }
+
+/* Map controls */
+.mapControls {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  z-index: 500;
+}
+.ctrlGroup {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(13,13,13,.88);
+  border: 1px solid #252525;
+  border-radius: 9px;
+  padding: 5px 8px;
+  backdrop-filter: blur(8px);
+}
+.ctrlLabel { font-size: .66rem; color: #555; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; margin-right: 2px; }
+.layerBtn {
+  padding: 3px 8px; border-radius: 5px; font-size: .72rem; font-weight: 500;
+  border: 1px solid #2a2a2a; background: transparent; color: #666; cursor: pointer; transition: all .15s;
+  display: flex; align-items: center; gap: 3px;
+}
+.layerBtn:hover { background: #1c1c1c; color: #aaa; }
+.layerOn { background: #1e1a16 !important; border-color: #aa937155 !important; color: #aa9371 !important; }
+
+.poiGrid { display: flex; flex-wrap: wrap; gap: 4px; max-width: 280px; }
+.poiBtn {
+  display: flex; align-items: center; gap: 4px; padding: 3px 7px;
+  border-radius: 5px; font-size: .68rem; font-weight: 500;
+  border: 1px solid #2a2a2a; background: transparent; color: #666; cursor: pointer; transition: all .15s;
+}
+.poiBtn:hover { background: #1c1c1c; }
+.poiOn { background: color-mix(in srgb, var(--c) 12%, transparent) !important; border-color: color-mix(in srgb, var(--c) 50%, transparent) !important; color: var(--c) !important; font-weight: 600; }
+
+.spinDot {
+  width: 5px; height: 5px; border-radius: 50%; background: #aa9371;
+  animation: dotPulse 1.2s infinite;
+}
+.zoomHint {
+  font-size: .66rem; color: #555; padding: 4px 8px;
+  background: rgba(13,13,13,.8); border: 1px solid #1e1e1e; border-radius: 6px;
+}
+
+/* Map legend */
+.mapLegend {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  background: rgba(13,13,13,.88);
+  border: 1px solid #252525;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  z-index: 500;
+}
+.lgItem { display: flex; align-items: center; gap: 4px; font-size: .68rem; color: #888; }
+.dot { width: 7px; height: 7px; border-radius: 50%; }
+.lgDivider { width: 1px; height: 12px; background: #2a2a2a; }
+
+/* ── Right panel ────────────────────────────────────────────────────────────── */
+.detailPane {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #1a1a1a;
+  background: #0e0e0e;
+  overflow: hidden;
+  min-height: 0;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+/* Sticky header */
+.stickyHeader {
+  flex-shrink: 0;
+  background: #111;
+  border-bottom: 1px solid #1e1e1e;
+  z-index: 5;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stickyStats {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 0;
+}
+.stickyStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  gap: 2px;
+}
+.stickyVal {
+  font-size: .92rem;
+  font-weight: 700;
+  color: #e8e0d5;
+  letter-spacing: -.01em;
+}
+.stickyLbl {
+  font-size: .62rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 500;
+}
+.stickySep {
+  width: 1px;
+  height: 28px;
+  background: #1e1e1e;
+  margin: 0 4px;
+}
+
+/* Tab bar */
+.tabBar {
+  display: flex;
+  padding: 0 12px;
+  gap: 2px;
+  border-top: 1px solid #1a1a1a;
+}
+.tab {
+  flex: 1;
+  padding: 9px 4px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: #555;
+  font-size: .74rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .15s;
+  margin-bottom: -1px;
+}
+.tab:hover { color: #888; }
+.tabActive {
+  color: #aa9371 !important;
+  border-bottom-color: #aa9371 !important;
+}
+
+/* Scroll area */
+.detailScroll {
+  flex: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 12px 12px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  width: 100%;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #555 #1a1a1a;
+}
+.detailScroll::-webkit-scrollbar { 
+  width: 8px; 
+}
+.detailScroll::-webkit-scrollbar-track { 
+  background: #1a1a1a; 
+  margin: 4px 0;
+}
+.detailScroll::-webkit-scrollbar-thumb { 
+  background: #444; 
+  border-radius: 4px;
+  border: 2px solid #1a1a1a;
+}
+.detailScroll::-webkit-scrollbar-thumb:hover { 
+  background: #666; 
+}
+
+/* ── Panel ──────────────────────────────────────────────────────────────────── */
+.panel {
+  background: #131313;
+  border: 1px solid #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeUp .25s ease both;
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.panelHeader {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #1a1a1a;
+}
+.panelIcon {
+  display: flex;
+  align-items: center;
+  color: #aa9371;
+  opacity: .85;
+}
+.panelTitle {
+  font-size: .78rem;
+  font-weight: 600;
+  color: #c8c0b5;
+  letter-spacing: .01em;
+  flex: 1;
+  margin: 0;
+}
+.panelBadge {
+  font-size: .62rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  background: rgba(170,147,113,.12);
+  border: 1px solid rgba(170,147,113,.22);
+  border-radius: 20px;
+  color: #aa9371;
+  letter-spacing: .02em;
+}
+.panelBody { padding: 12px 14px; color: #e8e0d5; }
+.panelBodyNoPad { padding: 0; color: #e8e0d5; }
+
+/* ── Stat row ───────────────────────────────────────────────────────────────── */
+.statRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 0;
+}
+.statRow + .statRow { border-top: 1px solid #181818; }
+.statLabel { font-size: .76rem; color: #888; }
+.statValue { font-size: .82rem; font-weight: 600; color: #d6c6ac; }
+.statAccent { color: #aa9371 !important; font-size: .88rem !important; }
+.statDivider { height: 1px; background: #1e1e1e; margin: 6px 0; }
+
+/* ── Vehicle ────────────────────────────────────────────────────────────────── */
+.vRow { display: flex; gap: 6px; margin-bottom: 10px; }
+.vBtn {
+  flex: 1; padding: 7px 4px; border-radius: 7px; font-size: .72rem; font-weight: 500;
+  border: 1px solid #232323; background: #0e0e0e; color: #aaa; cursor: pointer; transition: all .15s;
+  text-align: center;
+}
+.vBtn:hover { background: #1a1a1a; color: #aaa; }
+.vOn { background: #1e1a16 !important; border-color: #aa9371 !important; color: #aa9371 !important; }
+
+.vInputRow { display: flex; gap: 10px; }
+.vInputLabel {
+  flex: 1; display: flex; flex-direction: column; gap: 5px;
+  font-size: .72rem; color: #aaa;
+}
+.vInputGroup { display: flex; align-items: center; gap: 4px; }
+.mInput {
+  width: 60px; background: #0e0e0e; border: 1px solid #232323; border-radius: 6px;
+  color: #e8e0d5; padding: 5px 7px; font-size: .78rem; text-align: center;
+  outline: none; transition: border-color .15s;
+}
+.mInput:focus { border-color: #aa9371; }
+.vUnit { font-size: .68rem; color: #555; white-space: nowrap; }
+
+/* ── Cost ───────────────────────────────────────────────────────────────────── */
+.costGrid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+.costBlock {
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 10px 6px; background: #0e0e0e; border: 1px solid #1e1e1e;
+  border-radius: 8px; text-align: center;
+}
+.costEmoji { font-size: 1.1rem; margin-bottom: 2px; line-height: 1; }
+.costAmt { font-size: .88rem; font-weight: 700; color: #d6c6ac; }
+.costTotalAmt { font-size: 1rem; font-weight: 800; color: #aa9371; }
+.costLbl { font-size: .64rem; color: #777; font-weight: 500; text-transform: uppercase; letter-spacing: .05em; margin-top: 1px; }
+.costSub { font-size: .66rem; color: #555; }
+.costBlockTotal { border-color: #2a2218; background: #0f0e0c; }
+
+.costBarTrack { display: flex; height: 5px; border-radius: 3px; overflow: hidden; background: #1a1a1a; }
+.costBarFuel  { background: #aa9371; transition: width .4s ease; }
+.costBarToll  { background: #e09a4a; transition: width .4s ease; }
+.costBarLabels {
+  display: flex; justify-content: space-between;
+  font-size: .64rem; margin-top: 4px; color: #888;
+}
+
+/* ── ML ─────────────────────────────────────────────────────────────────────── */
+.mlGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+.mlBlock {
+  padding: 10px; background: #0e0e0e; border: 1px solid #1e1e1e;
+  border-radius: 8px; display: flex; flex-direction: column; gap: 4px;
+}
+.mlLbl { font-size: .66rem; color: #888; text-transform: uppercase; letter-spacing: .05em; }
+.mlVal { font-size: .9rem; font-weight: 700; color: #aa9371; }
+.mlBase { font-size: .9rem; font-weight: 700; color: #999; }
+
+.mlConfRow { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.mlConfTrack { flex: 1; height: 4px; background: #1a1a1a; border-radius: 2px; overflow: hidden; }
+.mlConfFill {
+  height: 100%; background: linear-gradient(90deg, #aa9371, #d6c6ac);
+  border-radius: 2px; animation: confFill .8s ease;
+}
+.mlConfPct { font-size: .7rem; color: #aa9371; font-weight: 600; white-space: nowrap; }
+.mlMeta { font-size: .68rem; color: #555; margin: 0; }
+
+/* ── Carbon ─────────────────────────────────────────────────────────────────── */
+.carbonRow { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.carbonVal { font-size: 1.1rem; font-weight: 700; color: #6dbf8a; margin-bottom: 3px; }
+.carbonSub { font-size: .68rem; color: #777; }
+.carbonMeter { display: flex; align-items: flex-end; gap: 4px; }
+.carbonMeterBar {
+  width: 12px; height: 50px; background: #1a1a1a; border-radius: 6px;
+  display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden;
+}
+.carbonMeterFill {
+  background: linear-gradient(180deg, #e05c5c, #6dbf8a);
+  border-radius: 4px; transition: height .6s ease;
+}
+.carbonScale { display: flex; flex-direction: column; justify-content: space-between; font-size: .58rem; color: #444; height: 50px; }
+
+/* ── Elevation ──────────────────────────────────────────────────────────────── */
+.elevSkeleton {
+  height: 60px; background: linear-gradient(90deg, #1a1a1a 25%, #222 50%, #1a1a1a 75%);
+  background-size: 200% 100%; border-radius: 6px; margin-bottom: 6px;
+  animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.elevEmpty { text-align: center; color: #444; font-size: .72rem; padding: 8px 0; }
+.elevLabels { display: flex; justify-content: space-between; font-size: .64rem; color: #555; margin-top: 4px; }
+.elevMid { color: #444; }
+
+/* ── Departure ──────────────────────────────────────────────────────────────── */
+.departBanner {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 10px 12px; border-radius: 8px; border-left: 3px solid;
+}
+.departDot { width: 7px; height: 7px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
+.departMsg { font-size: .78rem; color: #b0a898; margin: 0; line-height: 1.5; }
+
+/* ── Segments ───────────────────────────────────────────────────────────────── */
+.segment {
+  display: flex;
+  border-bottom: 1px solid #171717;
+}
+.segment:last-child { border-bottom: none; }
+.segColorBar { width: 3px; flex-shrink: 0; }
+.segContent { flex: 1; padding: 12px 14px; }
+.segTop { display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px; }
+.segRoute {
+  display: flex; align-items: center; gap: 5px;
+  font-size: .8rem; font-weight: 600; color: #c8c0b5;
+}
+.segDist { font-size: .75rem; color: #aa9371; font-weight: 600; }
+.segMeta { display: flex; align-items: center; gap: 6px; font-size: .72rem; color: #666; margin-bottom: 7px; flex-wrap: wrap; }
+.segDot { color: #333; }
+.trafficTag {
+  padding: 1px 6px; border-radius: 4px; border: 1px solid;
+  font-size: .66rem; font-weight: 700; letter-spacing: .04em;
+}
+.tagML {
+  padding: 1px 5px; border-radius: 4px; font-size: .62rem; font-weight: 700;
+  background: rgba(170,147,113,.14); border: 1px solid rgba(170,147,113,.28); color: #aa9371;
+}
+.stopRow { display: flex; gap: 5px; flex-wrap: wrap; }
+.stopChip {
+  font-size: .66rem; padding: 2px 7px; border-radius: 4px;
+  background: #0e0e0e; border: 1px solid #1e1e1e; color: #666;
+  display: flex; align-items: center; gap: 4px;
+}
+.stopChip svg { width: 12px; height: 12px; }
+.stopHosp { border-color: rgba(224,92,92,.3); color: #e05c5c; background: rgba(224,92,92,.06); }
+
+/* ── Weather ────────────────────────────────────────────────────────────────── */
+.weatherStack { display: flex; flex-direction: column; gap: 8px; }
+.weatherCard {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 14px; background: #0e0e0e; border: 1px solid #1e1e1e;
+  border-radius: 8px; transition: all .15s;
+}
+.weatherCard:hover { border-color: #252525; background: #111; }
+.weatherLeft { display: flex; align-items: center; gap: 12px; }
+.weatherInfo { display: flex; flex-direction: column; gap: 2px; }
+.weatherCity { font-size: .84rem; font-weight: 700; color: #c8c0b5; }
+.weatherNote { font-size: .68rem; color: #666; }
+.weatherRight { text-align: right; }
+.weatherTemp { font-size: 1.1rem; font-weight: 800; color: #e8e0d5; }
+.weatherStats { display: flex; flex-direction: column; gap: 3px; margin-top: 3px; }
+.weatherStat { display: flex; align-items: center; gap: 4px; font-size: .7rem; color: #888; }
+.weatherStatIcon { font-size: .8rem; }
+
+.weatherTips { display: flex; flex-direction: column; gap: 12px; }
+.weatherTipCityName { font-size: .76rem; font-weight: 700; color: #aa9371; margin-bottom: 6px; text-transform: uppercase; letter-spacing: .05em; }
+.weatherAlerts { display: flex; flex-direction: column; gap: 5px; }
+.weatherAlert {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 8px 10px; border-radius: 6px; border-left: 3px solid;
+  font-size: .72rem; line-height: 1.4;
+}
+.alertIcon { font-size: .9rem; flex-shrink: 0; }
+.alertMsg { color: #b0a898; }
+.alertrain { border-color: #6dbf8a; background: rgba(109,191,138,.08); }
+.alertwind { border-color: #e09a4a; background: rgba(224,154,74,.08); }
+.alertcold { border-color: #6dbf8a; background: rgba(109,191,138,.08); }
+.alertheat { border-color: #e05c5c; background: rgba(224,92,92,.08); }
+.weatherGood { font-size: .72rem; color: #6dbf8a; padding: 8px 10px; background: rgba(109,191,138,.08); border-radius: 6px; border-left: 3px solid #6dbf8a; }
+
+.emptyTab {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 10px; padding: 48px 0; color: #444; font-size: .78rem;
+}
+
+/* ── Risk ───────────────────────────────────────────────────────────────────── */
+.riskLayout { display: flex; align-items: flex-start; gap: 14px; }
+.riskLeft { display: flex; flex-direction: column; align-items: center; gap: 4px; flex-shrink: 0; }
+.riskDial { width: 90px; }
+.riskLabel { font-size: .72rem; font-weight: 600; text-align: center; }
+.riskBars { flex: 1; display: flex; flex-direction: column; gap: 7px; }
+.riskRow { display: flex; align-items: center; gap: 7px; }
+.riskSeg { font-size: .66rem; color: #555; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 90px; }
+.riskBarOuter { flex: 1; height: 4px; background: #1a1a1a; border-radius: 2px; overflow: hidden; }
+.riskBarInner { height: 100%; border-radius: 2px; transition: width .5s ease; }
+.riskNum { font-size: .66rem; font-weight: 700; width: 26px; text-align: right; }
+
+/* ── Emergency ──────────────────────────────────────────────────────────────── */
+.emergItem { padding: 10px 0; border-bottom: 1px solid #181818; }
+.emergItem:last-child { border-bottom: none; padding-bottom: 0; }
+.emergState { font-size: .74rem; font-weight: 600; color: #c8c0b5; margin-bottom: 7px; }
+.emergNums { display: flex; flex-direction: column; gap: 4px; }
+.emergNum { display: flex; align-items: center; gap: 8px; font-size: .72rem; }
+.emergNum a { color: #6dbf8a; text-decoration: none; font-weight: 600; }
+.emergNum a:hover { text-decoration: underline; }
+.emergLbl { color: #555; width: 60px; }
+
+/* ── Checklist ──────────────────────────────────────────────────────────────── */
+.clSeg { margin-bottom: 12px; }
+.clSeg:last-child { margin-bottom: 0; }
+.clSegTitle { font-size: .72rem; color: #666; font-weight: 500; margin-bottom: 6px; }
+.cItem {
+  display: flex; align-items: center; gap: 8px;
+  padding: 7px 0; border-bottom: 1px solid #161616;
+  cursor: pointer; transition: opacity .15s;
+}
+.cItem:last-child { border-bottom: none; }
+.cItemDone { opacity: .45; }
+.cBox {
+  width: 15px; height: 15px; border-radius: 4px; border: 1.5px solid #2a2a2a;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  transition: all .15s;
+}
+.cBoxDone { background: #aa9371; border-color: #aa9371; }
+.cText { font-size: .73rem; color: #888; line-height: 1.4; }
+.cItemDone .cText { text-decoration: line-through; }
+
+/* ── Stay card ──────────────────────────────────────────────────────────────── */
+.stayCard {
+  padding: 12px; background: #0e0e0e; border: 1px solid #1e1e1e;
+  border-radius: 8px;
+}
+.stayCity { font-size: .84rem; font-weight: 700; color: #c8c0b5; margin-bottom: 5px; display: flex; align-items: center; gap: 6px; }
+.stayCity svg { width: 16px; height: 16px; color: #aa9371; }
+.stayNote { font-size: .74rem; color: #666; margin: 0 0 8px; line-height: 1.5; }
+.stayLink { font-size: .72rem; color: #aa9371; text-decoration: none; }
+.stayLink:hover { text-decoration: underline; }
+
+.emptyNote { font-size: .74rem; color: #444; text-align: center; padding: 12px 0; margin: 0; }
+
+/* ── Loading ────────────────────────────────────────────────────────────────── */
+.loadingPage {
+  display: flex; align-items: center; justify-content: center;
+  height: 100vh; background: #0e0e0e;
+}
+.loadingInner { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.spinner {
+  width: 36px; height: 36px; border: 3px solid #1e1e1e;
+  border-top-color: #aa9371; border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+.loadingText { font-size: 1rem; font-weight: 600; color: #c8c0b5; margin: 0; }
+.loadingHint { font-size: .76rem; color: #555; margin: 0; }
+.loadingSteps { display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
+.loadingStep {
+  display: flex; align-items: center; gap: 8px;
+  font-size: .74rem; color: #555;
+  animation: stepFadeIn .4s ease both;
+}
+.loadingDot {
+  width: 6px; height: 6px; border-radius: 50%; background: #aa9371;
+  animation: dotPulse 1.2s infinite;
+}
+
+/* ── Error ──────────────────────────────────────────────────────────────────── */
+.errorPage {
+  display: flex; align-items: center; justify-content: center;
+  height: 100vh; background: #0e0e0e;
+}
+.errorCard {
+  display: flex; flex-direction: column; align-items: center; gap: 12px;
+  padding: 32px; background: #131313; border: 1px solid #1e1e1e;
+  border-radius: 14px; max-width: 360px; text-align: center;
+}
+.errorTitle { font-size: 1rem; font-weight: 700; color: #c8c0b5; margin: 0; }
+.errorMsg { font-size: .78rem; color: #666; margin: 0; line-height: 1.5; }
+.errorActions { display: flex; gap: 8px; }
+.retryBtn {
+  padding: 8px 18px; background: #aa9371; color: #000;
+  border: none; border-radius: 7px; font-size: .8rem; font-weight: 600; cursor: pointer;
+}
+.backBtnError {
+  padding: 8px 18px; background: transparent; color: #888;
+  border: 1px solid #252525; border-radius: 7px; font-size: .8rem; cursor: pointer;
+}
+.backBtnError:hover { background: #1a1a1a; color: #ccc; }
+
+/* ── Add this to TripResult.module.css ──────────────────────────────────────
+   Place anywhere in the file, e.g. near .metaChip styles
+────────────────────────────────────────────────────────────────────────────── */
+
+.downloadBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 13px;
+  background: var(--color-tan);
+  color: var(--color-black);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast), opacity var(--transition-fast);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.downloadBtn:hover:not(:disabled) {
+  background: var(--color-accent-hover);
+  transform: translateY(-1px);
+}
+
+.downloadBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+
+/* ── Route Type Info ────────────────────────────────────────────────────────── */
+.routeTypeInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.routeTypeCard {
+  background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%);
+  border: 1px solid #aa9371;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.routeTypeLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #aa9371;
+  margin-bottom: 4px;
+}
+
+.routeTypeValue {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #e8e0d5;
+  margin-bottom: 8px;
+}
+
+.routeTypeDesc {
+  font-size: 0.85rem;
+  color: #a8a8a8;
+  line-height: 1.4;
+}
+
+.routeTypeStats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.routeTypeStat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px;
+  background: #0a0a0a;
+  border: 1px solid #1e1e1e;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.routeTypeStatLabel {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 0.05em;
+}
+
+.routeTypeStatValue {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #aa9371;
+}
+
+/* ── Cities List ────────────────────────────────────────────────────────────── */
+.citiesList {
   display: flex;
   flex-direction: column;
   gap: 0;
 }
 
-.timeRow {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 9px 2px;
-  border-bottom: 1px solid var(--color-border);
-}
-
-.timeRow:last-child { border-bottom: none; }
-
-.timeRowTotal {
-  margin-top: 4px;
-  padding-top: 12px;
-}
-
-.timeLabel {
-  font-size: 0.83rem;
-  color: var(--color-text-secondary);
-}
-
-.timeValue {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--color-text-primary);
-}
-
-.timeValueAccent {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--color-tan);
-}
-
-/* ── Segments ────────────────────────────────────────────────── */
-.segmentList {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.segment {
-  background: var(--color-surface-2);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  padding: 12px 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-  transition: border-color var(--transition-fast);
-}
-.segment:hover { border-color: rgba(170,147,113,0.35); }
-
-.segmentHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.segmentRoute {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--color-text-primary);
-}
-
-.arrow { color: var(--color-tan); padding: 0 2px; }
-
-.segmentDist {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--color-tan);
-}
-
-.segmentMeta {
-  display: flex;
-  gap: 10px;
-  font-size: 0.74rem;
-  color: var(--color-text-muted);
-  align-items: center;
-}
-
-.tagOk {
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  padding: 2px 7px;
-  border-radius: var(--radius-full);
-  background: rgba(109,191,138,0.12);
-  color: var(--color-success);
-  border: 1px solid rgba(109,191,138,0.25);
-}
-.tagWarn {
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  padding: 2px 7px;
-  border-radius: var(--radius-full);
-  background: rgba(224,154,74,0.12);
-  color: #e09a4a;
-  border: 1px solid rgba(224,154,74,0.25);
-}
-.tagDanger {
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  padding: 2px 7px;
-  border-radius: var(--radius-full);
-  background: rgba(224,92,92,0.12);
-  color: var(--color-error);
-  border: 1px solid rgba(224,92,92,0.25);
-}
-
-.stopRow {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.stopChip {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.7rem;
-  color: var(--color-text-secondary);
-  background: rgba(170,147,113,0.08);
-  border: 1px solid rgba(170,147,113,0.15);
-  border-radius: var(--radius-full);
-  padding: 3px 9px;
-}
-
-.stopChipHosp {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.7rem;
-  color: #e05c5c;
-  background: rgba(224,92,92,0.07);
-  border: 1px solid rgba(224,92,92,0.15);
-  border-radius: var(--radius-full);
-  padding: 3px 9px;
-}
-
-/* ── Weather ─────────────────────────────────────────────────── */
-.weatherGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-
-.weatherCard {
-  background: var(--color-surface-2);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  padding: 12px 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  transition: border-color var(--transition-fast);
-}
-.weatherCard:hover { border-color: rgba(170,147,113,0.35); }
-
-.weatherCity {
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: var(--color-text-primary);
-}
-
-.weatherStats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.weatherStat {
+.cityItem {
   display: flex;
   align-items: center;
-  gap: 4px;
-  font-size: 0.75rem;
-  color: var(--color-text-secondary);
-}
-
-.weatherNote {
-  font-size: 0.65rem;
-  color: var(--color-text-muted);
-  font-style: italic;
-}
-
-/* ── Loading page ─────────────────────────────────────────────── */
-.loadingPage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  gap: 16px;
-  background: var(--color-bg);
-}
-
-.spinner {
-  width: 44px;
-  height: 44px;
-  border: 3px solid var(--color-border);
-  border-top-color: var(--color-tan);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-.loadingText {
-  font-family: var(--font-heading);
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--color-text-primary);
-}
-
-.loadingHint {
-  font-size: 0.82rem;
-  color: var(--color-text-muted);
-}
-
-/* ── Error page ──────────────────────────────────────────────── */
-.errorPage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  gap: 14px;
-  background: var(--color-bg);
-  padding: 24px;
-  text-align: center;
-}
-
-.errorIcon { color: var(--color-error); opacity: 0.7; }
-
-.errorTitle {
-  font-family: var(--font-heading);
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--color-text-primary);
-}
-
-.errorMsg {
-  font-size: 0.88rem;
-  color: var(--color-text-secondary);
-  max-width: 400px;
-}
-
-.errorActions {
-  display: flex;
   gap: 12px;
-  margin-top: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #1e1e1e;
 }
 
-.retryBtn {
-  padding: 10px 22px;
-  background: var(--color-tan);
-  color: #000;
-  border: none;
-  border-radius: var(--radius-md);
-  font-size: 0.88rem;
+.cityItem:last-child {
+  border-bottom: none;
+}
+
+.cityIndex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: #aa9371;
+  color: #0e0e0e;
+  border-radius: 50%;
+  font-size: 0.85rem;
   font-weight: 700;
-  cursor: pointer;
-  transition: background var(--transition-fast);
+  flex-shrink: 0;
 }
-.retryBtn:hover { background: var(--color-accent-hover); }
 
-.backBtnError {
-  padding: 10px 22px;
-  background: transparent;
-  color: var(--color-text-secondary);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  font-size: 0.88rem;
+.cityName {
+  flex: 1;
+  font-size: 0.95rem;
   font-weight: 500;
-  cursor: pointer;
-  transition: all var(--transition-fast);
-}
-.backBtnError:hover {
-  border-color: var(--color-tan);
-  color: var(--color-tan);
+  color: #e8e0d5;
 }
 
-/* ── Responsive ──────────────────────────────────────────────── */
-@media (max-width: 900px) {
-  .splitLayout {
-    grid-template-columns: 1fr;
-    grid-template-rows: 45vh 1fr;
-    overflow-y: auto;
-  }
-  .detailPane { height: auto; overflow: visible; }
-  .detailScroll { overflow: visible; }
-  .mapPane { height: 45vh; }
-  .weatherGrid { grid-template-columns: 1fr; }
+.cityArrow {
+  color: #666;
+  font-size: 0.9rem;
+  flex-shrink: 0;
 }
