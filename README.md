@@ -20,6 +20,14 @@ Road Trip Planner is a web application that analyzes routes, provides real-time 
 |---|---|
 | ![Plan Trip](preview_images/plan_trip.png) | ![Trip Result](preview_images/trip_result.png) |
 
+| Budget Planner | Trip History |
+|---|---|
+| ![Budget Planner](preview_images/budget_planner.png) | ![Trip History](preview_images/trip_history.png) |
+
+| Saved Routes | Profile Page |
+|---|---|
+| ![Saved Routes](preview_images/saved_routes.png) | ![Profile Page](preview_images/profile_page.png) |
+
 ---
 
 ## Features
