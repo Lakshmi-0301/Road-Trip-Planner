@@ -46,7 +46,7 @@ CITIES_COORDS = {
     "Kochi":      (9.9312,  76.2673)
 }
 
-POI_CSV_PATH = "/Users/lakshmir/Desktop/Big Data/Road-trip-planner/datasets/poi_all_cities.csv"
+POI_CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "datasets", "poi_all_cities.csv")
 
 # =============================================================================
 # SECTION 1: Spark Session

@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import os
 import time
 import random
 
@@ -110,6 +111,7 @@ df = df.drop_duplicates()
 # SAVE FILE
 # -------------------------------
 
-df.to_csv("poi_all_cities.csv", index=False)
+output_path = os.path.join(os.path.dirname(__file__), "..", "datasets", "poi_all_cities.csv")
+df.to_csv(output_path, index=False)
 
-print("\n✅ DONE: poi_all_cities.csv created")
+print(f"\n✅ DONE: {output_path} created")

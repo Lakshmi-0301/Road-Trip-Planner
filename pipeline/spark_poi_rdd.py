@@ -32,8 +32,9 @@ from pyspark.sql.types import (
 # ─────────────────────────────────────────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
-POI_CSV_PATH     = os.path.join(os.path.dirname(__file__), "poi_all_cities.csv")
-OUTPUT_PARQUET   = os.path.join(os.path.dirname(__file__), "cleaned_poi_counts.parquet")
+_BASE_DIR        = os.path.dirname(os.path.dirname(__file__))
+POI_CSV_PATH     = os.path.join(_BASE_DIR, "datasets", "poi_all_cities.csv")
+OUTPUT_PARQUET   = os.path.join(_BASE_DIR, "datasets", "cleaned_poi_counts.parquet")
 
 VALID_CATEGORIES = {"fuel", "hospital", "hotel", "restaurant", "cafe",
                     "viewpoint", "attraction"}

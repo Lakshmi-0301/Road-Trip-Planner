@@ -1,7 +1,7 @@
 """
 ML Service — Road Trip Planner
 ==============================
-Loads the sklearn mirror model trained by spark_ml_travel_predictor.py
+Loads the sklearn mirror model trained by pipeline/spark_ml.py
 and exposes a predict_travel_time() function for the FastAPI trip router.
 
 The full Spark MLlib model is used for batch training and streaming pipelines.
@@ -9,7 +9,7 @@ This lightweight sklearn model serves the REST API without needing a live
 Spark context.
 
 Falls back gracefully to the physics formula if the model file is absent
-(e.g. first run before spark_ml_travel_predictor.py has been executed).
+(e.g. first run before pipeline/spark_ml.py has been executed).
 """
 
 import json
@@ -65,7 +65,7 @@ def _load_model() -> bool:
     if not os.path.exists(_MODEL_PKL):
         logger.warning(
             "ML model not found at %s — using physics fallback. "
-            "Run datasets/spark_ml_travel_predictor.py to generate it.",
+            "Run pipeline/spark_ml.py to generate it.",
             _MODEL_PKL,
         )
         _model_available = False
@@ -160,7 +160,7 @@ def get_model_info() -> dict:
     if not _model_available:
         return {
             "available": False,
-            "message":   "Model not trained yet — run spark_ml_travel_predictor.py",
+            "message":   "Model not trained yet — run pipeline/spark_ml.py",
         }
 
     base = _model_stats or {}
