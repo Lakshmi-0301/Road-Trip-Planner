@@ -10,24 +10,36 @@ Road Trip Planner is a web application that analyzes routes, provides real-time 
 
 ---
 
+## Previews
+
+| Home Page | Dashboard |
+|---|---|
+| ![Home Page](preview_images/home.png) | ![Dashboard](preview_images/dashboard.png) |
+
+| Plan Trip | Trip Result |
+|---|---|
+| ![Plan Trip](preview_images/plan_trip.png) | ![Trip Result](preview_images/trip_result.png) |
+
+---
+
 ## Features
 
 ### Core Features
-- ✅ **User Authentication** - Secure registration, login, and JWT-based sessions
-- ✅ **Smart Trip Planning** - 4 route types with different optimization strategies
-- ✅ **Real-time POI Discovery** - Restaurants, fuel stations, hospitals, ATMs, pharmacies, police, viewpoints, EV charging, rest areas
-- ✅ **Weather Forecasting** - Real-time weather data for each city on the route
-- ✅ **Cost Estimation** - Fuel costs, toll calculations, carbon footprint analysis
-- ✅ **Traffic Analysis** - Real-time traffic levels and risk assessment
-- ✅ **Interactive Map** - Leaflet-based map with route visualization, POI markers, traffic layers
-- ✅ **Time Format Options** - 24-hour and 12-hour (AM/PM) format support
-- ✅ **Smart Departure Suggestions** - Recommended departure times based on route type
-- ✅ **Trip History** - Save and view past trips
-- ✅ **Saved Routes** - Bookmark favorite routes
-- ✅ **Budget Planner** - Track and plan trip expenses
-- ✅ **Admin Panel** - User management and role-based access control
-- ✅ **Elevation Profile** - Visual elevation chart along the route
-- ✅ **PDF Export** - Download trip details as PDF
+- **User Authentication** - Secure registration, login, and JWT-based sessions
+- **Smart Trip Planning** - 4 route types with different optimization strategies
+- **Real-time POI Discovery** - Restaurants, fuel stations, hospitals, ATMs, pharmacies, police, viewpoints, EV charging, rest areas
+- **Weather Forecasting** - Real-time weather data for each city on the route
+- **Cost Estimation** - Fuel costs, toll calculations, carbon footprint analysis
+- **Traffic Analysis** - Real-time traffic levels and risk assessment
+- **Interactive Map** - Leaflet-based map with route visualization, POI markers, traffic layers
+- **Time Format Options** - 24-hour and 12-hour (AM/PM) format support
+- **Smart Departure Suggestions** - Recommended departure times based on route type
+- **Trip History** - Save and view past trips
+- **Saved Routes** - Bookmark favorite routes
+- **Budget Planner** - Track and plan trip expenses
+- **Admin Panel** - User management and role-based access control
+- **Elevation Profile** - Visual elevation chart along the route
+- **PDF Export** - Download trip details as PDF
 
 ### Route Types
 | Type | Characteristics | Use Case |
@@ -116,13 +128,18 @@ Road-trip-planner/
 │   ├── package.json             # Node dependencies
 │   └── vite.config.js           # Vite configuration
 │
-├── datasets/
+├── pipeline/                    # Data engineering & Spark scripts
 │   ├── extract_poi.py           # POI extraction script
 │   ├── kafka_traffic_producer.py # Kafka producer
 │   ├── spark_ml.py              # ML model training
 │   ├── spark_traffic_consumer.py # Spark consumer
-│   └── ... (data files)
+│   └── test_weather.py          # Weather test script
 │
+├── datasets/                    # Raw and processed data files
+│   ├── poi_all_cities.csv       # Extracted POI data
+│   └── weather_data.csv         # Weather data
+│
+├── preview_images/              # Site preview images
 ├── docker-compose.yml           # Docker services
 ├── .gitignore                   # Git ignore rules
 └── README.md                    # This file
